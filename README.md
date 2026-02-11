@@ -15,7 +15,8 @@ Ce projet contient des scripts Python pour extraire automatiquement les informat
 - **Besançon** - Barreau de Besançon
 - **Brest** - Barreau de Brest (258 avocats extraits - 100% emails) ⭐ **NOUVEAU**
 - **Caen** - Barreau de Caen  
-- **Castres** - Barreau de Castres (50 avocats extraits - 100% emails) ⭐ **NOUVEAU**
+- **Castres** - Barreau de Castres (50 avocats extraits - 100% emails)
+- **Chalon-sur-Saône** - Barreau de Chalon-sur-Saône (100 avocats extraits - 100% emails) ⭐ **NOUVEAU**
 - **Grenoble** - Barreau de Grenoble
 - **Guadeloupe** - Barreau de la Guadeloupe
 - **Le Havre** - Barreau du Havre
