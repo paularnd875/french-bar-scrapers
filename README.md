@@ -11,8 +11,9 @@ Ce projet contient des scripts Python pour extraire automatiquement les informat
 - **Agen** - Barreau d'Agen
 - **Alençon** - Barreau d'Alençon  
 - **Annecy** - Barreau d'Annecy (302 avocats extraits)
-- **Arras** - Barreau d'Arras (100 avocats extraits) ⭐ **NOUVEAU**
+- **Arras** - Barreau d'Arras (100 avocats extraits)
 - **Besançon** - Barreau de Besançon
+- **Brest** - Barreau de Brest (258 avocats extraits - 100% emails) ⭐ **NOUVEAU**
 - **Caen** - Barreau de Caen  
 - **Castres** - Barreau de Castres (50 avocats extraits - 100% emails) ⭐ **NOUVEAU**
 - **Grenoble** - Barreau de Grenoble
@@ -44,6 +45,12 @@ french-bar-scrapers/
 │   └── annecy_scraper_final.py
 ├── arras/
 │   └── arras_scraper_production.py
+├── brest/
+│   ├── brest_scraper_final.py
+│   ├── brest_scraper_test_rapide.py
+│   ├── run_brest_scraper.sh
+│   ├── monitor_brest.py
+│   └── README.md
 ├── castres/
 │   ├── castres_scraper_final.py
 │   ├── run_castres_scraper.sh
@@ -73,6 +80,11 @@ Chaque script est autonome et peut être exécuté indépendamment :
 ```bash
 cd agen/
 python agen_scraper_final.py
+
+# Ou pour Brest (avec outils avancés)
+cd brest/
+./run_brest_scraper.sh              # Script complet
+python3 brest_scraper_final.py      # Script direct
 ```
 
 ## Données extraites
@@ -110,13 +122,15 @@ Les données sont exportées en :
 
 ## Statistiques d'extraction
 
-| Barreau | Nombre d'avocats | Taux de réussite |
-|---------|------------------|------------------|
+| Barreau | Nombre d'avocats | Taux de réussite emails |
+|---------|------------------|-------------------------|
 | Annecy | 302 | 100% |
 | Arras | 100 | 100% |
+| Brest | 258 | 100% |
 | Lyon | 2,500+ | 95% |
 | Lille | 1,600+ | 98% |
 | Val-de-Marne | 400+ | 92% |
+| Castres | 50 | 100% |
 | Autres | Variable | 85-100% |
 
 ## Notes importantes
