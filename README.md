@@ -13,7 +13,8 @@ Ce projet contient des scripts Python pour extraire automatiquement les informat
 - **Annecy** - Barreau d'Annecy (302 avocats extraits)
 - **Arras** - Barreau d'Arras (100 avocats extraits) ⭐ **NOUVEAU**
 - **Besançon** - Barreau de Besançon
-- **Caen** - Barreau de Caen
+- **Caen** - Barreau de Caen  
+- **Castres** - Barreau de Castres (50 avocats extraits - 100% emails) ⭐ **NOUVEAU**
 - **Grenoble** - Barreau de Grenoble
 - **Guadeloupe** - Barreau de la Guadeloupe
 - **Le Havre** - Barreau du Havre
@@ -43,6 +44,10 @@ french-bar-scrapers/
 │   └── annecy_scraper_final.py
 ├── arras/
 │   └── arras_scraper_production.py
+├── castres/
+│   ├── castres_scraper_final.py
+│   ├── run_castres_scraper.sh
+│   └── README.md
 └── ...
 ```
 
