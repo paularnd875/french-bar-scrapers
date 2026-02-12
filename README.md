@@ -19,6 +19,7 @@ Ce projet contient des scripts Python pour extraire automatiquement les informat
 - **Chalon-sur-Saône** - Barreau de Chalon-sur-Saône (100 avocats extraits - 100% emails) ⭐ **NOUVEAU**
 - **Dunkerque** - Barreau de Dunkerque (79 avocats extraits - 91,1% emails) ⭐ **NOUVEAU**
 - **Essonne** - Barreau de l'Essonne (346 avocats extraits - 99,4% emails) ⭐ **NOUVEAU**
+- **Évreux (Eure)** - Barreau d'Évreux (137 avocats extraits - 100% téléphones/adresses) ⭐ **NOUVEAU**
 - **Grenoble** - Barreau de Grenoble
 - **Guadeloupe** - Barreau de la Guadeloupe
 - **Le Havre** - Barreau du Havre
@@ -66,8 +67,10 @@ french-bar-scrapers/
 ├── essonne/
 │   ├── essonne_scraper_final.py
 │   ├── run_essonne_complet.py
-│   ├── run_essonne_test.py
-│   ├── examples/
+│   └── README.md
+├── evreux/
+│   ├── evreux_scraper.py
+│   ├── example_output.json
 │   ├── requirements.txt
 │   └── README.md
 └── ...
