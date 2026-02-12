@@ -17,6 +17,7 @@ Ce projet contient des scripts Python pour extraire automatiquement les informat
 - **Caen** - Barreau de Caen  
 - **Castres** - Barreau de Castres (50 avocats extraits - 100% emails)
 - **Chalon-sur-Saône** - Barreau de Chalon-sur-Saône (100 avocats extraits - 100% emails) ⭐ **NOUVEAU**
+- **Dunkerque** - Barreau de Dunkerque (79 avocats extraits - 91,1% emails) ⭐ **NOUVEAU**
 - **Essonne** - Barreau de l'Essonne (346 avocats extraits - 99,4% emails) ⭐ **NOUVEAU**
 - **Grenoble** - Barreau de Grenoble
 - **Guadeloupe** - Barreau de la Guadeloupe
@@ -56,6 +57,11 @@ french-bar-scrapers/
 ├── castres/
 │   ├── castres_scraper_final.py
 │   ├── run_castres_scraper.sh
+│   └── README.md
+├── dunkerque/
+│   ├── dunkerque_scraper_final.py
+│   ├── dunkerque_scraper_production.py
+│   ├── dunkerque_scraper_test.py
 │   └── README.md
 ├── essonne/
 │   ├── essonne_scraper_final.py
@@ -136,6 +142,7 @@ Les données sont exportées en :
 | Annecy | 302 | 100% |
 | Arras | 100 | 100% |
 | Brest | 258 | 100% |
+| Dunkerque | 79 | 91,1% |
 | Lyon | 2,500+ | 95% |
 | Lille | 1,600+ | 98% |
 | Val-de-Marne | 400+ | 92% |

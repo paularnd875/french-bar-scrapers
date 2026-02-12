@@ -7,33 +7,48 @@ https://barreau-dunkerque.fr/search-result/?directory_type=general
 
 ## Scripts disponibles
 
+### `dunkerque_scraper_final.py` ⭐ **RECOMMANDÉ**
+- **Script final et complet** avec toutes les améliorations
+- Extraction exhaustive des **79 avocats** (100% de couverture)
+- Correction automatique des noms et prénoms
+- Recherche par défaut + alphabétique pour couverture complète
+- Gestion robuste des erreurs avec redémarrages automatiques
+- Utilisation : `python3 dunkerque_scraper_final.py`
+
 ### `dunkerque_scraper_test.py`
 - Script de test pour valider le fonctionnement sur quelques avocats (5 par défaut)
 - Mode visuel pour debugging
 - Utilisation : `python3 dunkerque_scraper_test.py`
 
 ### `dunkerque_scraper_production.py`  
-- Script de production pour scraper tous les avocats
+- Script de production pour scraper tous les avocats (version initiale)
 - Mode headless (aucune fenêtre ne s'ouvre)
-- Scraping complet de l'annuaire
 - Utilisation : `python3 dunkerque_scraper_production.py`
 
 ## Données extraites
 
 ✅ **Informations récupérées avec succès :**
-- Nom complet, prénom, nom
-- Email (95.5% de taux de succès)
-- Téléphone (100% de taux de succès)
+- Nom complet, prénom, nom (avec correction automatique)
+- Email (91.1% de taux de succès)
+- Téléphone (94.9% de taux de succès)
 - Année d'inscription au barreau
 
 ⚠️ **Informations partiellement récupérées :**
-- Spécialisations/domaines de compétences (en cours d'amélioration)
+- Spécialisations/domaines de compétences (détection par mots-clés)
 - Adresse (non disponible sur les fiches)
 - Structure/cabinet (non disponible sur les fiches)
 
 ## Résultats
 
-Le scraping de production a extrait **66 avocats** sur 79 attendus (83.5% de couverture).
+### Script final (`dunkerque_scraper_final.py`)
+- **79 avocats extraits** sur 79 attendus ✅ **(100% de couverture)**
+- 72 emails récupérés (91.1% de taux de succès)
+- 75 téléphones récupérés (94.9% de taux de succès)
+- Correction automatique de tous les noms et prénoms
+
+### Script de production initial (`dunkerque_scraper_production.py`)
+- 66 avocats extraits sur 79 attendus (83.5% de couverture)
+- Problème résolu dans la version finale
 
 ## Formats de sortie
 
