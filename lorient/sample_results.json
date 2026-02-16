@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "prenom": "Iannis",
+    "nom": "ALVAREZ",
+    "nom_complet": "ALVAREZ\nIannis",
+    "email": "contact@avocats-synelis.fr",
+    "telephone": "02 97 30 70 30",
+    "specialisations": "Droit de la santé | Droit des Assurances | Droit du dommage corporel | Droit pénal",
+    "structure": "SELARL SYNELIS",
+    "adresse": "",
+    "annee_inscription": "",
+    "source_url": "https://www.barreaulorient.fr/avocats-lorient/avocat-avocat,maitre,alvarez,droit,penal,droit,de,la,presse,droit,du,dommage,coporel,droit,des,assurances,lorient,vannes-49.html",
+    "date_extraction": "2026-02-16"
+  },
+  {
+    "id": 6,
+    "prenom": "Christine",
+    "nom": "BERGERON-KERSPERN",
+    "nom_complet": "BERGERON-KERSPERN\nChristine",
+    "email": "bergeron.kerspern@wanadoo.fr",
+    "telephone": "02 97 21 48 99",
+    "specialisations": "Droit du dommage corporel | Droit du travail | Droit pénal",
+    "structure": "",
+    "adresse": "",
+    "annee_inscription": "",
+    "source_url": "https://www.barreaulorient.fr/avocats-lorient/avocat-avocat-284.html",
+    "date_extraction": "2026-02-16"
+  },
+  {
+    "id": 62,
+    "prenom": "Françoise",
+    "nom": "SOBEAUX-LE GOFF", 
+    "nom_complet": "SOBEAUX-LE GOFF\nFrançoise",
+    "email": "secretariat.sobeaux@orange.fr",
+    "telephone": "0297648686",
+    "specialisations": "Droit des contrats | Droit des enfants | Droit des successions | Droit du dommage corporel",
+    "structure": "",
+    "adresse": "",
+    "annee_inscription": "",
+    "source_url": "https://www.barreaulorient.fr/avocats-lorient/avocat-avocat,sobeaux,le,goff,lorient-120.html",
+    "date_extraction": "2026-02-16"
+  },
+  {
+    "id": 70,
+    "prenom": "Gaëlle", 
+    "nom": "YHUEL - LE GARREC",
+    "nom_complet": "YHUEL - LE GARREC\nGaëlle",
+    "email": "contact@yhuel.avocat.fr",
+    "telephone": "09 85 60 00 30",
+    "specialisations": "Droit Bancaire et Boursier | Droit des Assurances | Droit des contrats | Droit des successions",
+    "structure": "SELARL YHUEL - LE GARREC Gaëlle",
+    "adresse": "",
+    "annee_inscription": "",
+    "source_url": "https://www.barreaulorient.fr/avocats-lorient/avocat-avocat-57.html",
+    "date_extraction": "2026-02-16"
+  },
+  {
+    "id": 61,
+    "prenom": "Vanessa",
+    "nom": "SIMPORE-GAULTIER",
+    "nom_complet": "SIMPORE-GAULTIER\nVanessa",
+    "email": "contact@vsg-avocat.com",
+    "telephone": "06 10 72 60 83",
+    "specialisations": "",
+    "structure": "",
+    "adresse": "",
+    "annee_inscription": "",
+    "source_url": "https://www.barreaulorient.fr/avocats-lorient/avocat-vanessa,simpore,gaultier,avocate-307.html",
+    "date_extraction": "2026-02-16"
+  }
+]
