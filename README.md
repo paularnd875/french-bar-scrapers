@@ -29,6 +29,7 @@ Ce projet contient des scripts Python pour extraire automatiquement les informat
 - **Lyon** - Barreau de Lyon (extraction massive avec filtres)
 - **Mayotte** - Barreau de Mayotte
 - **Meuse** - Barreau de la Meuse
+- **Montluçon** - Barreau de Montluçon (30 avocats extraits - 100% emails/adresses) ⭐ **NOUVEAU**
 - **Nantes** - Barreau de Nantes
 - **Senlis** - Barreau de Senlis
 - **Saint-Pierre (Réunion)** - Barreau de Saint-Pierre
