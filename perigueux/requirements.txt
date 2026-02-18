@@ -1,0 +1,15 @@
+# Dépendances pour le scraper Barreau de Périgueux
+
+# Web scraping et automation
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+beautifulsoup4>=4.12.0
+
+# Requêtes HTTP
+requests>=2.31.0
+
+# Traitement des données
+pandas>=2.0.0
+
+# Optionnel - pour les navigateurs alternatifs
+playwright>=1.40.0

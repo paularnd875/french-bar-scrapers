@@ -31,6 +31,7 @@ Ce projet contient des scripts Python pour extraire automatiquement les informat
 - **Meuse** - Barreau de la Meuse
 - **Montluçon** - Barreau de Montluçon (30 avocats extraits - 100% emails/adresses) ⭐ **NOUVEAU**
 - **Nantes** - Barreau de Nantes
+- **Périgueux** - Barreau de Périgueux (91 avocats extraits - 95,6% emails - 89% dates serment) ⭐ **NOUVEAU**
 - **Senlis** - Barreau de Senlis
 - **Saint-Pierre (Réunion)** - Barreau de Saint-Pierre
 - **Thonon** - Barreau de Thonon-les-Bains
@@ -72,6 +73,12 @@ french-bar-scrapers/
 ├── evreux/
 │   ├── evreux_scraper.py
 │   ├── example_output.json
+│   ├── requirements.txt
+│   └── README.md
+├── perigueux/
+│   ├── perigueux_scraper_final.py
+│   ├── perigueux_test_rapide.py
+│   ├── run_perigueux_scraper.sh
 │   ├── requirements.txt
 │   └── README.md
 └── ...
@@ -135,6 +142,7 @@ Les données sont exportées en :
 ### Structures de données complexes
 - **Nantes** : Extraction depuis formulaires multi-étapes
 - **Grenoble** : Parsing de listes paginées avec filtres
+- **Périgueux** : Extraction de dates de serment depuis éléments h3 spécifiques
 
 ### Sites PDF uniquement
 - **Mayotte, Meuse** : OCR et parsing de PDF avec extraction structurée
@@ -151,6 +159,7 @@ Les données sont exportées en :
 | Lille | 1,600+ | 98% |
 | Val-de-Marne | 400+ | 92% |
 | Castres | 50 | 100% |
+| Périgueux | 91 | 95.6% |
 | Autres | Variable | 85-100% |
 
 ## Notes importantes
