@@ -189,7 +189,7 @@ class SarregueminesScraper:
                         data['telephone'] = phone
                         break
             
-            # Extraire l'adresse avec patterns améliorés
+            # Extraire l'adresse avec patterns améliorés et nettoyage HTML
             address_patterns = [
                 r'(\d+[^0-9]*(?:Rue|Avenue|Boulevard|Place|Allée|Impasse|Chemin)[^0-9]*\d{5}[^0-9]*[A-Z][A-Z\s]+)',
                 r'(\d+[^0-9]*[A-Za-zÀ-ÿ\s-]+\d{5}[^0-9]*[A-Z][A-Z\s]+)'
@@ -198,8 +198,22 @@ class SarregueminesScraper:
             for pattern in address_patterns:
                 match = re.search(pattern, page_html, re.IGNORECASE)
                 if match:
-                    address = re.sub(r'<[^>]+>', '', match.group(1))  # Enlever HTML
-                    address = re.sub(r'\s+', ' ', address).strip()    # Normaliser espaces
+                    # Nettoyer complètement l'adresse
+                    address = match.group(1)
+                    # Supprimer tout le HTML et les attributs
+                    address = re.sub(r'<[^>]*>', '', address)
+                    address = re.sub(r'btnTel[^\s]*', '', address)  
+                    address = re.sub(r'class=[^\s]*', '', address)
+                    address = re.sub(r'"[^"]*"', '', address)
+                    # Nettoyer les espaces et caractères spéciaux
+                    address = re.sub(r'\s+', ' ', address)
+                    # Trouver seulement la partie adresse valide (numéro + rue + code postal + ville)
+                    clean_match = re.search(r'(\d+[^\d]*[A-Za-zÀ-ÿ\s]+\d{5}\s+[A-Z][A-Z\s]+)', address)
+                    if clean_match:
+                        address = clean_match.group(1).strip()
+                    else:
+                        address = re.sub(r'[^A-Za-z0-9\sÀ-ÿ]+', ' ', address).strip()
+                        address = re.sub(r'\s+', ' ', address)
                     if 10 < len(address) < 200:
                         data['adresse'] = address
                         break
@@ -237,6 +251,48 @@ class SarregueminesScraper:
                         break
                 if data['annee_inscription']:
                     break
+            
+            # Recherche spécifique de spécialisations sur cette architecture de site
+            # Ce site n'affiche pas les spécialisations détaillées sur les fiches publiques
+            # On va chercher uniquement des mentions explicites de domaines juridiques
+            
+            specializations = []
+            
+            # Chercher des domaines juridiques spécifiques dans le contenu principal uniquement
+            main_content = soup.find('div', {'class': re.compile(r'content|main|fiche')})
+            content_text = main_content.get_text() if main_content else page_text
+            
+            # Patterns très spécifiques pour éviter le bruit
+            legal_domains = [
+                r'droit\s+civil(?!.*intervention)',
+                r'droit\s+pénal(?!.*intervention)', 
+                r'droit\s+commercial(?!.*intervention)',
+                r'droit\s+du\s+travail(?!.*intervention)',
+                r'droit\s+de\s+la\s+famille(?!.*intervention)',
+                r'droit\s+immobilier(?!.*intervention)',
+                r'droit\s+fiscal(?!.*intervention)',
+                r'droit\s+des\s+affaires(?!.*intervention)',
+                r'droit\s+social(?!.*intervention)',
+                r'droit\s+administratif(?!.*intervention)'
+            ]
+            
+            for pattern in legal_domains:
+                matches = re.findall(pattern, content_text, re.IGNORECASE)
+                for match in matches:
+                    if match and len(match) > 5:
+                        clean_match = match.strip().title()
+                        if clean_match not in specializations:
+                            specializations.append(clean_match)
+            
+            # Si aucune spécialisation spécifique trouvée, laisser vide
+            # (mieux vaut pas de donnée que de fausses données)
+            if specializations:
+                # Limiter à 3 domaines maximum
+                final_specs = specializations[:3]
+                data['specialisations'] = '; '.join(final_specs)
+                data['competences'] = data['specialisations']
+                data['activites_dominantes'] = data['specialisations']
+            # Sinon, on laisse les champs vides
             
             # Structure par défaut
             data['structure'] = 'Avocat'

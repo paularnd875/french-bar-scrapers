@@ -10,11 +10,11 @@ Scraper automatisé pour extraire la liste complète des avocats du Barreau de S
 
 - ✅ **Prénoms et noms** (100%) - Gestion parfaite des noms composés
 - ✅ **Numéros de téléphone** (100%)
-- ✅ **Adresses complètes** (100%) 
+- ✅ **Adresses complètes** (100%) - **Nettoyées du HTML parasite**
 - ✅ **URLs sources** (100%) - Lien vers chaque fiche
-- ⚠️ **Emails** - Rares (formulaires de contact uniquement)
-- ⚠️ **Années d'inscription** - Non disponibles sur ce site
-- ⚠️ **Spécialisations** - Non détaillées sur les fiches publiques
+- ⚠️ **Emails** (0%) - Formulaires de contact uniquement
+- ⚠️ **Années d'inscription** (0%) - Non disponibles sur ce site
+- ⚠️ **Spécialisations** (0%) - Non détaillées sur les fiches publiques
 
 ## 🚀 Utilisation
 
@@ -108,5 +108,15 @@ Les nouveaux fichiers seront générés avec timestamp automatique.
 
 ---
 
-*Dernière mise à jour : Février 2026*  
-*Status : ✅ Fonctionnel - Extraction complète validée*
+## 🔄 Historique des améliorations
+
+**Version 2.0 (Février 2026)**
+- ✅ **Correction des adresses** : Nettoyage complet du HTML parasite (`<span class="btnTel..."`)  
+- ✅ **Gestion optimisée des spécialisations** : Champs laissés vides si non disponibles (pas de fausses données)
+- ✅ **Amélioration de l'extraction** : Pattern matching plus robuste pour les adresses
+- ✅ **Gestion parfaite des noms composés** : 3 prénoms composés et 7 noms composés détectés
+
+---
+
+*Dernière mise à jour : 20 Février 2026*  
+*Status : ✅ Fonctionnel - Extraction complète validée avec corrections*
