@@ -1,112 +1,104 @@
-# Scraper Barreau de Nevers
+# French Bar Association Scrapers
 
-## 📋 Description
+Collection de scrapers pour extraire les données des barreaux français.
 
-Script robuste pour extraire tous les avocats du Barreau de Nevers avec une efficacité de 100%.
+## Scripts Disponibles
 
-**Site source**: https://www.avocats-nevers.org/fr/annuaire/annuaire-avocats.html
+### 1. Barreau d'Alès
+**Fichier:** `ales_scraper_final.py`
+**Site cible:** https://www.barreau-ales.fr/fr/annuaire/avocats-barreau-ales/
 
-## 🎯 Fonctionnalités
-
-- ✅ **Navigation multi-pages** : Extraction automatique sur les 3 pages (49 avocats total)
-- ✅ **Décodage JavaScript** : Emails obfusqués décodés avec 100% de réussite
-- ✅ **Gestion robuste des erreurs** : Retry automatique, délais adaptatifs
-- ✅ **Noms composés intelligents** : Correction automatique des particules (DE, LE, etc.)
-- ✅ **Extraction complète** : Prénom, nom, email, téléphone, adresse, spécialisations
-
-## 📊 Résultats Attendus
-
-- **49 avocats** extraits (100% de l'annuaire)
-- **49 emails** décodés (100% de réussite)
-- **49 téléphones** récupérés
-- **~47 adresses** (95%+ de réussite)
-
-## 🚀 Utilisation
-
-### Installation des dépendances
+#### Utilisation
 ```bash
-pip install requests beautifulsoup4 pandas
+# Mode test (20 premiers avocats)
+python3 ales_scraper_final.py
+
+# Mode production (tous les avocats)
+python3 ales_scraper_final.py production
 ```
 
-### Exécution
+#### Résultats
+- **50 avocats** extraits avec succès
+- **100% d'emails** récupérés
+- Parsing correct des noms composés
+- Navigation automatique sur 3 pages
+
+### 2. Barreau des Alpes de Haute-Provence
+**Fichier:** `alpes_hp_scraper_final.py`
+**Site cible:** https://www.avocats04.fr/le-barreau/annuaire-des-avocats.htm
+
+#### Utilisation
+```bash
+# Mode test (20 premiers avocats)
+python3 alpes_hp_scraper_final.py
+
+# Mode production (tous les avocats)
+python3 alpes_hp_scraper_final.py production
+```
+
+#### Résultats
+- **121 pages** découvertes
+- Navigation automatique et extraction détaillée
+- Extraction des détails individuels pour chaque avocat
+
+### 3. Barreau de Nevers
+**Fichier:** `nevers_scraper_complete.py`
+**Site cible:** https://www.avocats-nevers.org/fr/annuaire/annuaire-avocats.html
+
+#### Utilisation
 ```bash
 python3 nevers_scraper_complete.py
 ```
 
-### Lancement rapide avec script
+#### Résultats
+- **49 avocats** extraits (100% de l'annuaire)
+- **49 emails** décodés (100% de réussite)
+- Décodage JavaScript des emails obfusqués
+
+## Prérequis
+
 ```bash
-chmod +x run.sh
-./run.sh
+pip install selenium beautifulsoup4 requests lxml pandas
 ```
 
-### Sortie
-Le script génère automatiquement :
-- `NEVERS_FINAL_COMPLETE_XX_avocats_YYYYMMDD_HHMMSS.csv` - Base complète
-- `NEVERS_EMAILS_FINAUX_XX_YYYYMMDD_HHMMSS.txt` - Liste emails uniquement
-- `NEVERS_RAPPORT_YYYYMMDD_HHMMSS.txt` - Rapport détaillé
+## Fonctionnalités Communes
 
-## 🔧 Défis Techniques Résolus
+- ✅ Acceptation automatique des cookies
+- ✅ Navigation multi-pages automatique
+- ✅ Extraction des détails individuels
+- ✅ Parsing intelligent des noms composés
+- ✅ Mode headless pour production
+- ✅ Export CSV, JSON et TXT
+- ✅ Rapports détaillés d'extraction
+- ✅ Gestion d'erreurs robuste
 
-### 1. Emails Obfusqués JavaScript
-**Problème** : Les emails sont protégés par du JavaScript obfusqué
-```javascript
-var addy12345 = 'pr&#101;nom.nom' + '&#64;' + 'domain&#46;fr';
+## Champs Extraits
+
+- **Prénom/Nom** (parsing intelligent)
+- **Email** (extraction prioritaire)
+- **Téléphone** (si disponible)
+- **Année d'inscription** (si disponible)
+- **Spécialisations/Compétences** (si disponible)
+- **Structure/Cabinet** (si disponible)
+- **URL source**
+
+## Mise à Jour
+
+Pour mettre à jour vos données, il suffit de relancer le script correspondant :
+
+```bash
+# Pour Alès
+python3 ales_scraper_final.py production
+
+# Pour Alpes de Haute-Provence
+python3 alpes_hp_scraper_final.py production
+
+# Pour Nevers
+python3 nevers_scraper_complete.py
 ```
 
-**Solution** : Décodage automatique des entités HTML (&#64; → @, &#101; → e)
-
-### 2. Noms Composés
-**Problème** : "Thibault DE SAULCE LATOUR" mal séparé
-- ❌ Avant : prénom="Thibault DE SAULCE", nom="LATOUR"
-- ✅ Après : prénom="Thibault", nom="DE SAULCE LATOUR"
-
-**Solution** : Logique intelligente avec reconnaissance des particules nobles
-
-### 3. Pagination Multi-Pages
-**Problème** : 49 avocats répartis sur 3 pages avec paramètre `limitstart`
-- Page 1: ?limitstart=0 (20 avocats)
-- Page 2: ?limitstart=20 (20 avocats)  
-- Page 3: ?limitstart=40 (9 avocats)
-
-**Solution** : Navigation automatique avec détection de fin
-
-### 4. Anti-Bot Protection
-**Problème** : Blocage après plusieurs requêtes consécutives
-
-**Solution** : 
-- Rotation User-Agent
-- Délais adaptatifs (4-10s)
-- Retry automatique avec backoff exponentiel
-
-## 📈 Performance
-
-- **Temps d'exécution** : ~45 minutes
-- **Taux de réussite** : 100%
-- **Stabilité** : Sauvegarde tous les 10 avocats
-- **Robustesse** : Gestion complète des erreurs réseau
-
-## 🔍 Structure des Données
-
-```csv
-nom_complet,prenom,nom,email,annee_inscription,specialisations,structure,adresse,telephone,source
-Garance AGIN,Garance,AGIN,cabinet@aginprepoignot.com,2001,,,6 Square de la Résistance 58000 NEVERS,03.86.57.05.00,https://www.avocats-nevers.org/fr/cb-profile/121-gagin.html
-```
-
-## 🛠️ Maintenance
-
-Pour mettre à jour la base de données :
-1. Relancer le script
-2. Les nouveaux avocats seront automatiquement détectés
-3. Les données existantes seront mises à jour
-
-## 📝 Notes Techniques
-
-- **Encoding** : UTF-8 pour les caractères spéciaux
-- **Format dates** : YYYY pour l'année d'inscription
-- **Timeout** : 15s par requête
-- **Retry** : 3 tentatives maximum par URL
+Les fichiers de résultats sont horodatés automatiquement.
 
 ## 👨‍💻 Auteur
 
 Développé par Claude (Anthropic) - Février 2026
-Spécialement optimisé pour le Barreau de Nevers
