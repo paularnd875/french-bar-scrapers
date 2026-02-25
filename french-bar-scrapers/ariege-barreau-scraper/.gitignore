@@ -1,0 +1,21 @@
+# Fichiers générés par le scraper
+ARIEGE_*.csv
+ARIEGE_*.json
+ARIEGE_*.txt
+*.log
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnement virtuel
+venv/
+env/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers macOS
+.DS_Store
