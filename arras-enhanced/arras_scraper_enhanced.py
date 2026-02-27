@@ -479,7 +479,6 @@ class ArrasEnhancedScraper:
                     
                     if 'Catégorie' in category_text and ':' in category_text:
                         # Utiliser regex pour extraire ce qui suit "Catégorie" + espaces + ":"
-                        import re
                         category_match = re.search(r'Catégorie\s*:\s*(.+)', category_text, re.IGNORECASE)
                         if category_match:
                             category = category_match.group(1).strip()
