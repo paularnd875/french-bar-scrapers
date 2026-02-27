@@ -462,12 +462,24 @@ class ArrasEnhancedScraper:
                         if ville:
                             lawyer_data["ville"] = ville
             
-            # SPÉCIALISATIONS - DÉSACTIVÉ
-            # Le site Arras n'a pas de spécialisations individuelles spécifiques
-            # Toutes les pages partagent le même menu de navigation avec les mêmes spécialisations
-            # Nous laissons ce champ vide car il n'y a pas de données spécifiques par avocat
+            # SPÉCIALISATIONS - Extraction depuis le champ "Catégorie"
+            specialisations = []
             
-            lawyer_data["specialisations"] = []
+            # Chercher "Catégorie : ..." dans tout le contenu
+            all_text = soup.get_text()
+            category_match = re.search(r'Catégorie\s*:\s*([^<>\n]+)', all_text, re.IGNORECASE)
+            if category_match:
+                category_text = category_match.group(1).strip()
+                # Nettoyer et séparer les spécialisations
+                if category_text and len(category_text) > 3:
+                    # Diviser par "et" ou "," s'il y en a plusieurs
+                    specs = re.split(r'\s+et\s+|,\s*', category_text)
+                    for spec in specs:
+                        spec = spec.strip()
+                        if len(spec) > 3 and 'droit' in spec.lower():
+                            specialisations.append(spec)
+                            
+            lawyer_data["specialisations"] = specialisations
             
             # ANNÉE D'INSCRIPTION - Patterns étendus
             inscription_patterns = [
