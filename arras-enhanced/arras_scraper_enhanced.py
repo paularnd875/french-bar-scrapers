@@ -462,57 +462,12 @@ class ArrasEnhancedScraper:
                         if ville:
                             lawyer_data["ville"] = ville
             
-            # SPÉCIALISATIONS - Extraction ciblée et spécifique uniquement
-            specializations = set()
-            
+            # SPÉCIALISATIONS - DÉSACTIVÉ
             # Le site Arras n'a pas de spécialisations individuelles spécifiques
-            # Toutes les pages partagent le même menu de spécialisations générales
-            # On désactive cette extraction pour éviter les doublons
+            # Toutes les pages partagent le même menu de navigation avec les mêmes spécialisations
+            # Nous laissons ce champ vide car il n'y a pas de données spécifiques par avocat
             
-            # Tentative de recherche uniquement dans le contenu principal spécifique
-            # en excluant les menus et navigations
-            temp_soup = BeautifulSoup(str(soup), 'html.parser')
-            
-            # Supprimer les éléments de navigation communs
-            for nav_element in temp_soup.find_all(['nav', 'header', 'footer', 'aside']):
-                nav_element.decompose()
-            
-            # Supprimer les éléments avec classes de navigation
-            for element in temp_soup.find_all(attrs={'class': re.compile(r'(nav|menu|sidebar|widget)', re.I)}):
-                element.decompose()
-            
-            # Chercher seulement dans le contenu principal
-            main_content = temp_soup.find(['main', 'article']) or temp_soup.find('div', class_=re.compile(r'(content|main|entry)', re.I))
-            
-            if main_content:
-                content_text = main_content.get_text().lower()
-                
-                # Recherche très restrictive de spécialisations réellement mentionnées
-                droit_patterns = [
-                    r'spécialis[ée]?s?\s+en\s+([^.]{5,50})',
-                    r'compétent[e]?s?\s+en\s+([^.]{5,50})', 
-                    r'expertise\s+([^.]{5,50})',
-                    r'domaines?\s*:\s*([^.]{10,100})'
-                ]
-                
-                for pattern in droit_patterns:
-                    matches = re.finditer(pattern, content_text, re.IGNORECASE)
-                    for match in matches:
-                        spec_text = match.group(1).strip()
-                        if 'droit' in spec_text and len(spec_text) > 8:
-                            # Nettoyer et ajouter seulement si spécifique
-                            clean_spec = re.sub(r'[^\w\s\']', '', spec_text).title()
-                            if clean_spec not in ['Droit', 'Droits']:
-                                specializations.add(clean_spec[:50])
-            
-            # Seulement si on trouve des spécialisations vraiment spécifiques (très peu)
-            if specializations and len(specializations) <= 3:
-                lawyer_data["specialisations"] = sorted(list(specializations))
-                self.stats['specializations_found'] += 1
-                lawyer_data["data_quality_score"] += 1
-            else:
-                # Aucune spécialisation spécifique trouvée - normal pour ce site
-                lawyer_data["specialisations"] = []
+            lawyer_data["specialisations"] = []
             
             # ANNÉE D'INSCRIPTION - Patterns étendus
             inscription_patterns = [
