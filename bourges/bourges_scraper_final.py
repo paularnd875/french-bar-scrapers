@@ -80,18 +80,28 @@ class BourgesScraperComplete:
         
         # Corrections spécifiques pour l'encodage iso-8859-1 mal interprété
         replacements = {
+            # Voyelles minuscules avec accents
             'Ã©': 'é', 'Ã¨': 'è', 'Ã ': 'à', 'Ã´': 'ô', 
             'Ã§': 'ç', 'Ã¯': 'ï', 'Ã«': 'ë', 'Ã¢': 'â', 
             'Ã®': 'î', 'Ã¹': 'ù', 'Ã»': 'û', 'Ã¶': 'ö',
+            'Ã¼': 'ü', 'Ã±': 'ñ', 'Ã½': 'ý',
+            # Voyelles majuscules avec accents
             'Ã‰': 'É', 'Ã€': 'À', 'Ãˆ': 'È', 'Ã"': 'Ô',
-            'Ã‡': 'Ç', 'Ã›': 'Û'
+            'Ã‡': 'Ç', 'Ã›': 'Û', 'ÃŠ': 'Ê', 'Ã‹': 'Ë',
+            'ÃŒ': 'Ì', 'ÃŽ': 'Î', 'Ã±': 'Ñ', 'Ã™': 'Ù',
+            # Caractères spéciaux supplémentaires
+            'â€™': "'", 'â€œ': '"', 'â€': '"', 'â€"': '-',
+            'Â': ' ', 'Â ': ' ', 'Â°': '°',
+            # Corrections spécifiques pour les noms français
+            'Ã¨ne': 'ène', 'Ã©e': 'ée', 'Ã©s': 'és',
+            'rÃ©': 'ré', 'lÃ©': 'lé', 'mÃ©': 'mé'
         }
         
         for old, new in replacements.items():
             text = text.replace(old, new)
         
-        # Nettoyer les espaces
-        text = re.sub(r'\\s+', ' ', text).strip()
+        # Nettoyer les espaces (correction: un seul backslash)
+        text = re.sub(r'\s+', ' ', text).strip()
         
         return text
         
@@ -118,14 +128,62 @@ class BourgesScraperComplete:
                 'info_supplementaire': ''
             }
             
-            # 1. NOM ET PRÉNOM
+            # 1. NOM ET PRÉNOM - CORRECTION FINALE DÉFINITIVE
             titre_cabinet = soup.find('h3', class_='titre_cabinet')
             if titre_cabinet:
-                nom_complet = self.fix_encoding(titre_cabinet.get_text())
-                parts = nom_complet.split()
-                if len(parts) >= 2:
-                    lawyer_info['nom'] = parts[0]
-                    lawyer_info['prenom'] = ' '.join(parts[1:])
+                nom_complet = self.fix_encoding(titre_cabinet.get_text()).strip()
+                
+                # Cas spéciaux explicites d'abord
+                if "LAGUERENNE Eric de" in nom_complet or nom_complet == "LAGUERENNE Eric de":
+                    lawyer_info['prenom'] = "Eric"
+                    lawyer_info['nom'] = "de LAGUERENNE"
+                elif nom_complet == "BESNARD JACQUET Tessa":
+                    lawyer_info['prenom'] = "Tessa"
+                    lawyer_info['nom'] = "BESNARD JACQUET"
+                elif nom_complet == "CHARZAT GUILLET Sandra":
+                    lawyer_info['prenom'] = "Sandra"
+                    lawyer_info['nom'] = "CHARZAT GUILLET"
+                elif nom_complet == "DALLOIS SEGURA Julie":
+                    lawyer_info['prenom'] = "Julie"
+                    lawyer_info['nom'] = "DALLOIS SEGURA"
+                else:
+                    # Analyser le format général
+                    parts = nom_complet.split()
+                    if len(parts) >= 2:
+                        # Méthode générale: chercher les parties en MAJUSCULES
+                        all_caps_parts = []
+                        mixed_case_parts = []
+                        
+                        for part in parts:
+                            if part.isupper() and len(part) > 1:  # Nom de famille
+                                all_caps_parts.append(part)
+                            else:  # Prénom ou particule
+                                mixed_case_parts.append(part)
+                        
+                        # Si on a des parties en majuscules
+                        if all_caps_parts:
+                            lawyer_info['nom'] = ' '.join(all_caps_parts)
+                            if mixed_case_parts:
+                                lawyer_info['prenom'] = ' '.join(mixed_case_parts)
+                            else:
+                                # Fallback
+                                remaining = [p for p in parts if p not in all_caps_parts]
+                                lawyer_info['prenom'] = ' '.join(remaining) if remaining else parts[-1]
+                        else:
+                            # Pas de majuscules, analyser différemment
+                            if any(word.lower() in ['de', 'du', 'des', 'le', 'la', 'les'] for word in parts):
+                                # Gérer les particules
+                                idx_particule = next(i for i, word in enumerate(parts) if word.lower() in ['de', 'du', 'des', 'le', 'la', 'les'])
+                                lawyer_info['prenom'] = ' '.join(parts[:idx_particule])
+                                lawyer_info['nom'] = ' '.join(parts[idx_particule:])
+                            else:
+                                # Format standard
+                                if parts[0][0].isupper() and len(parts[0]) > 1 and parts[0][1:].islower():
+                                    lawyer_info['prenom'] = parts[0]
+                                    lawyer_info['nom'] = ' '.join(parts[1:])
+                                else:
+                                    lawyer_info['nom'] = parts[0]
+                                    lawyer_info['prenom'] = ' '.join(parts[1:])
                     
             # 2. EMAIL
             email_link = soup.find('a', href=lambda x: x and x.startswith('mailto:'))
@@ -138,8 +196,8 @@ class BourgesScraperComplete:
                 coord_text = coordonnees.get_text()
                 # Patterns multiples pour extraire le téléphone
                 tel_patterns = [
-                    r'Tél[^:]*:\\s*([0-9]{2}[\\s\\.-]?[0-9]{2}[\\s\\.-]?[0-9]{2}[\\s\\.-]?[0-9]{2}[\\s\\.-]?[0-9]{2})',
-                    r'([0-9]{2}\\.[0-9]{2}\\.[0-9]{2}\\.[0-9]{2}\\.[0-9]{2})',
+                    r'Tél[^:]*:\s*([0-9]{2}[\s\.-]?[0-9]{2}[\s\.-]?[0-9]{2}[\s\.-]?[0-9]{2}[\s\.-]?[0-9]{2})',
+                    r'([0-9]{2}\.[0-9]{2}\.[0-9]{2}\.[0-9]{2}\.[0-9]{2})',
                     r'([0-9]{10})'
                 ]
                 
@@ -148,7 +206,7 @@ class BourgesScraperComplete:
                     if tel_match:
                         tel = tel_match.group(1)
                         # Nettoyer et formater le téléphone
-                        tel = re.sub(r'[\\s-]', '.', tel)
+                        tel = re.sub(r'[\s-]', '.', tel)
                         if len(tel.replace('.', '')) == 10:
                             lawyer_info['telephone'] = tel
                             break
@@ -173,7 +231,7 @@ class BourgesScraperComplete:
                     if next_p:
                         spec_text = self.fix_encoding(next_p.get_text())
                         if spec_text:
-                            specs = [s.strip() for s in re.split(r'[\\n\\r]', spec_text) if s.strip() and len(s.strip()) > 2]
+                            specs = [s.strip() for s in re.split(r'[\n\r]', spec_text) if s.strip() and len(s.strip()) > 2]
                             for spec in specs:
                                 if spec not in lawyer_info['specialisations']:
                                     lawyer_info['specialisations'].append(spec)
@@ -241,8 +299,8 @@ class BourgesScraperComplete:
                         
                         # Patterns d'adresse plus larges
                         address_patterns = [
-                            r'([0-9]+[^\\n]*?(?:rue|avenue|place|boulevard|cours)[^\\n]*?[0-9]{5}[^\\n]*?)',
-                            r'([A-Za-z].*?(?:rue|avenue|place|boulevard|cours)[^\\n]*?[0-9]{5}[^\\n]*?)',
+                            r'([0-9]+[^\n]*?(?:rue|avenue|place|boulevard|cours)[^\n]*?[0-9]{5}[^\n]*?)',
+                            r'([A-Za-z].*?(?:rue|avenue|place|boulevard|cours)[^\n]*?[0-9]{5}[^\n]*?)',
                             r'([0-9]{1,4}.*?-.*?[0-9]{5}.*?[A-Z]{2,})',
                             r'(.*?rue.*?[0-9]{5}.*?)'
                         ]
@@ -260,7 +318,7 @@ class BourgesScraperComplete:
                                     
                         # Si pas d'adresse trouvée, essayer ligne par ligne
                         if not lawyer_info['adresses']:
-                            lines = p_text.split('\\n')
+                            lines = p_text.split('\n')
                             for line in lines:
                                 line = line.strip()
                                 if (re.search(r'[0-9]{5}', line) and 
@@ -285,7 +343,7 @@ class BourgesScraperComplete:
         if not profile_urls:
             return False
             
-        print(f"\\n🎯 Extraction de {len(profile_urls)} profils...")
+        print(f"\n🎯 Extraction de {len(profile_urls)} profils...")
         start_time = time.time()
         
         for i, url in enumerate(profile_urls):
@@ -312,7 +370,7 @@ class BourgesScraperComplete:
                 
         elapsed = time.time() - start_time
         
-        print(f"\\n✅ EXTRACTION TERMINÉE en {elapsed:.1f}s")
+        print(f"\n✅ EXTRACTION TERMINÉE en {elapsed:.1f}s")
         print(f"Réussis: {len(self.lawyers)}/{self.processed} | Erreurs: {len(self.errors)}")
         
         return True
@@ -349,14 +407,14 @@ class BourgesScraperComplete:
         emails = [l['email'] for l in self.lawyers if l['email']]
         with open(emails_filename, 'w', encoding='utf-8') as f:
             for email in sorted(set(emails)):
-                f.write(f"{email}\\n")
+                f.write(f"{email}\n")
                 
         # 4. Rapport final
         rapport_filename = f"BOURGES_RAPPORT_FINAL_{timestamp}.txt"
         with open(rapport_filename, 'w', encoding='utf-8') as f:
-            f.write("RAPPORT FINAL COMPLET - BARREAU DE BOURGES\\n")
-            f.write("=" * 50 + "\\n")
-            f.write(f"Date: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\\n\\n")
+            f.write("RAPPORT FINAL COMPLET - BARREAU DE BOURGES\n")
+            f.write("=" * 50 + "\n")
+            f.write(f"Date: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n\n")
             
             emails_count = sum(1 for l in self.lawyers if l['email'])
             phones_count = sum(1 for l in self.lawyers if l['telephone'])
@@ -367,14 +425,14 @@ class BourgesScraperComplete:
             
             total = len(self.lawyers)
             
-            f.write("RÉSULTATS FINAUX:\\n")
-            f.write(f"  Total extraits: {total}/{self.total_found}\\n")
-            f.write(f"  Emails: {emails_count}/{total} ({(emails_count/max(1,total))*100:.1f}%)\\n")
-            f.write(f"  Téléphones: {phones_count}/{total} ({(phones_count/max(1,total))*100:.1f}%)\\n")
-            f.write(f"  Années: {years_count}/{total} ({(years_count/max(1,total))*100:.1f}%)\\n")
-            f.write(f"  Spécialisations: {specs_count}/{total} ({(specs_count/max(1,total))*100:.1f}%)\\n")
-            f.write(f"  Structures: {structs_count}/{total} ({(structs_count/max(1,total))*100:.1f}%)\\n")
-            f.write(f"  Adresses: {addrs_count}/{total} ({(addrs_count/max(1,total))*100:.1f}%)\\n\\n")
+            f.write("RÉSULTATS FINAUX:\n")
+            f.write(f"  Total extraits: {total}/{self.total_found}\n")
+            f.write(f"  Emails: {emails_count}/{total} ({(emails_count/max(1,total))*100:.1f}%)\n")
+            f.write(f"  Téléphones: {phones_count}/{total} ({(phones_count/max(1,total))*100:.1f}%)\n")
+            f.write(f"  Années: {years_count}/{total} ({(years_count/max(1,total))*100:.1f}%)\n")
+            f.write(f"  Spécialisations: {specs_count}/{total} ({(specs_count/max(1,total))*100:.1f}%)\n")
+            f.write(f"  Structures: {structs_count}/{total} ({(structs_count/max(1,total))*100:.1f}%)\n")
+            f.write(f"  Adresses: {addrs_count}/{total} ({(addrs_count/max(1,total))*100:.1f}%)\n\n")
             
             # Top spécialisations corrigées
             all_specs = []
@@ -384,11 +442,11 @@ class BourgesScraperComplete:
             if all_specs:
                 from collections import Counter
                 top_specs = Counter(all_specs).most_common(10)
-                f.write("TOP SPÉCIALISATIONS:\\n")
+                f.write("TOP SPÉCIALISATIONS:\n")
                 for spec, count in top_specs:
-                    f.write(f"  {spec}: {count} avocats\\n")
+                    f.write(f"  {spec}: {count} avocats\n")
                     
-        print(f"\\n📊 FICHIERS FINAUX GÉNÉRÉS:")
+        print(f"\n📊 FICHIERS FINAUX GÉNÉRÉS:")
         print(f"   📄 {json_filename}")
         print(f"   📊 {csv_filename}")
         print(f"   📧 {emails_filename} ({len(set(emails))} emails)")
@@ -406,7 +464,7 @@ def main():
         if success and scraper.lawyers:
             scraper.save_final_results()
             
-            print(f"\\n🎉 EXTRACTION FINALE RÉUSSIE!")
+            print(f"\n🎉 EXTRACTION FINALE RÉUSSIE!")
             print(f"📊 {len(scraper.lawyers)} avocats extraits sur {scraper.total_found} trouvés")
             
             # Stats finales
@@ -418,7 +476,7 @@ def main():
             
             total = len(scraper.lawyers)
             
-            print(f"\\n📈 QUALITÉ:")
+            print(f"\n📈 QUALITÉ:")
             print(f"   📧 Emails: {emails}/{total} ({(emails/total)*100:.0f}%)")
             print(f"   📞 Téléphones: {phones}/{total} ({(phones/total)*100:.0f}%)")  
             print(f"   📅 Années: {years}/{total} ({(years/total)*100:.0f}%)")
@@ -426,10 +484,10 @@ def main():
             print(f"   🏢 Adresses: {addrs}/{total} ({(addrs/total)*100:.0f}%)")
             
             # Échantillon final
-            print("\\n📋 ÉCHANTILLON:")
+            print("\n📋 ÉCHANTILLON:")
             for i, lawyer in enumerate(scraper.lawyers[:2]):
                 name = f"{lawyer['prenom']} {lawyer['nom']}".strip()
-                print(f"\\n  {i+1}. {name}")
+                print(f"\n  {i+1}. {name}")
                 print(f"     📧 {lawyer['email']}")
                 print(f"     📞 {lawyer['telephone'] or 'Non trouvé'}")
                 print(f"     📅 {lawyer['annee_inscription']}")
@@ -440,7 +498,7 @@ def main():
             print("❌ ÉCHEC")
             
     except KeyboardInterrupt:
-        print("\\n⚠️ Arrêt")
+        print("\n⚠️ Arrêt")
         if scraper.lawyers:
             scraper.save_final_results()
     except Exception as e:
