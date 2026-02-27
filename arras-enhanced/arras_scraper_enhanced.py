@@ -462,22 +462,43 @@ class ArrasEnhancedScraper:
                         if ville:
                             lawyer_data["ville"] = ville
             
-            # SPÉCIALISATIONS - Extraction depuis le champ "Catégorie"
+            # SPÉCIALISATIONS - Extraction précise depuis la section "product_meta"
             specialisations = []
             
-            # Chercher "Catégorie : ..." dans tout le contenu
-            all_text = soup.get_text()
-            category_match = re.search(r'Catégorie\s*:\s*([^<>\n]+)', all_text, re.IGNORECASE)
-            if category_match:
-                category_text = category_match.group(1).strip()
-                # Nettoyer et séparer les spécialisations
-                if category_text and len(category_text) > 3:
-                    # Diviser par "et" ou "," s'il y en a plusieurs
-                    specs = re.split(r'\s+et\s+|,\s*', category_text)
-                    for spec in specs:
-                        spec = spec.strip()
-                        if len(spec) > 3 and 'droit' in spec.lower():
-                            specialisations.append(spec)
+            # Chercher spécifiquement dans la div class="product_meta" pour éviter le menu de navigation
+            product_meta = soup.find('div', class_='product_meta')
+            if product_meta:
+                # Chercher le span "posted_in" qui contient les catégories
+                posted_in = product_meta.find('span', class_='posted_in')
+                if posted_in:
+                    # Extraire le texte entre "Catégorie :" et les liens
+                    category_text = posted_in.get_text()
+                    # Nettoyer le texte et extraire seulement la spécialisation
+                    # Gérer les espaces insécables (\xa0) et les différents formats
+                    category_text = category_text.replace('\xa0', ' ')  # Remplacer espace insécable
+                    
+                    if 'Catégorie' in category_text and ':' in category_text:
+                        # Utiliser regex pour extraire ce qui suit "Catégorie" + espaces + ":"
+                        import re
+                        category_match = re.search(r'Catégorie\s*:\s*(.+)', category_text, re.IGNORECASE)
+                        if category_match:
+                            category = category_match.group(1).strip()
+                            # Ne pas inclure "Généraliste" car ce n'est pas une vraie spécialisation
+                            if category and category.lower() not in ['généraliste', 'generaliste'] and len(category) > 2:
+                                specialisations.append(category)
+            
+            # Si aucune spécialisation trouvée dans product_meta, essayer la méthode alternative
+            if not specialisations:
+                # Chercher dans le HTML brut pour "Catégorie :" mais seulement dans le contenu principal
+                main_content = soup.find('div', class_='et_pb_section')
+                if main_content:
+                    content_html = str(main_content)
+                    category_pattern = r'<span[^>]*class="posted_in"[^>]*>.*?Catégorie\s*:\s*<a[^>]*>([^<]+)</a>'
+                    category_match = re.search(category_pattern, content_html, re.IGNORECASE | re.DOTALL)
+                    if category_match:
+                        category = category_match.group(1).strip()
+                        if category and category.lower() not in ['généraliste', 'generaliste'] and len(category) > 2:
+                            specialisations.append(category)
                             
             lawyer_data["specialisations"] = specialisations
             
