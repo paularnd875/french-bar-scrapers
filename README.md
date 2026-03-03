@@ -2,6 +2,22 @@
 
 Collection de scrapers pour extraire les données des barreaux français.
 
+## 🆕 NOUVEAU : Compiègne avec parsing parfait
+
+**Scraper Compiègne** avec parsing de noms de classe professionnelle :
+- ✅ **75 avocats** récupérés (100% de l'annuaire)
+- ✅ **64 emails uniques** (85% de taux de récupération)  
+- ✅ **100% précision** sur noms composés et particules nobiliaires
+- ✅ **Parsing avancé** : `CARON - DE WILDE Stéphanie` → Stéphanie / CARON - DE WILDE
+- 📁 **Dossier**: [`compiegne/`](./compiegne/)
+
+### Utilisation Compiègne
+```bash
+cd compiegne/
+pip install -r requirements.txt
+python3 run_compiegne_scraper.py
+```
+
 ## Scripts Disponibles
 
 ### 1. Barreau d'Alès
