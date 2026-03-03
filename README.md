@@ -41,7 +41,30 @@ python3 alpes_hp_scraper_final.py production
 - Navigation automatique et extraction détaillée
 - Extraction des détails individuels pour chaque avocat
 
-### 3. Barreau de Nevers
+### 3. Barreau de Villefranche-sur-Saône  
+**Dossier:** `villefranche-sur-saone/`
+**Site cible:** https://www.avocatsvillefranche.fr/annuaire/
+
+#### Utilisation
+```bash
+# Mode test (20 avocats)
+python3 VILLEFRANCHE_SCRAPER_AMELIORE.py
+
+# Mode production complet (60 avocats)
+python3 LANCER_PRODUCTION_VILLEFRANCHE.py
+
+# Ou directement
+python3 VILLEFRANCHE_SCRAPER_PRODUCTION.py
+```
+
+#### Résultats
+- **60 avocats** extraits (100% de l'annuaire)
+- **44 emails uniques** (100% de couverture)
+- **57 téléphones** (95% de couverture)
+- Sauvegardes automatiques tous les 25 avocats
+- Mode headless optimisé
+
+### 4. Barreau de Nevers
 **Fichier:** `nevers_scraper_complete.py`
 **Site cible:** https://www.avocats-nevers.org/fr/annuaire/annuaire-avocats.html
 
@@ -93,6 +116,10 @@ python3 ales_scraper_final.py production
 # Pour Alpes de Haute-Provence
 python3 alpes_hp_scraper_final.py production
 
+# Pour Villefranche-sur-Saône
+cd villefranche-sur-saone/
+python3 VILLEFRANCHE_SCRAPER_PRODUCTION.py
+
 # Pour Nevers
 python3 nevers_scraper_complete.py
 ```
@@ -101,4 +128,4 @@ Les fichiers de résultats sont horodatés automatiquement.
 
 ## 👨‍💻 Auteur
 
-Développé par Claude (Anthropic) - Février 2026
+Développé par Claude (Anthropic) - Février-Mars 2026
