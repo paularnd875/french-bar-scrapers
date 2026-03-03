@@ -1,0 +1,57 @@
+EMAILS FINAUX - BARREAU VILLEFRANCHE-SUR-SAÔNE
+===============================================
+
+📅 Date d'extraction : 03/03/2026 12:33
+👥 Total : 44 emails uniques d'avocats
+🌐 Source : https://www.avocatsvillefranche.fr/annuaire/
+
+===============================================
+
+anne@petitdemange-avocat.fr
+annelapeyrie.avocat@gmail.com
+antonio.dacosta.avocat@laposte.net
+aurelie.ejarque@avocat.fr
+aureliemaitre.villefranche@gmail.com
+avocat.mcb@chauvebathie.fr
+avocat@alegras.fr
+avocat@cabinet-sireau.com
+avocats@joly-gatheron.fr
+avocats@md-avocats.com
+avocats@quintes-avocats.com
+bellieravocats@orange.fr
+cabinet.chevalier@wanadoo.fr
+cabinet@avocat-labit.fr
+cabinet@boulisset-avocats.fr
+cabinet@mfl-avocats.fr
+camillelallich.avocat@gmail.com
+catherine.frecaut@avocat.fr
+contact@atticus-avocats.com
+contact@avocat-pinet.fr
+contact@avocat-windey.fr
+contact@lamarche-avocat.fr
+contact@sophienuti.fr
+cretavocat69400@gmail.com
+daniel.artaud@free.fr
+foillard@orange.fr
+franck.minodier@orange.fr
+francou.avocat@yahoo.fr
+gevrey.avocat@orange.fr
+helene.leblancmortagne@avocat.fr
+hpelux@avocat-pelux.fr
+justine.perrier@live.fr
+karine.collomb.avocat@orange.fr
+kerbrat.avocat@gmail.com
+longin.avocat@gmail.com
+lrpavocat@outlook.fr
+m.thepot.avocat@gmail.com
+michel.desilets@axiens.legal
+pechavent@anfield.fr
+s.passelegue@orange.fr
+vannespenne.avocat@gmail.com
+villefranche@ascalone.fr
+
+===============================================
+✅ EXTRACTION TERMINÉE AVEC SUCCÈS
+🎯 Couverture : 100% des avocats ont un email
+📊 Taux de réussite : 44/60 emails uniques (certains avocats partagent des emails de cabinet)
+===============================================

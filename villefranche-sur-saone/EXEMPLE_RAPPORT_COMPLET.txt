@@ -1,0 +1,383 @@
+RAPPORT COMPLET - BARREAU VILLEFRANCHE-SUR-SAÔNE
+======================================================================
+
+📅 Date d'extraction: 03/03/2026 12:33:50
+🌐 URL source: https://www.avocatsvillefranche.fr/annuaire/
+🔧 Mode: production
+👥 Total avocats: 60
+
+📊 STATISTIQUES DÉTAILLÉES:
+------------------------------
+📧 Avec email: 60/60 (100.0%)
+📞 Avec téléphone: 57/60 (95.0%)
+🎯 Avec spécialisations: 4/60 (6.7%)
+📅 Avec année inscription: 59/60 (98.3%)
+📍 Avec adresse: 60/60 (100.0%)
+
+🎯 SPÉCIALISATIONS LES PLUS COURANTES:
+----------------------------------------
+  - Droit rural: 2 avocat(s)
+  - Droit de la famille, des personnes, et de leur patrimoine: 1 avocat(s)
+
+📋 LISTE COMPLÈTE DES AVOCATS:
+--------------------------------------------------
+
+  1. Michel DESILETS
+      📧 michel.desilets@axiens.legal
+      📞 0474094790
+      🎯 Droit rural
+      📅 Inscription: 1994
+      📍 223 rue Charles Germain 69658 VILLEFRANCHE SUR SAONE CEDEX
+
+  2. Daniel ARTAUD
+      📧 daniel.artaud@free.fr
+      📞 0474696325
+      🎯 Droit de la famille, des personnes, et de leur patrimoine
+      📅 Inscription: 1977
+      📍 195 Rue de la République 69220 BELLEVILLE
+
+  3. Catherine FRECAUT
+      📧 catherine.frecaut@avocat.fr
+      📞 0474653013
+      📅 Inscription: 1987
+      📍 15 rue de Villars 69400 VILLEFRANCHE SUR SAONE
+
+  4. Isabelle BOULISSET
+      📧 cabinet@boulisset-avocats.fr
+      📞 0474027610
+      📅 Inscription: 1994
+      📍 351 Boulevard GAMBETTA 69400 VILLEFRANCHE SUR SAONE
+
+  5. Franck MINODIER
+      📧 franck.minodier@orange.fr
+      📞 0474094330
+      📅 Inscription: 1995
+      📍 186 Rue Roncevaux 69400 VILLEFRANCHE SUR SAONE
+
+  6. Frédéric MORTIMORE
+      📧 avocats@md-avocats.com
+      📅 Inscription: 1992
+      📍 630 Rue Nationale 69400 VILLEFRANCHE SUR SAONE
+
+  7. Karine COLLOMB
+      📧 karine.collomb.avocat@orange.fr
+      📞 0474680503
+      📅 Inscription: 1998
+      📍 335 Boulevard GAMBETTA 69400 VILLEFRANCHE SUR SAONE
+
+  8. Isabelle FOILLARD
+      📧 foillard@orange.fr
+      📞 0474078642
+      📅 Inscription: 1999
+      📍 144 Avenue de la Libération 69654 VILLEFRANCHE SUR SAONE CEDEX
+
+  9. Ségolène PINET
+      📧 contact@avocat-pinet.fr
+      📞 0481150035
+      📅 Inscription: 1999
+      📍 218 Rue Rue BOIRON 69400 VILLEFRANCHE SUR SAONE
+
+ 10. Alexandra CRET
+      📧 cretavocat69400@gmail.com
+      📞 0474624175
+      📅 Inscription: 1997
+      📍 31 Place des Marais 69400 VILLEFRANCHE SUR SAONE
+
+ 11. Jean Paul FRANCOU
+      📧 francou.avocat@yahoo.fr
+      📞 0474623714
+      📅 Inscription: 1997
+      📍 158 Rue Paul BERT 69400 VILLEFRANCHE SUR SAONE
+
+ 12. Pierre Eric CHAVENT
+      📧 pechavent@anfield.fr
+      📞 0474025897
+      📅 Inscription: 1996
+      📍 158 Rue Paul BERT 69400 VILLEFRANCHE SUR SAONE
+
+ 13. Stéphanie PASSELEGUE-DELBARRE
+      📧 s.passelegue@orange.fr
+      📞 0474682822
+      📅 Inscription: 1997
+      📍 186 Rue Roncevaux 69400 VILLEFRANCHE SUR SAONE
+
+ 14. Aurélie EJARQUE
+      📧 aurelie.ejarque@avocat.fr
+      📞 0474628945
+      📅 Inscription: 2002
+      📍 31 Place des Marais 69400 VILLEFRANCHE SUR SAONE
+
+ 15. Antonio DA COSTA
+      📧 antonio.dacosta.avocat@laposte.net
+      📞 0787759061
+      📅 Inscription: 2001
+      📍 186 Rue RONCEVAUX 69400 VILLEFRANCHE SUR SAONE
+
+ 16. Ingrid JOLY
+      📧 avocats@joly-gatheron.fr
+      📞 0474663508
+      📅 Inscription: 2002
+      📍 311 Rue Thizy 69400 VILLEFRANCHE SUR SAONE
+
+ 17. Ludovic SIREAU
+      📧 avocat@cabinet-sireau.com
+      📞 0413333626
+      📅 Inscription: 2004
+      📍 133 Rue Ernest RENAN 69400 VILLEFRANCHE SUR SAONE
+
+ 18. Blandine DUMONTET
+      📧 annelapeyrie.avocat@gmail.com
+      📞 0633025648
+      📅 Inscription: 2006
+      📍 109/111 Rue de la République 69220 BELLEVILLE
+
+ 19. Heloise PELUX
+      📧 hpelux@avocat-pelux.fr
+      📞 0675001972
+      📅 Inscription: 2004
+      📍 186 Rue Roncevaux 69400 VILLEFRANCHE SUR SAONE
+
+ 20. Sophie NUTI
+      📧 contact@sophienuti.fr
+      📞 0474050942
+      📅 Inscription: 1997
+      📍 1 A Avenue Edouard Herriot 69170 TARARE
+
+ 21. Sandrine GEVREY
+      📧 gevrey.avocat@orange.fr
+      📞 0967227140
+      📅 Inscription: 2011
+      📍 14 Boulevard Etienne BERNAND 69400 VILLEFRANCHE SUR SAONE
+
+ 22. Marie CHAUVE-BATHIE
+      📧 avocat.mcb@chauvebathie.fr
+      📞 0474627280
+      🎯 Procédure d’appel
+      📅 Inscription: 2011
+      📍 31 Place des Marais 69400 VILLEFRANCHE SUR SAONE
+
+ 23. Thibaut CAZEMAGE
+      📧 bellieravocats@orange.fr
+      📞 0474655663
+      📅 Inscription: 2004
+      📍 135 Rue BOIRON 69400 VILLEFRANCHE SUR SAONE
+
+ 24. Jacques LABIT
+      📧 cabinet@avocat-labit.fr
+      📞 0474068570
+      📅 Inscription: 2012
+      📍 10 Rue du Maréchal FOCH 69220 BELLEVILLE
+
+ 25. Eric LAVIROTTE
+      📧 villefranche@ascalone.fr
+      📞 0478421735
+      📅 Inscription: 1998
+      📍 228 Rue de la Paix 69400 VILLEFRANCHE SUR SAONE
+
+ 26. Sandrine GATHERON
+      📧 avocats@joly-gatheron.fr
+      📞 0474663508
+      📅 Inscription: 2002
+      📍 311 Rue Thizy 69400 VILLEFRANCHE SUR SAONE
+
+ 27. Laurent DUZELET
+      📧 avocats@md-avocats.com
+      📅 Inscription: 2012
+      📍 630 Rue Nationale 69400 VILLEFRANCHE SUR SAONE
+
+ 28. Aurelie LEGRAS
+      📧 avocat@alegras.fr
+      📞 0428390386
+      📅 Inscription: 2011
+      📍 14 Rue Auguste AUCOUR 69400 VILLEFRANCHE SUR SAONE
+
+ 29. Marie THEPOT
+      📧 m.thepot.avocat@gmail.com
+      📞 0650938124
+      📅 Inscription: 2012
+      📍 61 Rue d’ANSE 69400 VILLEFRANCHE SUR SAONE
+
+ 30. Guillaume VANNESPENNE
+      📧 vannespenne.avocat@gmail.com
+      📞 0427300355
+      📅 Inscription: 2011
+      📍 228 Rue de la Paix 69400 VILLEFRANCHE SUR SAONE
+
+ 31. Benoît MEILHAC
+      📧 cabinet@mfl-avocats.fr
+      📞 0478642944
+      🎯 Droit rural
+      📅 Inscription: 2012
+      📍 223 Rue Charles GERMAIN 69400 VILLEFRANCHE SUR SAONE
+
+ 32. Pauline VENET-LECOQUIERRE
+      📧 catherine.frecaut@avocat.fr
+      📞 0474653013
+      📅 Inscription: 2013
+      📍 15 rue de Villars 69400 VILLEFRANCHE SUR SAONE
+
+ 33. Laurène FARAUT-LAMOTTE
+      📧 cabinet@mfl-avocats.fr
+      📞 0478642944
+      📅 Inscription: 2014
+      📍 223 Rue Charles GERMAIN 69400 VILLEFRANCHE SUR SAONE
+
+ 34. Alexandre GIOVANI
+      📧 michel.desilets@axiens.legal
+      📞 0474094790
+      📅 Inscription: 2014
+      📍 223 rue Charles Germain 69658 VILLEFRANCHE SUR SAONE CEDEX
+
+ 35. Marie-Sophie LONGIN
+      📧 longin.avocat@gmail.com
+      📞 0612612100
+      📅 Inscription: 2016
+      📍 369 Boulevard GAMBETTA 69400 VILLEFRANCHE SUR SAONE
+
+ 36. Claire Sophie BUFFIN-CHAMPIN
+      📧 avocats@quintes-avocats.com
+      📞 0474029110
+      📅 Inscription: 2009
+      📍 141 Allée de Riottier 69400 LIMAS
+
+ 37. Sophie WINDEY
+      📧 contact@avocat-windey.fr
+      📅 Inscription: 2012
+      📍 218 Rue BOIRON 69665 VILLEFRANCHE SUR SAONE CEDEX
+
+ 38. Caroline JOANIN-NICOLETTI
+      📧 Joanin@cjn-avocat.fr
+      📞 0451263029
+      📅 Inscription: 2013
+      📍 14 Rue Auguste AUCOUR 69400 VILLEFRANCHE SUR SAONE
+
+ 39. Hélène LEBLANC MORTAGNE
+      📧 helene.leblancmortagne@avocat.fr
+      📞 0988077486
+      📅 Inscription: 2011
+      📍 228 Rue de la Paix 69400 VILLEFRANCHE SUR SAONE
+
+ 40. Anne-Sophie KERBRAT
+      📧 kerbrat.avocat@gmail.com
+      📞 0648886831
+      📅 Inscription: 2018
+      📍 223 Rue Charles GERMAIN 69400 VILLEFRANCHE SUR SAONE
+
+ 41. Alain CHEVALIER
+      📧 cabinet.chevalier@wanadoo.fr
+      📞 0686657800
+      📅 Inscription: 1992
+      📍 158 Rue Paul BERT 69400 VILLEFRANCHE SUR SAONE
+
+ 42. Camille LALLICH
+      📧 camillelallich.avocat@gmail.com
+      📞 0481150035
+      📅 Inscription: 2019
+      📍 218 Rue Rue BOIRON 69400 VILLEFRANCHE SUR SAONE
+
+ 43. Claire LORES
+      📧 avocat.mcb@chauvebathie.fr
+      📞 0474627280
+      📅 Inscription: 2020
+      📍 14 RUE AUGUSTE AUCOUR 69400 VILLEFRANCHE SUR SAONE
+
+ 44. Raphaël PIC
+      📧 cabinet@mfl-avocats.fr
+      📞 0478642944
+      📅 Inscription: 2021
+      📍 223 Rue Charles GERMAIN 69400 VILLEFRANCHE SUR SAONE
+
+ 45. Lucie RAVOUX
+      📧 contact@atticus-avocats.com
+      📞 0428294700
+      📅 Inscription: 2014
+      📍 55 Boulevard VERMOREL 69400 VILLEFRANCHE SUR SAONE
+
+ 46. Marine VARLET
+      📧 avocats@quintes-avocats.com
+      📞 0474029110
+      📅 Inscription: 2013
+      📍 52 rue de la paix 69400 VILLEFRANCHE SUR SAONE
+
+ 47. Alexis MAGES
+      📧 michel.desilets@axiens.legal
+      📞 0474094790
+      📅 Inscription: 2023
+      📍 223 rue Charles Germain 69658 VILLEFRANCHE SUR SAONE CEDEX
+
+ 48. Coralie LAMARCHE
+      📧 contact@lamarche-avocat.fr
+      📞 0481659792
+      📅 Inscription: 2012
+      📍 14 Rue Auguste AUCOUR 69400 VILLEFRANCHE SUR SAONE
+
+ 49. Aurélie, Emmanuelle MAITRE
+      📧 aureliemaitre.villefranche@gmail.com
+      📞 0669980042
+      📅 Inscription: 2015
+      📍 228 Rue de la Paix 69400 VILLEFRANCHE SUR SAONE
+
+ 50. Valentine PIVETTA
+      📧 michel.desilets@axiens.legal
+      📞 0474094790
+      📅 Inscription: 2023
+      📍 223 rue Charles Germain 69658 VILLEFRANCHE SUR SAONE CEDEX
+
+ 51. Thomas GIROUD
+      📧 michel.desilets@axiens.legal
+      📞 0474094790
+      📅 Inscription: 2023
+      📍 223 rue Charles Germain 69658 VILLEFRANCHE SUR SAONE CEDEX
+
+ 52. Chloé MAGNET
+      📧 Camillelallich.avocat@gmail.fr
+      📞 0481150035
+      📅 Inscription: 2023
+      📍 218 Rue Rue BOIRON 69400 VILLEFRANCHE SUR SAONE
+
+ 53. Anne LAPEYRIE
+      📧 annelapeyrie.avocat@gmail.com
+      📞 0633025648
+      📅 Inscription: 2015
+      📍 109/111 Rue de la République 69220 BELLEVILLE
+
+ 54. Lauranne REVEL-PERRONNET
+      📧 lrpavocat@outlook.fr
+      📞 0618905385
+      📅 Inscription: 2022
+      📍 84 Rue 69400 LIMAS
+
+ 55. Anne PETITDEMANGE
+      📧 anne@petitdemange-avocat.fr
+      📞 0671813058
+      📅 Inscription: 2011
+      📍 52 rue de la paix 69400 VILLEFRANCHE SUR SAONE
+
+ 56. Marianne CHERAMY
+      📧 michel.desilets@axiens.legal
+      📞 0474094790
+      📅 Inscription: 2020
+      📍 223 rue Charles Germain 69658 VILLEFRANCHE SUR SAONE CEDEX
+
+ 57. Maxime SENETERRE
+      📧 avocats@quintes-avocats.com
+      📞 0474029110
+      📅 Inscription: 2018
+      📍 141 Allée de Riottier 69400 LIMAS
+
+ 58. 141 allée de Riottier 69400 LIMAS
+      📧 avocats@quintes-avocats.com
+      📞 0474029110
+      📍 141 Allée de Riottier 69400 LIMAS
+
+ 59. Justine PERRIER
+      📧 justine.perrier@live.fr
+      📞 0474627280
+      📅 Inscription: 2025
+      📍 31 Place des Marais 69400 VILLEFRANCHE SUR SAONE
+
+ 60. Joanna BARROS
+      📧 daniel.artaud@free.fr
+      📞 0474696325
+      📅 Inscription: 2025
+      📍 195 Rue de la République 69220 BELLEVILLE
