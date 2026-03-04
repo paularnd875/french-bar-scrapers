@@ -1,0 +1,43 @@
+
+=== RAPPORT DÉTAILLÉ SCRAPER ARRAS ENHANCED ===
+Généré le: 27/02/2026 à 12:04:48
+
+🎯 RÉSULTATS GLOBAUX
+═══════════════════════════════════════════════════════════
+📊 Total avocats traités: 40
+✅ Extractions réussies: 40
+❌ Extractions échouées: 0
+📈 Taux de réussite: 100.0%
+⏱️ Durée totale: 0:02:17.618916
+
+🔍 QUALITÉ DES DONNÉES EXTRAITES
+═══════════════════════════════════════════════════════════
+📧 Emails trouvés: 26/40 (65.0%)
+📞 Téléphones trouvés: 40/40 (100.0%)
+🏠 Adresses trouvées: 40/40 (100.0%)
+⚖️ Spécialisations trouvées: 0/40 (0.0%)
+📅 Années inscription trouvées: 40/40 (100.0%)
+
+📈 ANALYSE DE QUALITÉ
+═══════════════════════════════════════════════════════════
+Score de qualité moyen: 9.4/10
+Avocats haute qualité (≥7/10): 40/40 (100.0%)
+
+
+
+⚙️ CONFIGURATION TECHNIQUE
+═══════════════════════════════════════════════════════════
+Délai entre requêtes: 2s
+Pages traitées: 9
+Session reprise: Non
+Version scraper: Enhanced v1.0
+Site cible: https://avocatsarras.com
+
+📁 FICHIERS GÉNÉRÉS
+═══════════════════════════════════════════════════════════
+- Données JSON complètes avec métadonnées
+- Export CSV pour analyse
+- Log détaillé de l'exécution
+- Ce rapport de synthèse
+
+=== FIN DU RAPPORT ===

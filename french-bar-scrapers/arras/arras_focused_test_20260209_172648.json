@@ -1,0 +1,112 @@
+[
+  {
+    "url": "https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-philippe-2/",
+    "nom_complet": "BODEREAU Philippe",
+    "prenom": "Bodereau",
+    "nom": "PHILIPPE",
+    "email": "contact@bodereauavocats.com",
+    "telephone": "",
+    "fax": "",
+    "adresse_complete": "2 Place des États d’Artois – 62000 Arras",
+    "specialisations": [
+      "Droit Fiscal",
+      "Droit Commercial",
+      "Droit Pénal",
+      "Droit Public",
+      "Droit Du Travail"
+    ],
+    "annee_inscription": "1978",
+    "structure_cabinet": "",
+    "description": "",
+    "langues": [],
+    "diplomes": []
+  },
+  {
+    "url": "https://avocatsarras.com/annuaire/avocats/specialite-avocat/vaast-antoine/",
+    "nom_complet": "VAAST Antoine",
+    "prenom": "Vaast",
+    "nom": "ANTOINE",
+    "email": "",
+    "telephone": "",
+    "fax": "",
+    "adresse_complete": "2 Place des États d’Artois – 62000 Arras",
+    "specialisations": [
+      "Droit Fiscal",
+      "Droit Commercial",
+      "Droit Pénal",
+      "Droit Public",
+      "Droit Du Travail"
+    ],
+    "annee_inscription": "1986",
+    "structure_cabinet": "Vaast-Martinuzzo\n12 Rue Paul Adam, Entrée A, 1er étage, Arras\nT",
+    "description": "",
+    "langues": [],
+    "diplomes": []
+  },
+  {
+    "url": "https://avocatsarras.com/annuaire/avocats/specialite-avocat/scaillierez-daniele/",
+    "nom_complet": "SCAILLIEREZ Danièle",
+    "prenom": "Scaillierez",
+    "nom": "DANIÈLE",
+    "email": "secretariat.dscail@outlook.fr",
+    "telephone": "",
+    "fax": "",
+    "adresse_complete": "2 Place des États d’Artois – 62000 Arras",
+    "specialisations": [
+      "Droit Fiscal",
+      "Droit Commercial",
+      "Droit Pénal",
+      "Droit Public",
+      "Droit Du Travail"
+    ],
+    "annee_inscription": "1988",
+    "structure_cabinet": "Danièle Scaillierez\n14 Rue Chanzy, Arras\nT",
+    "description": "",
+    "langues": [],
+    "diplomes": []
+  },
+  {
+    "url": "https://avocatsarras.com/annuaire/avocats/specialite-avocat/pinguet-jerome/",
+    "nom_complet": "PINGUET Jérôme",
+    "prenom": "Pinguet",
+    "nom": "JÉRÔ",
+    "email": "jepinguet@nordnet.fr",
+    "telephone": "",
+    "fax": "",
+    "adresse_complete": "2 Place des États d’Artois – 62000 Arras",
+    "specialisations": [
+      "Droit Fiscal",
+      "Droit Commercial",
+      "Droit Pénal",
+      "Droit Public",
+      "Droit Du Travail"
+    ],
+    "annee_inscription": "1989",
+    "structure_cabinet": "",
+    "description": "",
+    "langues": [],
+    "diplomes": []
+  },
+  {
+    "url": "https://avocatsarras.com/annuaire/avocats/specialite-avocat/moulin-bernard/",
+    "nom_complet": "MOULIN Bernard",
+    "prenom": "Moulin",
+    "nom": "BERNARD",
+    "email": "",
+    "telephone": "",
+    "fax": "",
+    "adresse_complete": "2 Place des États d’Artois – 62000 Arras",
+    "specialisations": [
+      "Droit Fiscal",
+      "Droit Commercial",
+      "Droit Pénal",
+      "Droit Public",
+      "Droit Du Travail"
+    ],
+    "annee_inscription": "1989",
+    "structure_cabinet": "Sté d’Avocats Bernard Moulin\n12 Rue Jean Jaurès, Les Terrasses du Golf, Bât",
+    "description": "",
+    "langues": [],
+    "diplomes": []
+  }
+]

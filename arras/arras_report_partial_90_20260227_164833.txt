@@ -1,0 +1,49 @@
+
+=== RAPPORT DÉTAILLÉ SCRAPER ARRAS ENHANCED ===
+Généré le: 27/02/2026 à 16:48:33
+
+🎯 RÉSULTATS GLOBAUX
+═══════════════════════════════════════════════════════════
+📊 Total avocats traités: 90
+✅ Extractions réussies: 90
+❌ Extractions échouées: 0
+📈 Taux de réussite: 100.0%
+⏱️ Durée totale: 0:04:03.997905
+
+🔍 QUALITÉ DES DONNÉES EXTRAITES
+═══════════════════════════════════════════════════════════
+📧 Emails trouvés: 73/90 (81.1%)
+📞 Téléphones trouvés: 89/90 (98.9%)
+🏠 Adresses trouvées: 90/90 (100.0%)
+⚖️ Spécialisations trouvées: 0/90 (0.0%)
+📅 Années inscription trouvées: 88/90 (97.8%)
+
+📈 ANALYSE DE QUALITÉ
+═══════════════════════════════════════════════════════════
+Score de qualité moyen: 9.8/10
+Avocats haute qualité (≥7/10): 90/90 (100.0%)
+
+🔝 TOP SPÉCIALISATIONS
+═══════════════════════════════════════════════════════════
+Droit commercial, des affaires et de la concurrence: 3 avocats
+Droit pénal: 1 avocats
+Droit fiscal et droit douanier: 1 avocats
+Droit du travail: 1 avocats
+
+
+⚙️ CONFIGURATION TECHNIQUE
+═══════════════════════════════════════════════════════════
+Délai entre requêtes: 2s
+Pages traitées: 9
+Session reprise: Non
+Version scraper: Enhanced v1.0
+Site cible: https://avocatsarras.com
+
+📁 FICHIERS GÉNÉRÉS
+═══════════════════════════════════════════════════════════
+- Données JSON complètes avec métadonnées
+- Export CSV pour analyse
+- Log détaillé de l'exécution
+- Ce rapport de synthèse
+
+=== FIN DU RAPPORT ===

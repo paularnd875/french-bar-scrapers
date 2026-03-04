@@ -1,0 +1,27 @@
+[12:03:56] INFO: 🚀 DÉMARRAGE SCRAPER ARRAS ENHANCED
+[12:03:56] INFO: ============================================================
+[12:03:56] INFO: 🔍 Découverte du nombre de pages...
+[12:03:56] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[12:03:57] INFO: ✅ OK (200, 195308 chars)
+[12:03:57] INFO: 📊 Nombre de pages détecté: 9
+[12:03:57] INFO: 📋 Collecte des liens d'avocats...
+[12:03:57] INFO: 📄 Traitement page 1/9
+[12:03:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[12:03:57] INFO: ✅ OK (200, 195308 chars)
+[12:03:57] INFO: 👥 12 avocats uniques trouvés sur la page 1
+[12:03:59] INFO: 📄 Traitement page 2/9
+[12:03:59] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/2/ (tentative 1)
+[12:04:00] INFO: ✅ OK (200, 195695 chars)
+[12:04:00] INFO: 👥 11 avocats uniques trouvés sur la page 2
+[12:04:02] INFO: 📄 Traitement page 3/9
+[12:04:02] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/3/ (tentative 1)
+[12:04:03] INFO: ✅ OK (200, 196110 chars)
+[12:04:03] INFO: 👥 12 avocats uniques trouvés sur la page 3
+[12:04:05] INFO: 📄 Traitement page 4/9
+[12:04:05] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/4/ (tentative 1)
+[12:04:06] INFO: ✅ OK (200, 195687 chars)
+[12:04:06] INFO: 👥 12 avocats uniques trouvés sur la page 4
+[12:04:08] INFO: 📄 Traitement page 5/9
+[12:04:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/5/ (tentative 1)
+[12:04:09] INFO: ✅ OK (200, 195619 chars)
+[12:04:09] INFO: 👥 11 avocats uniques trouvés sur la page 5

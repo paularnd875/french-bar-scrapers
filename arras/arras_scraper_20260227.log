@@ -1,0 +1,2427 @@
+[11:40:57] INFO: 🔍 [1] Extraction: BODEREAU Philippe
+[11:40:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-philippe-2/ (tentative 1)
+[11:40:57] INFO: ✅ OK (200, 86984 chars)
+[11:40:57] INFO: 🔍 [2] Extraction: VAAST Antoine
+[11:40:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vaast-antoine/ (tentative 1)
+[11:40:57] INFO: ✅ OK (200, 113704 chars)
+[11:40:57] INFO: 🔍 [3] Extraction: SCAILLIEREZ Danièle
+[11:40:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/scaillierez-daniele/ (tentative 1)
+[11:40:58] INFO: ✅ OK (200, 114021 chars)
+[12:02:30] INFO: 🚀 DÉMARRAGE SCRAPER ARRAS ENHANCED
+[12:02:30] INFO: ============================================================
+[12:02:30] INFO: 🔍 Découverte du nombre de pages...
+[12:02:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[12:02:30] INFO: ✅ OK (200, 195166 chars)
+[12:02:30] INFO: 📊 Nombre de pages détecté: 9
+[12:02:30] INFO: 📋 Collecte des liens d'avocats...
+[12:02:30] INFO: 📄 Traitement page 1/9
+[12:02:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[12:02:30] INFO: ✅ OK (200, 195166 chars)
+[12:02:30] INFO: 👥 12 avocats uniques trouvés sur la page 1
+[12:02:32] INFO: 📄 Traitement page 2/9
+[12:02:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/2/ (tentative 1)
+[12:02:33] INFO: ✅ OK (200, 195541 chars)
+[12:02:33] INFO: 👥 11 avocats uniques trouvés sur la page 2
+[12:02:35] INFO: 📄 Traitement page 3/9
+[12:02:35] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/3/ (tentative 1)
+[12:02:37] INFO: ✅ OK (200, 195952 chars)
+[12:02:37] INFO: 👥 12 avocats uniques trouvés sur la page 3
+[12:02:39] INFO: 📄 Traitement page 4/9
+[12:02:39] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/4/ (tentative 1)
+[12:02:40] INFO: ✅ OK (200, 195533 chars)
+[12:02:40] INFO: 👥 12 avocats uniques trouvés sur la page 4
+[12:02:42] INFO: 📄 Traitement page 5/9
+[12:02:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/5/ (tentative 1)
+[12:02:43] INFO: ✅ OK (200, 195465 chars)
+[12:02:43] INFO: 👥 11 avocats uniques trouvés sur la page 5
+[12:02:45] INFO: 📄 Traitement page 6/9
+[12:02:45] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/6/ (tentative 1)
+[12:02:46] INFO: ✅ OK (200, 193937 chars)
+[12:02:46] INFO: 👥 12 avocats uniques trouvés sur la page 6
+[12:02:48] INFO: 📄 Traitement page 7/9
+[12:02:48] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/7/ (tentative 1)
+[12:02:49] INFO: ✅ OK (200, 192752 chars)
+[12:02:49] INFO: 👥 11 avocats uniques trouvés sur la page 7
+[12:02:51] INFO: 📄 Traitement page 8/9
+[12:02:51] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/8/ (tentative 1)
+[12:02:52] INFO: ✅ OK (200, 190871 chars)
+[12:02:52] INFO: 👥 12 avocats uniques trouvés sur la page 8
+[12:02:54] INFO: 📄 Traitement page 9/9
+[12:02:54] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/9/ (tentative 1)
+[12:02:55] INFO: ✅ OK (200, 185817 chars)
+[12:02:55] INFO: 👥 5 avocats uniques trouvés sur la page 9
+[12:02:55] INFO: 👥 TOTAL: 98 nouveaux avocats à traiter
+[12:02:55] INFO: 📊 Déjà traités: 0 avocats
+[12:02:55] INFO: 🔍 Démarrage extraction individuelle...
+[12:02:55] INFO: 📄 [1/98] [Global: 1/98] BODEREAU Philippe
+[12:02:55] INFO: 🔍 [1] Extraction: BODEREAU Philippe
+[12:02:55] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-philippe-2/ (tentative 1)
+[12:02:55] INFO: ✅ OK (200, 86984 chars)
+[12:02:55] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 1978 | 🎯 Q:10/10
+[12:02:57] INFO: 📄 [2/98] [Global: 3/98] VAAST Antoine
+[12:02:57] INFO: 🔍 [2] Extraction: VAAST Antoine
+[12:02:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vaast-antoine/ (tentative 1)
+[12:02:58] INFO: ✅ OK (200, 113704 chars)
+[12:02:58] INFO: ✅ Données: 📞 0321040455 | 📅 1986 | 🎯 Q:8/10
+[12:03:00] INFO: 📄 [3/98] [Global: 5/98] SCAILLIEREZ Danièle
+[12:03:00] INFO: 🔍 [3] Extraction: SCAILLIEREZ Danièle
+[12:03:00] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/scaillierez-daniele/ (tentative 1)
+[12:03:00] INFO: ✅ OK (200, 114021 chars)
+[12:03:00] INFO: ✅ Données: 📧 secretariat.dscail@outlook.fr | 📞 0321032595 | 📅 1988 | 🎯 Q:11/10
+[12:03:02] INFO: 📄 [4/98] [Global: 7/98] PINGUET Jérôme
+[12:03:02] INFO: 🔍 [4] Extraction: PINGUET Jérôme
+[12:03:02] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pinguet-jerome/ (tentative 1)
+[12:03:03] INFO: ✅ OK (200, 113692 chars)
+[12:03:03] INFO: ✅ Données: 📧 jepinguet@nordnet.fr | 📞 0320658512 | 📅 1989 | 🎯 Q:10/10
+[12:03:05] INFO: 📄 [5/98] [Global: 9/98] MOULIN Bernard
+[12:03:05] INFO: 🔍 [5] Extraction: MOULIN Bernard
+[12:03:05] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/moulin-bernard/ (tentative 1)
+[12:03:06] INFO: ✅ OK (200, 111523 chars)
+[12:03:06] INFO: ✅ Données: 📞 0321236073 | 📅 1989 | 🎯 Q:8/10
+[12:03:08] INFO: 📄 [6/98] [Global: 11/98] DELEVACQUE Christian
+[12:03:08] INFO: 🔍 [6] Extraction: DELEVACQUE Christian
+[12:03:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delevacque-christian/ (tentative 1)
+[12:03:09] INFO: ✅ OK (200, 113865 chars)
+[12:03:09] INFO: ✅ Données: 📞 0321213059 | 📅 1989 | 🎯 Q:8/10
+[12:03:11] INFO: 📄 [7/98] [Global: 13/98] DEBLIQUIS Vincent
+[12:03:11] INFO: 🔍 [7] Extraction: DEBLIQUIS Vincent
+[12:03:11] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/debliquis-vincent/ (tentative 1)
+[12:03:12] INFO: ✅ OK (200, 113609 chars)
+[12:03:12] INFO: ✅ Données: 📞 0321161528 | 📅 1989 | 🎯 Q:7/10
+[12:03:14] INFO: 📄 [8/98] [Global: 15/98] HUMEZ Géry
+[12:03:14] INFO: 🔍 [8] Extraction: HUMEZ Géry
+[12:03:14] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/humez-gery/ (tentative 1)
+[12:03:17] INFO: ✅ OK (200, 113015 chars)
+[12:03:17] INFO: ✅ Données: 📞 0321213421 | 📅 1990 | 🎯 Q:8/10
+[12:03:19] INFO: 📄 [9/98] [Global: 17/98] DELACOUR-PENAZZO Valérie
+[12:03:19] INFO: 🔍 [9] Extraction: DELACOUR-PENAZZO Valérie
+[12:03:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delacour-penazzo-valerie/ (tentative 1)
+[12:03:20] INFO: ✅ OK (200, 114866 chars)
+[12:03:20] INFO: ✅ Données: 📧 valerie.delacour-penazzo@fidal.com | 📞 0321241411 | 📅 1991 | 🎯 Q:11/10
+[12:03:22] INFO: 📄 [10/98] [Global: 19/98] LESTRELIN Céline
+[12:03:22] INFO: 🔍 [10] Extraction: LESTRELIN Céline
+[12:03:22] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lestrelin-celine/ (tentative 1)
+[12:03:23] INFO: ✅ OK (200, 114274 chars)
+[12:03:23] INFO: ✅ Données: 📧 celine.lestrelin@fidal.com | 📞 0321241411 | 📅 1992 | 🎯 Q:11/10
+[12:03:23] INFO: 💾 Sauvegarde: arras_enhanced_partial_10_20260227_120323.json, arras_enhanced_partial_10_20260227_120323.csv, arras_report_partial_10_20260227_120323.txt
+[12:03:23] INFO: 💾 Session sauvegardée: 10 avocats
+[12:03:23] INFO: 💾 Sauvegarde intermédiaire (10 traités)
+[12:03:25] INFO: 📄 [11/98] [Global: 21/98] DUSSART Maxime
+[12:03:25] INFO: 🔍 [11] Extraction: DUSSART Maxime
+[12:03:25] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dussart-maxime/ (tentative 1)
+[12:03:26] INFO: ✅ OK (200, 113530 chars)
+[12:03:26] INFO: ✅ Données: 📞 0321155582 | 📅 1992 | 🎯 Q:8/10
+[12:03:28] INFO: 📄 [12/98] [Global: 23/98] LELIGOIS-BIETTE Christine
+[12:03:28] INFO: 🔍 [12] Extraction: LELIGOIS-BIETTE Christine
+[12:03:28] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/leligois-biette-christine/ (tentative 1)
+[12:03:29] INFO: ✅ OK (200, 114223 chars)
+[12:03:29] INFO: ✅ Données: 📧 actisconseils@orange.fr | 📞 0321071727 | 📅 1994 | 🎯 Q:11/10
+[12:03:31] INFO: 📄 [13/98] [Global: 25/98] BIETTE Alexandre
+[12:03:31] INFO: 🔍 [13] Extraction: BIETTE Alexandre
+[12:03:31] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/biette-alexandre/ (tentative 1)
+[12:03:32] INFO: ✅ OK (200, 113897 chars)
+[12:03:32] INFO: ✅ Données: 📧 actisconseils@orange.fr | 📞 0321071727 | 📅 1994 | 🎯 Q:11/10
+[12:03:34] INFO: 📄 [14/98] [Global: 27/98] LEFRANC Jean-Louis
+[12:03:34] INFO: 🔍 [14] Extraction: LEFRANC Jean-Louis
+[12:03:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-jean-louis/ (tentative 1)
+[12:03:35] INFO: ✅ OK (200, 113832 chars)
+[12:03:35] INFO: ✅ Données: 📧 jeanlouis.lefranc02@gmail.com | 📞 0321232920 | 📅 1994 | 🎯 Q:10/10
+[12:03:37] INFO: 📄 [15/98] [Global: 29/98] MEILLIER  Philippe
+[12:03:37] INFO: 🔍 [15] Extraction: MEILLIER  Philippe
+[12:03:37] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/meillier-philippe/ (tentative 1)
+[12:03:38] INFO: ✅ OK (200, 114221 chars)
+[12:03:38] INFO: ✅ Données: 📧 contact@meillier-avocats.fr | 📞 0321213200 | 📅 1993 | 🎯 Q:11/10
+[12:03:40] INFO: 📄 [16/98] [Global: 31/98] VINCHANT Fabrice
+[12:03:40] INFO: 🔍 [16] Extraction: VINCHANT Fabrice
+[12:03:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vinchant-fabrice/ (tentative 1)
+[12:03:40] INFO: ✅ OK (200, 113958 chars)
+[12:03:40] INFO: ✅ Données: 📧 acvl@avocatsvl.fr | 📞 0321519070 | 📅 1993 | 🎯 Q:11/10
+[12:03:42] INFO: 📄 [17/98] [Global: 33/98] FICHELLE Marie
+[12:03:42] INFO: 🔍 [17] Extraction: FICHELLE Marie
+[12:03:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fichelle-marie/ (tentative 1)
+[12:03:43] INFO: ✅ OK (200, 113549 chars)
+[12:03:43] INFO: ✅ Données: 📞 0321232963 | 📅 1993 | 🎯 Q:7/10
+[12:03:45] INFO: 📄 [18/98] [Global: 35/98] OSSEYRAN Yann
+[12:03:45] INFO: 🔍 [18] Extraction: OSSEYRAN Yann
+[12:03:45] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/osseyran-yann/ (tentative 1)
+[12:03:45] INFO: ✅ OK (200, 113831 chars)
+[12:03:45] INFO: ✅ Données: 📞 0321230460 | 📅 1994 | 🎯 Q:7/10
+[12:03:47] INFO: 📄 [19/98] [Global: 37/98] KOFFI Kouamé
+[12:03:47] INFO: 🔍 [19] Extraction: KOFFI Kouamé
+[12:03:47] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/koffi-kouame/ (tentative 1)
+[12:03:48] INFO: ✅ OK (200, 113764 chars)
+[12:03:48] INFO: ✅ Données: 📧 secretariat.semkoffimbarga@orange.fr | 📞 0607191694 | 📅 1994 | 🎯 Q:10/10
+[12:03:50] INFO: 📄 [20/98] [Global: 39/98] VANDERMERSCH-MUSSAULT Laurence
+[12:03:50] INFO: 🔍 [20] Extraction: VANDERMERSCH-MUSSAULT Laurence
+[12:03:50] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vandermersch-mussault-laurence/ (tentative 1)
+[12:03:50] INFO: ✅ OK (200, 113777 chars)
+[12:03:50] INFO: ✅ Données: 📧 lv.avocat@orange.fr | 📞 0321594616 | 📅 1994 | 🎯 Q:11/10
+[12:03:50] INFO: 💾 Sauvegarde: arras_enhanced_partial_20_20260227_120350.json, arras_enhanced_partial_20_20260227_120350.csv, arras_report_partial_20_20260227_120350.txt
+[12:03:50] INFO: 💾 Session sauvegardée: 20 avocats
+[12:03:50] INFO: 💾 Sauvegarde intermédiaire (20 traités)
+[12:03:52] INFO: 📄 [21/98] [Global: 41/98] MARTINUZZO Raphaële
+[12:03:52] INFO: 🔍 [21] Extraction: MARTINUZZO Raphaële
+[12:03:52] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/martinuzzo-raphaele/ (tentative 1)
+[12:03:54] INFO: ✅ OK (200, 111685 chars)
+[12:03:54] INFO: ✅ Données: 📞 0321040455 | 📅 1995 | 🎯 Q:7/10
+[12:03:56] INFO: 📄 [22/98] [Global: 43/98] GABRIEL Anne-Sophie
+[12:03:56] INFO: 🔍 [22] Extraction: GABRIEL Anne-Sophie
+[12:03:56] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gabriel-anne-sophie/ (tentative 1)
+[12:03:57] INFO: ✅ OK (200, 111568 chars)
+[12:03:57] INFO: ✅ Données: 📧 arras@themes.fr | 📞 0321232920 | 📅 1996 | 🎯 Q:11/10
+[12:03:59] INFO: 📄 [23/98] [Global: 45/98] PAGIN Ginette
+[12:03:59] INFO: 🔍 [23] Extraction: PAGIN Ginette
+[12:03:59] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pagin-ginette/ (tentative 1)
+[12:04:00] INFO: ✅ OK (200, 113744 chars)
+[12:04:00] INFO: ✅ Données: 📧 gp@pagin-avocat.fr | 📞 0321598589 | 📅 1995 | 🎯 Q:10/10
+[12:04:02] INFO: 📄 [24/98] [Global: 47/98] CHOPIN Agathe
+[12:04:02] INFO: 🔍 [24] Extraction: CHOPIN Agathe
+[12:04:02] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/agathe-chopin/ (tentative 1)
+[12:04:02] INFO: ✅ OK (200, 113358 chars)
+[12:04:02] INFO: ✅ Données: 📧 agathechopin@cabinetsipp.com | 📞 0321719000 | 📅 1996 | 🎯 Q:11/10
+[12:04:04] INFO: 📄 [25/98] [Global: 49/98] LAMORIL-HOUTART Claire
+[12:04:04] INFO: 🔍 [25] Extraction: LAMORIL-HOUTART Claire
+[12:04:04] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lamoril-houtart-claire/ (tentative 1)
+[12:04:05] INFO: ✅ OK (200, 113909 chars)
+[12:04:05] INFO: ✅ Données: 📞 0321169290 | 📅 1996 | 🎯 Q:7/10
+[12:04:07] INFO: 📄 [26/98] [Global: 51/98] LAMORIL Matthieu
+[12:04:07] INFO: 🔍 [26] Extraction: LAMORIL Matthieu
+[12:04:07] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lamoril-matthieu/ (tentative 1)
+[12:04:08] INFO: ✅ OK (200, 113977 chars)
+[12:04:08] INFO: ✅ Données: 📧 acvl@avocatsvl.fr | 📞 0321519070 | 📅 1997 | 🎯 Q:11/10
+[12:04:10] INFO: 📄 [27/98] [Global: 53/98] ROTELLINI Pierre
+[12:04:10] INFO: 🔍 [27] Extraction: ROTELLINI Pierre
+[12:04:10] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/rotellini-pierre/ (tentative 1)
+[12:04:10] INFO: ✅ OK (200, 113853 chars)
+[12:04:10] INFO: ✅ Données: 📧 pierre.rotellini@gmail.com | 📞 0321718495 | 📅 1997 | 🎯 Q:10/10
+[12:04:12] INFO: 📄 [28/98] [Global: 55/98] DELAHOUSSE Christophe
+[12:04:12] INFO: 🔍 [28] Extraction: DELAHOUSSE Christophe
+[12:04:12] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delahousse-christophe/ (tentative 1)
+[12:04:13] INFO: ✅ OK (200, 114475 chars)
+[12:04:13] INFO: ✅ Données: 📧 c.delahousse@orange.fr | 📞 0321710462 | 📅 2000 | 🎯 Q:11/10
+[12:04:15] INFO: 📄 [29/98] [Global: 57/98] DAVID Sophie
+[12:04:15] INFO: 🔍 [29] Extraction: DAVID Sophie
+[12:04:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/david-sophie/ (tentative 1)
+[12:04:16] INFO: ✅ OK (200, 113551 chars)
+[12:04:16] INFO: ✅ Données: 📧 sdavid.avocat@orange.fr | 📞 0321519403 | 📅 1999 | 🎯 Q:10/10
+[12:04:18] INFO: 📄 [30/98] [Global: 59/98] BION Isabelle
+[12:04:18] INFO: 🔍 [30] Extraction: BION Isabelle
+[12:04:18] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bion-isabelle/ (tentative 1)
+[12:04:19] INFO: ✅ OK (200, 113658 chars)
+[12:04:19] INFO: ✅ Données: 📧 ibion.avocat.fr@orange.fr | 📞 0321718357 | 📅 1999 | 🎯 Q:10/10
+[12:04:19] INFO: 💾 Sauvegarde: arras_enhanced_partial_30_20260227_120419.json, arras_enhanced_partial_30_20260227_120419.csv, arras_report_partial_30_20260227_120419.txt
+[12:04:19] INFO: 💾 Session sauvegardée: 30 avocats
+[12:04:19] INFO: 💾 Sauvegarde intermédiaire (30 traités)
+[12:04:21] INFO: 📄 [31/98] [Global: 61/98] WILLEMETZ Samuel
+[12:04:21] INFO: 🔍 [31] Extraction: WILLEMETZ Samuel
+[12:04:21] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/willemetz-samuel/ (tentative 1)
+[12:04:21] INFO: ✅ OK (200, 114151 chars)
+[12:04:21] INFO: ✅ Données: 📧 swillemetz@holys.co | 📞 0321605040 | 📅 2001 | 🎯 Q:10/10
+[12:04:23] INFO: 📄 [32/98] [Global: 63/98] LAMBERT Anny
+[12:04:23] INFO: 🔍 [32] Extraction: LAMBERT Anny
+[12:04:23] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lambert-anny/ (tentative 1)
+[12:04:25] INFO: ✅ OK (200, 111321 chars)
+[12:04:25] INFO: ✅ Données: 📞 0321503772 | 📅 2004 | 🎯 Q:7/10
+[12:04:27] INFO: 📄 [33/98] [Global: 65/98] PIRON Marie-Charlotte
+[12:04:27] INFO: 🔍 [33] Extraction: PIRON Marie-Charlotte
+[12:04:27] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/piron-marie-charlotte/ (tentative 1)
+[12:04:28] INFO: ✅ OK (200, 114269 chars)
+[12:04:28] INFO: ✅ Données: 📧 avocat@mcpiron.com | 📞 0321215030 | 📅 2003 | 🎯 Q:10/10
+[12:04:30] INFO: 📄 [34/98] [Global: 67/98] GARNIER Anne
+[12:04:30] INFO: 🔍 [34] Extraction: GARNIER Anne
+[12:04:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/garnier-anne/ (tentative 1)
+[12:04:31] INFO: ✅ OK (200, 113791 chars)
+[12:04:31] INFO: ✅ Données: 📞 0321717777 | 📅 2013 | 🎯 Q:7/10
+[12:04:33] INFO: 📄 [35/98] [Global: 69/98] GORNY Julie
+[12:04:33] INFO: 🔍 [35] Extraction: GORNY Julie
+[12:04:33] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gorny-julie/ (tentative 1)
+[12:04:34] INFO: ✅ OK (200, 111473 chars)
+[12:04:34] INFO: ✅ Données: 📧 julie.gorny@gmail.com | 📞 0321227456 | 📅 2003 | 🎯 Q:10/10
+[12:04:36] INFO: 📄 [36/98] [Global: 71/98] DUPRIEZ Angélique
+[12:04:36] INFO: 🔍 [36] Extraction: DUPRIEZ Angélique
+[12:04:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dupriez-angelique/ (tentative 1)
+[12:04:36] INFO: ✅ OK (200, 113657 chars)
+[12:04:36] INFO: ✅ Données: 📧 adupriezavocat@orange.fr | 📞 0321233653 | 📅 2003 | 🎯 Q:10/10
+[12:04:38] INFO: 📄 [37/98] [Global: 73/98] POULAIN Nathalie
+[12:04:38] INFO: 🔍 [37] Extraction: POULAIN Nathalie
+[12:04:38] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/poulain-nathalie/ (tentative 1)
+[12:04:39] INFO: ✅ OK (200, 113760 chars)
+[12:04:39] INFO: ✅ Données: 📧 arras@themes.fr | 📞 0321232920 | 📅 2004 | 🎯 Q:11/10
+[12:04:41] INFO: 📄 [38/98] [Global: 75/98] LETKO-BURIAN Tal
+[12:04:41] INFO: 🔍 [38] Extraction: LETKO-BURIAN Tal
+[12:04:41] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/letko-burian-tal/ (tentative 1)
+[12:04:41] INFO: ✅ OK (200, 113798 chars)
+[12:04:41] INFO: ✅ Données: 📞 0321605040 | 📅 2004 | 🎯 Q:7/10
+[12:04:43] INFO: 📄 [39/98] [Global: 77/98] PRUD’HOMME Etienne
+[12:04:43] INFO: 🔍 [39] Extraction: PRUD’HOMME Etienne
+[12:04:43] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/prudhomme-etienne/ (tentative 1)
+[12:04:44] INFO: ✅ OK (200, 113866 chars)
+[12:04:45] INFO: ✅ Données: 📞 0321211221 | 📅 2005 | 🎯 Q:8/10
+[12:04:47] INFO: 📄 [40/98] [Global: 79/98] KOSKAS Yaël
+[12:04:47] INFO: 🔍 [40] Extraction: KOSKAS Yaël
+[12:04:47] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/koskas-yael/ (tentative 1)
+[12:04:48] INFO: ✅ OK (200, 113497 chars)
+[12:04:48] INFO: ✅ Données: 📧 yaelkoskas2@icloud.com | 📞 0321219479 | 📅 2002 | 🎯 Q:10/10
+[12:04:48] INFO: 💾 Sauvegarde: arras_enhanced_partial_40_20260227_120448.json, arras_enhanced_partial_40_20260227_120448.csv, arras_report_partial_40_20260227_120448.txt
+[12:04:48] INFO: 💾 Session sauvegardée: 40 avocats
+[12:04:48] INFO: 💾 Sauvegarde intermédiaire (40 traités)
+[12:04:50] INFO: 📄 [41/98] [Global: 81/98] BERNARD Laurette
+[12:04:50] INFO: 🔍 [41] Extraction: BERNARD Laurette
+[12:04:50] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bernard-laurette/ (tentative 1)
+[12:04:51] INFO: ✅ OK (200, 114027 chars)
+[12:04:51] INFO: ✅ Données: 📧 laurette.bernard@avocat.fr | 📞 0321228155 | 📅 2006 | 🎯 Q:10/10
+[12:04:53] INFO: 📄 [42/98] [Global: 83/98] DELCOURT Anne-Sophie
+[12:04:53] INFO: 🔍 [42] Extraction: DELCOURT Anne-Sophie
+[12:04:53] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delcourt-anne-sophie/ (tentative 1)
+[12:04:54] INFO: ✅ OK (200, 114089 chars)
+[12:04:54] INFO: ✅ Données: 📧 annesophie.delcourt@avocat.fr | 📞 0321215030 | 📅 2005 | 🎯 Q:10/10
+[12:04:56] INFO: 📄 [43/98] [Global: 85/98] SESBOÜÉ Sophie
+[12:04:56] INFO: 🔍 [43] Extraction: SESBOÜÉ Sophie
+[12:04:56] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sesboue-sophie/ (tentative 1)
+[12:04:57] INFO: ✅ OK (200, 113955 chars)
+[12:04:57] INFO: ✅ Données: 📧 jeanchroscik@accedit.fr | 📞 0321514980 | 📅 2005 | 🎯 Q:11/10
+[12:04:59] INFO: 📄 [44/98] [Global: 87/98] VASSEUR Cécile
+[12:04:59] INFO: 🔍 [44] Extraction: VASSEUR Cécile
+[12:04:59] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vasseur-cecile/ (tentative 1)
+[12:05:00] INFO: ✅ OK (200, 113657 chars)
+[12:05:00] INFO: ✅ Données: 📧 cvasseur@synergis-avocats.fr | 📞 0321737374 | 📅 2005 | 🎯 Q:11/10
+[12:05:02] INFO: 📄 [45/98] [Global: 89/98] LEFRANC David
+[12:05:02] INFO: 🔍 [45] Extraction: LEFRANC David
+[12:05:02] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-david/ (tentative 1)
+[12:05:03] INFO: ✅ OK (200, 113754 chars)
+[12:05:03] INFO: ✅ Données: 📧 david-lefranc@laropoin.com | 📞 0321484099 | 📅 2006 | 🎯 Q:11/10
+[12:05:05] INFO: 📄 [46/98] [Global: 91/98] WEPPE Daphné
+[12:05:05] INFO: 🔍 [46] Extraction: WEPPE Daphné
+[12:05:05] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/weppe-daphne/ (tentative 1)
+[12:05:06] INFO: ✅ OK (200, 113904 chars)
+[12:05:06] INFO: ✅ Données: 📧 daphne.weppe@avocat-conseil.fr | 📞 0321583553 | 📅 2007 | 🎯 Q:10/10
+[12:05:08] INFO: 📄 [47/98] [Global: 93/98] VERAGUE Jean-Philippe
+[12:05:08] INFO: 🔍 [47] Extraction: VERAGUE Jean-Philippe
+[12:05:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/verague-jean-philippe/ (tentative 1)
+[12:05:09] INFO: ✅ OK (200, 113984 chars)
+[12:05:10] INFO: ✅ Données: 📞 0321213132 | 📅 2007 | 🎯 Q:8/10
+[12:05:12] INFO: 📄 [48/98] [Global: 95/98] JACOBUS Antoine
+[12:05:12] INFO: 🔍 [48] Extraction: JACOBUS Antoine
+[12:05:12] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/jacobus-antoine/ (tentative 1)
+[12:05:12] INFO: ✅ OK (200, 114063 chars)
+[12:05:13] INFO: ✅ Données: 📧 ajacobus@synergis-avocats.fr | 📞 0321737374 | 📅 2010 | 🎯 Q:11/10
+[12:05:15] INFO: 📄 [49/98] [Global: 97/98] LEGROS Dorothée
+[12:05:15] INFO: 🔍 [49] Extraction: LEGROS Dorothée
+[12:05:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/legros-dorothee/ (tentative 1)
+[12:05:15] INFO: ✅ OK (200, 114058 chars)
+[12:05:16] INFO: ✅ Données: 📧 jeanchroscik@accedit.fr | 📞 0321514980 | 📅 2010 | 🎯 Q:11/10
+[12:05:18] INFO: 📄 [50/98] [Global: 99/98] POLLARD Céline
+[12:05:18] INFO: 🔍 [50] Extraction: POLLARD Céline
+[12:05:18] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pollard-celine/ (tentative 1)
+[12:05:19] INFO: ✅ OK (200, 111554 chars)
+[12:05:19] INFO: ✅ Données: 📧 celine.pollard@avocat.fr | 📞 0321233603 | 📅 2010 | 🎯 Q:11/10
+[12:05:19] INFO: 💾 Sauvegarde: arras_enhanced_partial_50_20260227_120519.json, arras_enhanced_partial_50_20260227_120519.csv, arras_report_partial_50_20260227_120519.txt
+[12:05:19] INFO: 💾 Session sauvegardée: 50 avocats
+[12:05:19] INFO: 💾 Sauvegarde intermédiaire (50 traités)
+[12:05:21] INFO: 📄 [51/98] [Global: 101/98] BEBEN Alexandre
+[12:05:21] INFO: 🔍 [51] Extraction: BEBEN Alexandre
+[12:05:21] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/beben-alexandre/ (tentative 1)
+[12:05:22] INFO: ✅ OK (200, 111600 chars)
+[12:05:22] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 2011 | 🎯 Q:11/10
+[12:05:24] INFO: 📄 [52/98] [Global: 103/98] PASSE Ludiwine
+[12:05:24] INFO: 🔍 [52] Extraction: PASSE Ludiwine
+[12:05:24] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/passe-ludiwine/ (tentative 1)
+[12:05:25] INFO: ✅ OK (200, 113840 chars)
+[12:05:25] INFO: ✅ Données: 📧 l.passe@lrdp-avocats.com | 📞 0321213135 | 📅 2011 | 🎯 Q:11/10
+[12:05:27] INFO: 📄 [53/98] [Global: 105/98] BODEREAU Alexandra
+[12:05:27] INFO: 🔍 [53] Extraction: BODEREAU Alexandra
+[12:05:27] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-alexandra/ (tentative 1)
+[12:05:28] INFO: ✅ OK (200, 113946 chars)
+[12:05:28] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 2011 | 🎯 Q:11/10
+[12:05:30] INFO: 📄 [54/98] [Global: 107/98] PRIZAC Hélène
+[12:05:30] INFO: 🔍 [54] Extraction: PRIZAC Hélène
+[12:05:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/prizac-helene/ (tentative 1)
+[12:05:31] INFO: ✅ OK (200, 113073 chars)
+[12:05:31] INFO: ✅ Données: 📧 helene@prizac-avocat.com | 📞 0630199053 | 📅 2012 | 🎯 Q:10/10
+[12:05:33] INFO: 📄 [55/98] [Global: 109/98] BARGIS Delphine
+[12:05:33] INFO: 🔍 [55] Extraction: BARGIS Delphine
+[12:05:33] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bargis-delphine/ (tentative 1)
+[12:05:34] INFO: ✅ OK (200, 114066 chars)
+[12:05:34] INFO: ✅ Données: 📧 maitre.bargis@gmail.com | 📞 0321713921 | 📅 2013 | 🎯 Q:10/10
+[12:05:36] INFO: 📄 [56/98] [Global: 111/98] ABDELKRIM Mohamed
+[12:05:36] INFO: 🔍 [56] Extraction: ABDELKRIM Mohamed
+[12:05:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/abdelkrim-mohamed/ (tentative 1)
+[12:05:37] INFO: ✅ OK (200, 113747 chars)
+[12:05:37] INFO: ✅ Données: 📧 mohamed.abdelkrim@yahoo.fr | 📞 0321213421 | 📅 2014 | 🎯 Q:10/10
+[12:05:39] INFO: 📄 [57/98] [Global: 113/98] WIBAULT François-Xavier
+[12:05:39] INFO: 🔍 [57] Extraction: WIBAULT François-Xavier
+[12:05:39] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/wibault-francois-xavier/ (tentative 1)
+[12:05:40] INFO: ✅ OK (200, 113413 chars)
+[12:05:40] INFO: ✅ Données: 📞 0320916579 | 📅 2014 | 🎯 Q:8/10
+[12:05:42] INFO: 📄 [58/98] [Global: 115/98] DECAT Pierre-Nicolas
+[12:05:42] INFO: 🔍 [58] Extraction: DECAT Pierre-Nicolas
+[12:05:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/decat-pierre-nicolas/ (tentative 1)
+[12:05:43] INFO: ✅ OK (200, 113936 chars)
+[12:05:43] INFO: ✅ Données: 📧 public@decat-avocat.fr | 📞 0362029918 | 📅 2014 | 🎯 Q:10/10
+[12:05:45] INFO: 📄 [59/98] [Global: 117/98] DUCQ Alexandre
+[12:05:45] INFO: 🔍 [59] Extraction: DUCQ Alexandre
+[12:05:45] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/ducq-alexandre/ (tentative 1)
+[12:05:46] INFO: ✅ OK (200, 113589 chars)
+[12:05:46] INFO: ✅ Données: 📧 contact@ducq-avocat.com | 📞 0650642145 | 📅 2015 | 🎯 Q:10/10
+[12:05:48] INFO: 📄 [60/98] [Global: 119/98] HOULMANN Océane
+[12:05:48] INFO: 🔍 [60] Extraction: HOULMANN Océane
+[12:05:48] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/houlmann-oceane/ (tentative 1)
+[12:05:49] INFO: ✅ OK (200, 113350 chars)
+[12:05:49] INFO: ✅ Données: 📧 cabinet@houlmann-avocat.fr | 📞 0681502649 | 📅 2015 | 🎯 Q:10/10
+[12:05:49] INFO: 💾 Sauvegarde: arras_enhanced_partial_60_20260227_120549.json, arras_enhanced_partial_60_20260227_120549.csv, arras_report_partial_60_20260227_120549.txt
+[12:05:49] INFO: 💾 Session sauvegardée: 60 avocats
+[12:05:49] INFO: 💾 Sauvegarde intermédiaire (60 traités)
+[12:05:51] INFO: 📄 [61/98] [Global: 121/98] DUPONT Bernard-Marie
+[12:05:51] INFO: 🔍 [61] Extraction: DUPONT Bernard-Marie
+[12:05:51] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dupont-bernard-marie/ (tentative 1)
+[12:05:52] INFO: ✅ OK (200, 111574 chars)
+[12:05:52] INFO: ✅ Données: 📧 dr.bmdupont@gmail.com | 📞 0351089004 | 📅 2016 | 🎯 Q:10/10
+[12:05:54] INFO: 📄 [62/98] [Global: 123/98] BOUDJEMAA Déborah
+[12:05:54] INFO: 🔍 [62] Extraction: BOUDJEMAA Déborah
+[12:05:54] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/boudjemaa-deborah/ (tentative 1)
+[12:05:55] INFO: ✅ OK (200, 114808 chars)
+[12:05:55] INFO: ✅ Données: 📧 contact@avocat-boudjemaa.com | 📞 0321235978 | 📅 2016 | 🎯 Q:10/10
+[12:05:57] INFO: 📄 [63/98] [Global: 125/98] ZAKENOUNE Mohamed-Akli
+[12:05:57] INFO: 🔍 [63] Extraction: ZAKENOUNE Mohamed-Akli
+[12:05:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/zakenoune-mohamed-akli/ (tentative 1)
+[12:05:58] INFO: ✅ OK (200, 113777 chars)
+[12:05:58] INFO: ✅ Données: 📧 contact@zakenoune-avocat.fr | 📞 0359250892 | 📅 2016 | 🎯 Q:10/10
+[12:06:00] INFO: 📄 [64/98] [Global: 127/98] LASRI Nadir
+[12:06:00] INFO: 🔍 [64] Extraction: LASRI Nadir
+[12:06:00] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lasri-nadir/ (tentative 1)
+[12:06:00] INFO: ✅ OK (200, 113878 chars)
+[12:06:01] INFO: ✅ Données: 📧 contact@avocat-lasri.com | 📞 0321160244 | 📅 2016 | 🎯 Q:10/10
+[12:06:03] INFO: 📄 [65/98] [Global: 129/98] FATOUX Alexis
+[12:06:03] INFO: 🔍 [65] Extraction: FATOUX Alexis
+[12:06:03] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fatoux-alexis/ (tentative 1)
+[12:06:04] INFO: ✅ OK (200, 113248 chars)
+[12:06:04] INFO: ✅ Données: 📞 0321605040 | 📅 2016 | 🎯 Q:7/10
+[12:06:06] INFO: 📄 [66/98] [Global: 131/98] MULLIEZ-BIGOTTE Charlotte
+[12:06:06] INFO: 🔍 [66] Extraction: MULLIEZ-BIGOTTE Charlotte
+[12:06:06] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/mulliez-bigotte-charlotte/ (tentative 1)
+[12:06:07] INFO: ✅ OK (200, 114171 chars)
+[12:06:07] INFO: ✅ Données: 📧 charlottemulliez@cabinetsipp.com | 📞 0321581155 | 📅 2017 | 🎯 Q:10/10
+[12:06:09] INFO: 📄 [67/98] [Global: 133/98] LACHEVRE Anaïs
+[12:06:09] INFO: 🔍 [67] Extraction: LACHEVRE Anaïs
+[12:06:09] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lachevre-anais/ (tentative 1)
+[12:06:10] INFO: ✅ OK (200, 113109 chars)
+[12:06:10] INFO: ✅ Données: 📧 anaislachevre.avocat@gmail.com | 📞 0621138853 | 📅 2017 | 🎯 Q:10/10
+[12:06:12] INFO: 📄 [68/98] [Global: 135/98] Tonkeva Nina
+[12:06:12] INFO: 🔍 [68] Extraction: Tonkeva Nina
+[12:06:12] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/tonkeva-nina/ (tentative 1)
+[12:06:12] INFO: ✅ OK (200, 114155 chars)
+[12:06:12] INFO: ✅ Données: 📧 ninatonkeva.avocat@gmail.com | 📞 0359250993 | 📅 2017 | 🎯 Q:11/10
+[12:06:14] INFO: 📄 [69/98] [Global: 137/98] MAMMONE François
+[12:06:14] INFO: 🔍 [69] Extraction: MAMMONE François
+[12:06:14] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/mammone-francois/ (tentative 1)
+[12:06:15] INFO: ✅ OK (200, 113866 chars)
+[12:06:15] INFO: ✅ Données: 📧 francois.mammone@gmail.com | 📞 0674384469 | 📅 2017 | 🎯 Q:10/10
+[12:06:17] INFO: 📄 [70/98] [Global: 139/98] RYCKEWAERT Arnaud
+[12:06:17] INFO: 🔍 [70] Extraction: RYCKEWAERT Arnaud
+[12:06:17] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/arnaud-ryckewaert/ (tentative 1)
+[12:06:18] INFO: ✅ OK (200, 113358 chars)
+[12:06:18] INFO: ✅ Données: 📧 arnaud.ryckewaert@fidal.com | 📞 0321241411 | 📅 2018 | 🎯 Q:11/10
+[12:06:18] INFO: 💾 Sauvegarde: arras_enhanced_partial_70_20260227_120618.json, arras_enhanced_partial_70_20260227_120618.csv, arras_report_partial_70_20260227_120618.txt
+[12:06:18] INFO: 💾 Session sauvegardée: 70 avocats
+[12:06:18] INFO: 💾 Sauvegarde intermédiaire (70 traités)
+[12:06:20] INFO: 📄 [71/98] [Global: 141/98] JAGODZINSKI-BAHEUX Sabine
+[12:06:20] INFO: 🔍 [71] Extraction: JAGODZINSKI-BAHEUX Sabine
+[12:06:20] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/jagodzinski-baheux-sabine/ (tentative 1)
+[12:06:21] INFO: ✅ OK (200, 114829 chars)
+[12:06:21] INFO: ✅ Données: 📧 sabine.jagodzinski@fidal.com | 📞 0321241411 | 📅 2018 | 🎯 Q:11/10
+[12:06:23] INFO: 📄 [72/98] [Global: 143/98] ACTHERGAL Ophélie
+[12:06:23] INFO: 🔍 [72] Extraction: ACTHERGAL Ophélie
+[12:06:23] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/acthergal-ophelie/ (tentative 1)
+[12:06:24] INFO: ✅ OK (200, 113198 chars)
+[12:06:24] INFO: ✅ Données: 📧 cabinet@acth-avocat.com | 📞 0767271520 | 🎯 Q:9/10
+[12:06:26] INFO: 📄 [73/98] [Global: 145/98] LEVESQUE Bertille
+[12:06:26] INFO: 🔍 [73] Extraction: LEVESQUE Bertille
+[12:06:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bertille-levesque/ (tentative 1)
+[12:06:27] INFO: ✅ OK (200, 113324 chars)
+[12:06:27] INFO: ✅ Données: 📧 bertille.levesque@fidal.com | 📞 0321243850 | 📅 2018 | 🎯 Q:10/10
+[12:06:29] INFO: 📄 [74/98] [Global: 147/98] STRUBBE Mathieu
+[12:06:29] INFO: 🔍 [74] Extraction: STRUBBE Mathieu
+[12:06:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/strubbe-mathieu/ (tentative 1)
+[12:06:30] INFO: ✅ OK (200, 113622 chars)
+[12:06:30] INFO: ✅ Données: 📧 arras@chanzyavocats.fr | 📞 0362810000 | 📅 2019 | 🎯 Q:11/10
+[12:06:32] INFO: 📄 [75/98] [Global: 149/98] HULEUX Cécile
+[12:06:32] INFO: 🔍 [75] Extraction: HULEUX Cécile
+[12:06:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/huleux-cecile/ (tentative 1)
+[12:06:33] INFO: ✅ OK (200, 113278 chars)
+[12:06:34] INFO: ✅ Données: 📧 avocat.cecilehuleux@yahoo.com | 📞 0321605040 | 📅 2019 | 🎯 Q:10/10
+[12:06:36] INFO: 📄 [76/98] [Global: 151/98] CAMPAGNE Thibault
+[12:06:36] INFO: 🔍 [76] Extraction: CAMPAGNE Thibault
+[12:06:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/campagne-thibault/ (tentative 1)
+[12:06:37] INFO: ✅ OK (200, 113694 chars)
+[12:06:37] INFO: ✅ Données: 📧 arras@chanzyavocats.fr | 📞 0362810000 | 📅 2019 | 🎯 Q:11/10
+[12:06:39] INFO: 📄 [77/98] [Global: 153/98] LECOCQ Ambroise
+[12:06:39] INFO: 🔍 [77] Extraction: LECOCQ Ambroise
+[12:06:39] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lecocq-ambroise/ (tentative 1)
+[12:06:40] INFO: ✅ OK (200, 114294 chars)
+[12:06:40] INFO: ✅ Données: 📧 contact@lecocq-avocat.com | 📞 0321213059 | 🎯 Q:11/10
+[12:06:42] INFO: 📄 [78/98] [Global: 155/98] LEFEBVRE CHAPON Mylène
+[12:06:42] INFO: 🔍 [78] Extraction: LEFEBVRE CHAPON Mylène
+[12:06:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefebvre-chapon-mylene/ (tentative 1)
+[12:06:43] INFO: ✅ OK (200, 113771 chars)
+[12:06:43] INFO: ✅ Données: 📧 mlc@rectiligne-avocats.fr | 📞 0321150255 | 📅 2020 | 🎯 Q:10/10
+[12:06:45] INFO: 📄 [79/98] [Global: 157/98] LEFEVRE Lucie
+[12:06:45] INFO: 🔍 [79] Extraction: LEFEVRE Lucie
+[12:06:45] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefevre-lucie/ (tentative 1)
+[12:06:46] INFO: ✅ OK (200, 113515 chars)
+[12:06:46] INFO: ✅ Données: 📧 llefevre@forsetiavocats.fr | 📞 0320313154 | 📅 2020 | 🎯 Q:10/10
+[12:06:48] INFO: 📄 [80/98] [Global: 159/98] BAKIR Maeva
+[12:06:48] INFO: 🔍 [80] Extraction: BAKIR Maeva
+[12:06:48] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/maeva-bakir/ (tentative 1)
+[12:06:49] INFO: ✅ OK (200, 113185 chars)
+[12:06:49] INFO: ✅ Données: 📧 contact@bakiravocat.com | 📅 2020 | 🎯 Q:8/10
+[12:06:49] INFO: 💾 Sauvegarde: arras_enhanced_partial_80_20260227_120649.json, arras_enhanced_partial_80_20260227_120649.csv, arras_report_partial_80_20260227_120649.txt
+[12:06:49] INFO: 💾 Session sauvegardée: 80 avocats
+[12:06:49] INFO: 💾 Sauvegarde intermédiaire (80 traités)
+[12:06:51] INFO: 📄 [81/98] [Global: 161/98] MULIER Stéphanie
+[12:06:51] INFO: 🔍 [81] Extraction: MULIER Stéphanie
+[12:06:51] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/stephanie-mulier/ (tentative 1)
+[12:06:52] INFO: ✅ OK (200, 113386 chars)
+[12:06:52] INFO: ✅ Données: 📧 s.mulier@m-avocat.fr | 📞 0668303158 | 📅 2020 | 🎯 Q:10/10
+[12:06:54] INFO: 📄 [82/98] [Global: 163/98] DE CLERCQ Léa
+[12:06:54] INFO: 🔍 [82] Extraction: DE CLERCQ Léa
+[12:06:54] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/de-clercq-lea/ (tentative 1)
+[12:06:55] INFO: ✅ OK (200, 113530 chars)
+[12:06:55] INFO: ✅ Données: 📧 lea.declercq-lefevre@avocat.fr | 📞 0321605040 | 📅 2021 | 🎯 Q:10/10
+[12:06:57] INFO: 📄 [83/98] [Global: 165/98] MIART Ancel
+[12:06:57] INFO: 🔍 [83] Extraction: MIART Ancel
+[12:06:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/ancel-miart/ (tentative 1)
+[12:06:58] INFO: ✅ OK (200, 113024 chars)
+[12:06:58] INFO: ✅ Données: 📧 amiart@holys.co | 📞 0321605040 | 📅 2022 | 🎯 Q:10/10
+[12:07:00] INFO: 📄 [84/98] [Global: 167/98] ROPPA Shéhérazade
+[12:07:00] INFO: 🔍 [84] Extraction: ROPPA Shéhérazade
+[12:07:00] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sheherazade-roppa/ (tentative 1)
+[12:07:01] INFO: ✅ OK (200, 113416 chars)
+[12:07:01] INFO: ✅ Données: 📧 avocat@roppa.fr | 📞 0647411546 | 📅 2022 | 🎯 Q:10/10
+[12:07:03] INFO: 📄 [85/98] [Global: 169/98] DEHAY Charlotte
+[12:07:03] INFO: 🔍 [85] Extraction: DEHAY Charlotte
+[12:07:03] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dehay-charlotte/ (tentative 1)
+[12:07:04] INFO: ✅ OK (200, 113306 chars)
+[12:07:04] INFO: ✅ Données: 📧 charlotte.dehay@avocat.fr | 📞 0321605040 | 📅 2022 | 🎯 Q:10/10
+[12:07:06] INFO: 📄 [86/98] [Global: 171/98] GABRY Marianne
+[12:07:06] INFO: 🔍 [86] Extraction: GABRY Marianne
+[12:07:06] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/marianne-gabry/ (tentative 1)
+[12:07:07] INFO: ✅ OK (200, 113436 chars)
+[12:07:07] INFO: ✅ Données: 📧 marianne.gabry@avocat.fr | 📞 0321213200 | 📅 2022 | 🎯 Q:10/10
+[12:07:09] INFO: 📄 [87/98] [Global: 173/98] QUENNEHEN Adeline
+[12:07:09] INFO: 🔍 [87] Extraction: QUENNEHEN Adeline
+[12:07:09] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/quennehen-adeline/ (tentative 1)
+[12:07:10] INFO: ✅ OK (200, 113345 chars)
+[12:07:10] INFO: ✅ Données: 📧 aquennehen-avocat@outlook.fr | 📞 0321213135 | 📅 2022 | 🎯 Q:10/10
+[12:07:12] INFO: 📄 [88/98] [Global: 175/98] PENNEL Cyrille
+[12:07:12] INFO: 🔍 [88] Extraction: PENNEL Cyrille
+[12:07:12] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pennel-cyrille/ (tentative 1)
+[12:07:13] INFO: ✅ OK (200, 113238 chars)
+[12:07:13] INFO: ✅ Données: 📧 cp@pennel-avocat.fr | 📞 0756812441 | 📅 2023 | 🎯 Q:10/10
+[12:07:15] INFO: 📄 [89/98] [Global: 177/98] BATHANI Inès
+[12:07:15] INFO: 🔍 [89] Extraction: BATHANI Inès
+[12:07:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bathani-ines/ (tentative 1)
+[12:07:16] INFO: ✅ OK (200, 113153 chars)
+[12:07:16] INFO: ✅ Données: 📧 contact@bathani-avocat.fr | 📞 0602567143 | 📅 2023 | 🎯 Q:10/10
+[12:07:18] INFO: 📄 [90/98] [Global: 179/98] DELCOURT Marion
+[12:07:18] INFO: 🔍 [90] Extraction: DELCOURT Marion
+[12:07:18] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delcourt-marion/ (tentative 1)
+[12:07:19] INFO: ✅ OK (200, 113334 chars)
+[12:07:19] INFO: ✅ Données: 📧 mariondelcourt.avocat@gmail.com | 📞 0766996657 | 📅 2024 | 🎯 Q:10/10
+[12:07:19] INFO: 💾 Sauvegarde: arras_enhanced_partial_90_20260227_120719.json, arras_enhanced_partial_90_20260227_120719.csv, arras_report_partial_90_20260227_120719.txt
+[12:07:19] INFO: 💾 Session sauvegardée: 90 avocats
+[12:07:19] INFO: 💾 Sauvegarde intermédiaire (90 traités)
+[12:07:21] INFO: 📄 [91/98] [Global: 181/98] GAUBE Julie
+[12:07:21] INFO: 🔍 [91] Extraction: GAUBE Julie
+[12:07:21] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gaube-julie/ (tentative 1)
+[12:07:22] INFO: ✅ OK (200, 113256 chars)
+[12:07:22] INFO: ✅ Données: 📧 juliegaube.avocat@protonmail.com | 📞 0646717405 | 📅 2024 | 🎯 Q:11/10
+[12:07:24] INFO: 📄 [92/98] [Global: 183/98] DOUAY François
+[12:07:24] INFO: 🔍 [92] Extraction: DOUAY François
+[12:07:24] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/douay-francois/ (tentative 1)
+[12:07:25] INFO: ✅ OK (200, 113603 chars)
+[12:07:25] INFO: ✅ Données: 📧 francois.douay@meillier-avocats.fr | 📞 0321213200 | 📅 2024 | 🎯 Q:10/10
+[12:07:27] INFO: 📄 [93/98] [Global: 185/98] SILLARD Alexandre
+[12:07:27] INFO: 🔍 [93] Extraction: SILLARD Alexandre
+[12:07:27] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sillard-alexandre/ (tentative 1)
+[12:07:29] INFO: ✅ OK (200, 113462 chars)
+[12:07:29] INFO: ✅ Données: 📧 contact@alexandre-sillard-avocat.fr | 📞 0374476080 | 📅 2024 | 🎯 Q:11/10
+[12:07:31] INFO: 📄 [94/98] [Global: 187/98] FONTAINE Clotilde
+[12:07:31] INFO: 🔍 [94] Extraction: FONTAINE Clotilde
+[12:07:31] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fontaine-clotilde/ (tentative 1)
+[12:07:32] INFO: ✅ OK (200, 113685 chars)
+[12:07:32] INFO: ✅ Données: 📧 contact@cfontaine-avocat.com | 📞 0665942630 | 📅 2024 | 🎯 Q:10/10
+[12:07:34] INFO: 📄 [95/98] [Global: 189/98] COLLET Stella
+[12:07:34] INFO: 🔍 [95] Extraction: COLLET Stella
+[12:07:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/collet-stella/ (tentative 1)
+[12:07:35] INFO: ✅ OK (200, 113580 chars)
+[12:07:35] INFO: ✅ Données: 📧 contact@stella-collet-avocat.fr | 📞 0777399013 | 📅 2025 | 🎯 Q:10/10
+[12:07:37] INFO: 📄 [96/98] [Global: 191/98] VERDAVAINE Pauline
+[12:07:37] INFO: 🔍 [96] Extraction: VERDAVAINE Pauline
+[12:07:37] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/verdavaine-pauline/ (tentative 1)
+[12:07:38] INFO: ✅ OK (200, 113764 chars)
+[12:07:38] INFO: ✅ Données: 📧 contact@verdavaineavocat.fr | 📞 0647441319 | 📅 2025 | 🎯 Q:10/10
+[12:07:40] INFO: 📄 [97/98] [Global: 193/98] LALOUX Mathilde
+[12:07:40] INFO: 🔍 [97] Extraction: LALOUX Mathilde
+[12:07:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/laloux-mathilde/ (tentative 1)
+[12:07:41] INFO: ✅ OK (200, 113675 chars)
+[12:07:41] INFO: ✅ Données: 📧 mathildelaloux.avocat@outlook.com | 📞 0749129241 | 📅 2025 | 🎯 Q:10/10
+[12:07:43] INFO: 📄 [98/98] [Global: 195/98] LENBA Inès
+[12:07:43] INFO: 🔍 [98] Extraction: LENBA Inès
+[12:07:43] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lenba-ines/ (tentative 1)
+[12:07:44] INFO: ✅ OK (200, 113422 chars)
+[12:07:44] INFO: ✅ Données: 📧 lenba.avocat@gmail.com | 📞 0775774183 | 📅 2025 | 🎯 Q:10/10
+[12:07:44] INFO: 💾 Sauvegarde finale...
+[12:07:44] INFO: 💾 Sauvegarde: arras_enhanced_FINAL_20260227_120744.json, arras_enhanced_FINAL_20260227_120744.csv, arras_report_FINAL_20260227_120744.txt
+[12:07:44] INFO: ============================================================
+[12:07:44] INFO: 📊 RAPPORT FINAL ENHANCED
+[12:07:44] INFO: ============================================================
+[12:07:44] INFO: ⏱️ Durée totale: 0:05:14.241578
+[12:07:44] INFO: 📄 Pages traitées: 9
+[12:07:44] INFO: 👥 Avocats découverts: 98
+[12:07:44] INFO: ✅ Extractions réussies: 98
+[12:07:44] INFO: ❌ Extractions échouées: 0
+[12:07:44] INFO: 📈 Taux de réussite: 100.0%
+[12:07:44] INFO: 💾 Fichiers finaux: arras_enhanced_FINAL_20260227_120744.json & arras_enhanced_FINAL_20260227_120744.csv
+[12:07:44] INFO: 🎯 Score qualité moyen: 9.8/10
+[12:07:44] INFO: ⭐ Avocats haute qualité: 98/98 (100.0%)
+[12:07:44] INFO: 📧 Emails: 81/98 (82.7%)
+[12:07:44] INFO: 📞 Téléphones: 97/98 (99.0%)
+[12:07:44] INFO: 🏠 Adresses: 98/98 (100.0%)
+[12:18:09] INFO: 🚀 DÉMARRAGE SCRAPER ARRAS ENHANCED
+[12:18:09] INFO: ============================================================
+[12:18:09] INFO: 🔍 Découverte du nombre de pages...
+[12:18:09] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[12:18:09] INFO: ✅ OK (200, 195166 chars)
+[12:18:09] INFO: 📊 Nombre de pages détecté: 9
+[12:18:09] INFO: 📋 Collecte des liens d'avocats...
+[12:18:09] INFO: 📄 Traitement page 1/9
+[12:18:09] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[12:18:09] INFO: ✅ OK (200, 195166 chars)
+[12:18:09] INFO: 👥 12 avocats uniques trouvés sur la page 1
+[12:18:11] INFO: 📄 Traitement page 2/9
+[12:18:11] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/2/ (tentative 1)
+[12:18:11] INFO: ✅ OK (200, 195541 chars)
+[12:18:11] INFO: 👥 11 avocats uniques trouvés sur la page 2
+[12:18:13] INFO: 📄 Traitement page 3/9
+[12:18:13] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/3/ (tentative 1)
+[12:18:13] INFO: ✅ OK (200, 195952 chars)
+[12:18:13] INFO: 👥 12 avocats uniques trouvés sur la page 3
+[12:18:15] INFO: 📄 Traitement page 4/9
+[12:18:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/4/ (tentative 1)
+[12:18:15] INFO: ✅ OK (200, 195533 chars)
+[12:18:15] INFO: 👥 12 avocats uniques trouvés sur la page 4
+[12:18:17] INFO: 📄 Traitement page 5/9
+[12:18:17] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/5/ (tentative 1)
+[12:18:17] INFO: ✅ OK (200, 195465 chars)
+[12:18:17] INFO: 👥 11 avocats uniques trouvés sur la page 5
+[12:18:19] INFO: 📄 Traitement page 6/9
+[12:18:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/6/ (tentative 1)
+[12:18:19] INFO: ✅ OK (200, 193937 chars)
+[12:18:19] INFO: 👥 12 avocats uniques trouvés sur la page 6
+[12:18:21] INFO: 📄 Traitement page 7/9
+[12:18:21] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/7/ (tentative 1)
+[12:18:21] INFO: ✅ OK (200, 192752 chars)
+[12:18:21] INFO: 👥 11 avocats uniques trouvés sur la page 7
+[12:18:24] INFO: 📄 Traitement page 8/9
+[12:18:24] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/8/ (tentative 1)
+[12:18:24] INFO: ✅ OK (200, 190871 chars)
+[12:18:24] INFO: 👥 12 avocats uniques trouvés sur la page 8
+[12:18:26] INFO: 📄 Traitement page 9/9
+[12:18:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/9/ (tentative 1)
+[12:18:26] INFO: ✅ OK (200, 185817 chars)
+[12:18:26] INFO: 👥 5 avocats uniques trouvés sur la page 9
+[12:18:26] INFO: 👥 TOTAL: 98 nouveaux avocats à traiter
+[12:18:26] INFO: 📊 Déjà traités: 0 avocats
+[12:18:26] INFO: 🔍 Démarrage extraction individuelle...
+[12:18:26] INFO: 📄 [1/98] [Global: 1/98] BODEREAU Philippe
+[12:18:26] INFO: 🔍 [1] Extraction: BODEREAU Philippe
+[12:18:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-philippe-2/ (tentative 1)
+[12:18:26] INFO: ✅ OK (200, 86944 chars)
+[12:18:26] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 1978 | 🎯 Q:10/10
+[12:18:28] INFO: 📄 [2/98] [Global: 3/98] VAAST Antoine
+[12:18:28] INFO: 🔍 [2] Extraction: VAAST Antoine
+[12:18:28] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vaast-antoine/ (tentative 1)
+[12:18:28] INFO: ✅ OK (200, 113704 chars)
+[12:18:28] INFO: ✅ Données: 📞 0321040455 | 📅 1986 | 🎯 Q:8/10
+[12:18:30] INFO: 📄 [3/98] [Global: 5/98] SCAILLIEREZ Danièle
+[12:18:30] INFO: 🔍 [3] Extraction: SCAILLIEREZ Danièle
+[12:18:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/scaillierez-daniele/ (tentative 1)
+[12:18:30] INFO: ✅ OK (200, 114021 chars)
+[12:18:30] INFO: ✅ Données: 📧 secretariat.dscail@outlook.fr | 📞 0321032595 | 📅 1988 | 🎯 Q:11/10
+[12:18:32] INFO: 📄 [4/98] [Global: 7/98] PINGUET Jérôme
+[12:18:32] INFO: 🔍 [4] Extraction: PINGUET Jérôme
+[12:18:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pinguet-jerome/ (tentative 1)
+[12:18:32] INFO: ✅ OK (200, 113692 chars)
+[12:18:32] INFO: ✅ Données: 📧 jepinguet@nordnet.fr | 📞 0320658512 | 📅 1989 | 🎯 Q:10/10
+[12:18:34] INFO: 📄 [5/98] [Global: 9/98] MOULIN Bernard
+[12:18:34] INFO: 🔍 [5] Extraction: MOULIN Bernard
+[12:18:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/moulin-bernard/ (tentative 1)
+[12:18:34] INFO: ✅ OK (200, 111523 chars)
+[12:18:34] INFO: ✅ Données: 📞 0321236073 | 📅 1989 | 🎯 Q:8/10
+[12:18:36] INFO: 📄 [6/98] [Global: 11/98] DELEVACQUE Christian
+[12:18:36] INFO: 🔍 [6] Extraction: DELEVACQUE Christian
+[12:18:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delevacque-christian/ (tentative 1)
+[12:18:36] INFO: ✅ OK (200, 113865 chars)
+[12:18:36] INFO: ✅ Données: 📞 0321213059 | 📅 1989 | 🎯 Q:8/10
+[12:18:38] INFO: 📄 [7/98] [Global: 13/98] DEBLIQUIS Vincent
+[12:18:38] INFO: 🔍 [7] Extraction: DEBLIQUIS Vincent
+[12:18:38] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/debliquis-vincent/ (tentative 1)
+[12:18:38] INFO: ✅ OK (200, 113609 chars)
+[12:18:38] INFO: ✅ Données: 📞 0321161528 | 📅 1989 | 🎯 Q:7/10
+[12:18:40] INFO: 📄 [8/98] [Global: 15/98] HUMEZ Géry
+[12:18:40] INFO: 🔍 [8] Extraction: HUMEZ Géry
+[12:18:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/humez-gery/ (tentative 1)
+[12:18:40] INFO: ✅ OK (200, 113015 chars)
+[12:18:40] INFO: ✅ Données: 📞 0321213421 | 📅 1990 | 🎯 Q:8/10
+[12:18:42] INFO: 📄 [9/98] [Global: 17/98] DELACOUR-PENAZZO Valérie
+[12:18:42] INFO: 🔍 [9] Extraction: DELACOUR-PENAZZO Valérie
+[12:18:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delacour-penazzo-valerie/ (tentative 1)
+[12:18:42] INFO: ✅ OK (200, 114866 chars)
+[12:18:42] INFO: ✅ Données: 📧 valerie.delacour-penazzo@fidal.com | 📞 0321241411 | 📅 1991 | 🎯 Q:11/10
+[12:18:44] INFO: 📄 [10/98] [Global: 19/98] LESTRELIN Céline
+[12:18:44] INFO: 🔍 [10] Extraction: LESTRELIN Céline
+[12:18:44] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lestrelin-celine/ (tentative 1)
+[12:18:44] INFO: ✅ OK (200, 114274 chars)
+[12:18:44] INFO: ✅ Données: 📧 celine.lestrelin@fidal.com | 📞 0321241411 | 📅 1992 | 🎯 Q:11/10
+[12:18:44] INFO: 💾 Sauvegarde: arras_enhanced_partial_10_20260227_121844.json, arras_enhanced_partial_10_20260227_121844.csv, arras_report_partial_10_20260227_121844.txt
+[12:18:44] INFO: 💾 Session sauvegardée: 10 avocats
+[12:18:44] INFO: 💾 Sauvegarde intermédiaire (10 traités)
+[12:18:46] INFO: 📄 [11/98] [Global: 21/98] DUSSART Maxime
+[12:18:46] INFO: 🔍 [11] Extraction: DUSSART Maxime
+[12:18:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dussart-maxime/ (tentative 1)
+[12:18:47] INFO: ✅ OK (200, 113530 chars)
+[12:18:47] INFO: ✅ Données: 📞 0321155582 | 📅 1992 | 🎯 Q:8/10
+[12:18:49] INFO: 📄 [12/98] [Global: 23/98] LELIGOIS-BIETTE Christine
+[12:18:49] INFO: 🔍 [12] Extraction: LELIGOIS-BIETTE Christine
+[12:18:49] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/leligois-biette-christine/ (tentative 1)
+[12:18:49] INFO: ✅ OK (200, 114223 chars)
+[12:18:49] INFO: ✅ Données: 📧 actisconseils@orange.fr | 📞 0321071727 | 📅 1994 | 🎯 Q:11/10
+[12:18:51] INFO: 📄 [13/98] [Global: 25/98] BIETTE Alexandre
+[12:18:51] INFO: 🔍 [13] Extraction: BIETTE Alexandre
+[12:18:51] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/biette-alexandre/ (tentative 1)
+[12:18:51] INFO: ✅ OK (200, 113897 chars)
+[12:18:51] INFO: ✅ Données: 📧 actisconseils@orange.fr | 📞 0321071727 | 📅 1994 | 🎯 Q:11/10
+[12:18:53] INFO: 📄 [14/98] [Global: 27/98] LEFRANC Jean-Louis
+[12:18:53] INFO: 🔍 [14] Extraction: LEFRANC Jean-Louis
+[12:18:53] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-jean-louis/ (tentative 1)
+[12:18:53] INFO: ✅ OK (200, 113832 chars)
+[12:18:53] INFO: ✅ Données: 📧 jeanlouis.lefranc02@gmail.com | 📞 0321232920 | 📅 1994 | 🎯 Q:10/10
+[12:18:55] INFO: 📄 [15/98] [Global: 29/98] MEILLIER  Philippe
+[12:18:55] INFO: 🔍 [15] Extraction: MEILLIER  Philippe
+[12:18:55] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/meillier-philippe/ (tentative 1)
+[12:18:55] INFO: ✅ OK (200, 114221 chars)
+[12:18:55] INFO: ✅ Données: 📧 contact@meillier-avocats.fr | 📞 0321213200 | 📅 1993 | 🎯 Q:11/10
+[12:18:57] INFO: 📄 [16/98] [Global: 31/98] VINCHANT Fabrice
+[12:18:57] INFO: 🔍 [16] Extraction: VINCHANT Fabrice
+[12:18:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vinchant-fabrice/ (tentative 1)
+[12:18:57] INFO: ✅ OK (200, 113958 chars)
+[12:18:57] INFO: ✅ Données: 📧 acvl@avocatsvl.fr | 📞 0321519070 | 📅 1993 | 🎯 Q:11/10
+[12:18:59] INFO: 📄 [17/98] [Global: 33/98] FICHELLE Marie
+[12:18:59] INFO: 🔍 [17] Extraction: FICHELLE Marie
+[12:18:59] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fichelle-marie/ (tentative 1)
+[12:18:59] INFO: ✅ OK (200, 113549 chars)
+[12:18:59] INFO: ✅ Données: 📞 0321232963 | 📅 1993 | 🎯 Q:7/10
+[12:19:01] INFO: 📄 [18/98] [Global: 35/98] OSSEYRAN Yann
+[12:19:01] INFO: 🔍 [18] Extraction: OSSEYRAN Yann
+[12:19:01] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/osseyran-yann/ (tentative 1)
+[12:19:02] INFO: ✅ OK (200, 113792 chars)
+[12:19:02] INFO: ✅ Données: 📞 0321230460 | 📅 1994 | 🎯 Q:7/10
+[12:19:04] INFO: 📄 [19/98] [Global: 37/98] KOFFI Kouamé
+[12:19:04] INFO: 🔍 [19] Extraction: KOFFI Kouamé
+[12:19:04] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/koffi-kouame/ (tentative 1)
+[12:19:04] INFO: ✅ OK (200, 113764 chars)
+[12:19:04] INFO: ✅ Données: 📧 secretariat.semkoffimbarga@orange.fr | 📞 0607191694 | 📅 1994 | 🎯 Q:10/10
+[12:19:06] INFO: 📄 [20/98] [Global: 39/98] VANDERMERSCH-MUSSAULT Laurence
+[12:19:06] INFO: 🔍 [20] Extraction: VANDERMERSCH-MUSSAULT Laurence
+[12:19:06] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vandermersch-mussault-laurence/ (tentative 1)
+[12:19:06] INFO: ✅ OK (200, 113777 chars)
+[12:19:06] INFO: ✅ Données: 📧 lv.avocat@orange.fr | 📞 0321594616 | 📅 1994 | 🎯 Q:11/10
+[12:19:06] INFO: 💾 Sauvegarde: arras_enhanced_partial_20_20260227_121906.json, arras_enhanced_partial_20_20260227_121906.csv, arras_report_partial_20_20260227_121906.txt
+[12:19:06] INFO: 💾 Session sauvegardée: 20 avocats
+[12:19:06] INFO: 💾 Sauvegarde intermédiaire (20 traités)
+[12:19:08] INFO: 📄 [21/98] [Global: 41/98] MARTINUZZO Raphaële
+[12:19:08] INFO: 🔍 [21] Extraction: MARTINUZZO Raphaële
+[12:19:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/martinuzzo-raphaele/ (tentative 1)
+[12:19:09] INFO: ✅ OK (200, 111685 chars)
+[12:19:09] INFO: ✅ Données: 📞 0321040455 | 📅 1995 | 🎯 Q:7/10
+[12:19:11] INFO: 📄 [22/98] [Global: 43/98] GABRIEL Anne-Sophie
+[12:19:11] INFO: 🔍 [22] Extraction: GABRIEL Anne-Sophie
+[12:19:11] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gabriel-anne-sophie/ (tentative 1)
+[12:19:11] INFO: ✅ OK (200, 111568 chars)
+[12:19:11] INFO: ✅ Données: 📧 arras@themes.fr | 📞 0321232920 | 📅 1996 | 🎯 Q:11/10
+[12:19:13] INFO: 📄 [23/98] [Global: 45/98] PAGIN Ginette
+[12:19:13] INFO: 🔍 [23] Extraction: PAGIN Ginette
+[12:19:13] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pagin-ginette/ (tentative 1)
+[12:19:13] INFO: ✅ OK (200, 113744 chars)
+[12:19:13] INFO: ✅ Données: 📧 gp@pagin-avocat.fr | 📞 0321598589 | 📅 1995 | 🎯 Q:10/10
+[12:19:15] INFO: 📄 [24/98] [Global: 47/98] CHOPIN Agathe
+[12:19:15] INFO: 🔍 [24] Extraction: CHOPIN Agathe
+[12:19:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/agathe-chopin/ (tentative 1)
+[12:19:16] INFO: ✅ OK (200, 113319 chars)
+[12:19:16] INFO: ✅ Données: 📧 agathechopin@cabinetsipp.com | 📞 0321719000 | 📅 1996 | 🎯 Q:11/10
+[12:19:18] INFO: 📄 [25/98] [Global: 49/98] LAMORIL-HOUTART Claire
+[12:19:18] INFO: 🔍 [25] Extraction: LAMORIL-HOUTART Claire
+[12:19:18] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lamoril-houtart-claire/ (tentative 1)
+[12:19:18] INFO: ✅ OK (200, 113909 chars)
+[12:19:18] INFO: ✅ Données: 📞 0321169290 | 📅 1996 | 🎯 Q:7/10
+[12:19:20] INFO: 📄 [26/98] [Global: 51/98] LAMORIL Matthieu
+[12:19:20] INFO: 🔍 [26] Extraction: LAMORIL Matthieu
+[12:19:20] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lamoril-matthieu/ (tentative 1)
+[12:19:20] INFO: ✅ OK (200, 113977 chars)
+[12:19:20] INFO: ✅ Données: 📧 acvl@avocatsvl.fr | 📞 0321519070 | 📅 1997 | 🎯 Q:11/10
+[12:19:22] INFO: 📄 [27/98] [Global: 53/98] ROTELLINI Pierre
+[12:19:22] INFO: 🔍 [27] Extraction: ROTELLINI Pierre
+[12:19:22] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/rotellini-pierre/ (tentative 1)
+[12:19:22] INFO: ✅ OK (200, 113853 chars)
+[12:19:22] INFO: ✅ Données: 📧 pierre.rotellini@gmail.com | 📞 0321718495 | 📅 1997 | 🎯 Q:10/10
+[12:19:24] INFO: 📄 [28/98] [Global: 55/98] DELAHOUSSE Christophe
+[12:19:24] INFO: 🔍 [28] Extraction: DELAHOUSSE Christophe
+[12:19:24] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delahousse-christophe/ (tentative 1)
+[12:19:24] INFO: ✅ OK (200, 114475 chars)
+[12:19:24] INFO: ✅ Données: 📧 c.delahousse@orange.fr | 📞 0321710462 | 📅 2000 | 🎯 Q:11/10
+[12:19:26] INFO: 📄 [29/98] [Global: 57/98] DAVID Sophie
+[12:19:26] INFO: 🔍 [29] Extraction: DAVID Sophie
+[12:19:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/david-sophie/ (tentative 1)
+[12:19:26] INFO: ✅ OK (200, 113551 chars)
+[12:19:26] INFO: ✅ Données: 📧 sdavid.avocat@orange.fr | 📞 0321519403 | 📅 1999 | 🎯 Q:10/10
+[12:19:28] INFO: 📄 [30/98] [Global: 59/98] BION Isabelle
+[12:19:28] INFO: 🔍 [30] Extraction: BION Isabelle
+[12:19:28] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bion-isabelle/ (tentative 1)
+[12:19:28] INFO: ✅ OK (200, 113658 chars)
+[12:19:28] INFO: ✅ Données: 📧 ibion.avocat.fr@orange.fr | 📞 0321718357 | 📅 1999 | 🎯 Q:10/10
+[12:19:28] INFO: 💾 Sauvegarde: arras_enhanced_partial_30_20260227_121928.json, arras_enhanced_partial_30_20260227_121928.csv, arras_report_partial_30_20260227_121928.txt
+[12:19:28] INFO: 💾 Session sauvegardée: 30 avocats
+[12:19:28] INFO: 💾 Sauvegarde intermédiaire (30 traités)
+[12:19:30] INFO: 📄 [31/98] [Global: 61/98] WILLEMETZ Samuel
+[12:19:30] INFO: 🔍 [31] Extraction: WILLEMETZ Samuel
+[12:19:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/willemetz-samuel/ (tentative 1)
+[12:19:31] INFO: ✅ OK (200, 114111 chars)
+[12:19:31] INFO: ✅ Données: 📧 swillemetz@holys.co | 📞 0321605040 | 📅 2001 | 🎯 Q:10/10
+[12:19:33] INFO: 📄 [32/98] [Global: 63/98] LAMBERT Anny
+[12:19:33] INFO: 🔍 [32] Extraction: LAMBERT Anny
+[12:19:33] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lambert-anny/ (tentative 1)
+[12:19:33] INFO: ✅ OK (200, 111321 chars)
+[12:19:33] INFO: ✅ Données: 📞 0321503772 | 📅 2004 | 🎯 Q:7/10
+[12:19:35] INFO: 📄 [33/98] [Global: 65/98] PIRON Marie-Charlotte
+[12:19:35] INFO: 🔍 [33] Extraction: PIRON Marie-Charlotte
+[12:19:35] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/piron-marie-charlotte/ (tentative 1)
+[12:19:36] INFO: ✅ OK (200, 114269 chars)
+[12:19:36] INFO: ✅ Données: 📧 avocat@mcpiron.com | 📞 0321215030 | 📅 2003 | 🎯 Q:10/10
+[12:19:38] INFO: 📄 [34/98] [Global: 67/98] GARNIER Anne
+[12:19:38] INFO: 🔍 [34] Extraction: GARNIER Anne
+[12:19:38] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/garnier-anne/ (tentative 1)
+[12:19:38] INFO: ✅ OK (200, 113791 chars)
+[12:19:38] INFO: ✅ Données: 📞 0321717777 | 📅 2013 | 🎯 Q:7/10
+[12:19:40] INFO: 📄 [35/98] [Global: 69/98] GORNY Julie
+[12:19:40] INFO: 🔍 [35] Extraction: GORNY Julie
+[12:19:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gorny-julie/ (tentative 1)
+[12:19:40] INFO: ✅ OK (200, 111473 chars)
+[12:19:40] INFO: ✅ Données: 📧 julie.gorny@gmail.com | 📞 0321227456 | 📅 2003 | 🎯 Q:10/10
+[12:19:42] INFO: 📄 [36/98] [Global: 71/98] DUPRIEZ Angélique
+[12:19:42] INFO: 🔍 [36] Extraction: DUPRIEZ Angélique
+[12:19:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dupriez-angelique/ (tentative 1)
+[12:19:43] INFO: ✅ OK (200, 113618 chars)
+[12:19:43] INFO: ✅ Données: 📧 adupriezavocat@orange.fr | 📞 0321233653 | 📅 2003 | 🎯 Q:10/10
+[12:19:45] INFO: 📄 [37/98] [Global: 73/98] POULAIN Nathalie
+[12:19:45] INFO: 🔍 [37] Extraction: POULAIN Nathalie
+[12:19:45] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/poulain-nathalie/ (tentative 1)
+[12:19:45] INFO: ✅ OK (200, 113760 chars)
+[12:19:45] INFO: ✅ Données: 📧 arras@themes.fr | 📞 0321232920 | 📅 2004 | 🎯 Q:11/10
+[12:19:47] INFO: 📄 [38/98] [Global: 75/98] LETKO-BURIAN Tal
+[12:19:47] INFO: 🔍 [38] Extraction: LETKO-BURIAN Tal
+[12:19:47] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/letko-burian-tal/ (tentative 1)
+[12:19:47] INFO: ✅ OK (200, 113798 chars)
+[12:19:47] INFO: ✅ Données: 📞 0321605040 | 📅 2004 | 🎯 Q:7/10
+[12:19:49] INFO: 📄 [39/98] [Global: 77/98] PRUD’HOMME Etienne
+[12:19:49] INFO: 🔍 [39] Extraction: PRUD’HOMME Etienne
+[12:19:49] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/prudhomme-etienne/ (tentative 1)
+[12:19:49] INFO: ✅ OK (200, 113866 chars)
+[12:19:49] INFO: ✅ Données: 📞 0321211221 | 📅 2005 | 🎯 Q:8/10
+[12:19:51] INFO: 📄 [40/98] [Global: 79/98] KOSKAS Yaël
+[12:19:51] INFO: 🔍 [40] Extraction: KOSKAS Yaël
+[12:19:51] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/koskas-yael/ (tentative 1)
+[12:19:51] INFO: ✅ OK (200, 113497 chars)
+[12:19:51] INFO: ✅ Données: 📧 yaelkoskas2@icloud.com | 📞 0321219479 | 📅 2002 | 🎯 Q:10/10
+[12:19:51] INFO: 💾 Sauvegarde: arras_enhanced_partial_40_20260227_121951.json, arras_enhanced_partial_40_20260227_121951.csv, arras_report_partial_40_20260227_121951.txt
+[12:19:51] INFO: 💾 Session sauvegardée: 40 avocats
+[12:19:51] INFO: 💾 Sauvegarde intermédiaire (40 traités)
+[12:19:53] INFO: 📄 [41/98] [Global: 81/98] BERNARD Laurette
+[12:19:53] INFO: 🔍 [41] Extraction: BERNARD Laurette
+[12:19:53] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bernard-laurette/ (tentative 1)
+[12:19:53] INFO: ✅ OK (200, 114027 chars)
+[12:19:53] INFO: ✅ Données: 📧 laurette.bernard@avocat.fr | 📞 0321228155 | 📅 2006 | 🎯 Q:10/10
+[12:19:55] INFO: 📄 [42/98] [Global: 83/98] DELCOURT Anne-Sophie
+[12:19:55] INFO: 🔍 [42] Extraction: DELCOURT Anne-Sophie
+[12:19:55] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delcourt-anne-sophie/ (tentative 1)
+[12:19:55] INFO: ✅ OK (200, 114089 chars)
+[12:19:55] INFO: ✅ Données: 📧 annesophie.delcourt@avocat.fr | 📞 0321215030 | 📅 2005 | 🎯 Q:10/10
+[12:19:57] INFO: 📄 [43/98] [Global: 85/98] SESBOÜÉ Sophie
+[12:19:57] INFO: 🔍 [43] Extraction: SESBOÜÉ Sophie
+[12:19:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sesboue-sophie/ (tentative 1)
+[12:19:57] INFO: ✅ OK (200, 113955 chars)
+[12:19:57] INFO: ✅ Données: 📧 jeanchroscik@accedit.fr | 📞 0321514980 | 📅 2005 | 🎯 Q:11/10
+[12:19:59] INFO: 📄 [44/98] [Global: 87/98] VASSEUR Cécile
+[12:19:59] INFO: 🔍 [44] Extraction: VASSEUR Cécile
+[12:19:59] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vasseur-cecile/ (tentative 1)
+[12:19:59] INFO: ✅ OK (200, 113657 chars)
+[12:19:59] INFO: ✅ Données: 📧 cvasseur@synergis-avocats.fr | 📞 0321737374 | 📅 2005 | 🎯 Q:11/10
+[12:20:01] INFO: 📄 [45/98] [Global: 89/98] LEFRANC David
+[12:20:01] INFO: 🔍 [45] Extraction: LEFRANC David
+[12:20:01] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-david/ (tentative 1)
+[12:20:01] INFO: ✅ OK (200, 113754 chars)
+[12:20:01] INFO: ✅ Données: 📧 david-lefranc@laropoin.com | 📞 0321484099 | 📅 2006 | 🎯 Q:11/10
+[12:20:03] INFO: 📄 [46/98] [Global: 91/98] WEPPE Daphné
+[12:20:03] INFO: 🔍 [46] Extraction: WEPPE Daphné
+[12:20:03] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/weppe-daphne/ (tentative 1)
+[12:20:04] INFO: ✅ OK (200, 113904 chars)
+[12:20:04] INFO: ✅ Données: 📧 daphne.weppe@avocat-conseil.fr | 📞 0321583553 | 📅 2007 | 🎯 Q:10/10
+[12:20:06] INFO: 📄 [47/98] [Global: 93/98] VERAGUE Jean-Philippe
+[12:20:06] INFO: 🔍 [47] Extraction: VERAGUE Jean-Philippe
+[12:20:06] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/verague-jean-philippe/ (tentative 1)
+[12:20:06] INFO: ✅ OK (200, 113984 chars)
+[12:20:06] INFO: ✅ Données: 📞 0321213132 | 📅 2007 | 🎯 Q:8/10
+[12:20:08] INFO: 📄 [48/98] [Global: 95/98] JACOBUS Antoine
+[12:20:08] INFO: 🔍 [48] Extraction: JACOBUS Antoine
+[12:20:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/jacobus-antoine/ (tentative 1)
+[12:20:08] INFO: ✅ OK (200, 114063 chars)
+[12:20:08] INFO: ✅ Données: 📧 ajacobus@synergis-avocats.fr | 📞 0321737374 | 📅 2010 | 🎯 Q:11/10
+[12:20:10] INFO: 📄 [49/98] [Global: 97/98] LEGROS Dorothée
+[12:20:10] INFO: 🔍 [49] Extraction: LEGROS Dorothée
+[12:20:10] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/legros-dorothee/ (tentative 1)
+[12:20:10] INFO: ✅ OK (200, 114058 chars)
+[12:20:10] INFO: ✅ Données: 📧 jeanchroscik@accedit.fr | 📞 0321514980 | 📅 2010 | 🎯 Q:11/10
+[12:20:12] INFO: 📄 [50/98] [Global: 99/98] POLLARD Céline
+[12:20:12] INFO: 🔍 [50] Extraction: POLLARD Céline
+[12:20:12] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pollard-celine/ (tentative 1)
+[12:20:12] INFO: ✅ OK (200, 111554 chars)
+[12:20:12] INFO: ✅ Données: 📧 celine.pollard@avocat.fr | 📞 0321233603 | 📅 2010 | 🎯 Q:11/10
+[12:20:12] INFO: 💾 Sauvegarde: arras_enhanced_partial_50_20260227_122012.json, arras_enhanced_partial_50_20260227_122012.csv, arras_report_partial_50_20260227_122012.txt
+[12:20:12] INFO: 💾 Session sauvegardée: 50 avocats
+[12:20:12] INFO: 💾 Sauvegarde intermédiaire (50 traités)
+[12:20:14] INFO: 📄 [51/98] [Global: 101/98] BEBEN Alexandre
+[12:20:14] INFO: 🔍 [51] Extraction: BEBEN Alexandre
+[12:20:14] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/beben-alexandre/ (tentative 1)
+[12:20:14] INFO: ✅ OK (200, 111600 chars)
+[12:20:14] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 2011 | 🎯 Q:11/10
+[12:20:16] INFO: 📄 [52/98] [Global: 103/98] PASSE Ludiwine
+[12:20:16] INFO: 🔍 [52] Extraction: PASSE Ludiwine
+[12:20:16] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/passe-ludiwine/ (tentative 1)
+[12:20:16] INFO: ✅ OK (200, 113840 chars)
+[12:20:16] INFO: ✅ Données: 📧 l.passe@lrdp-avocats.com | 📞 0321213135 | 📅 2011 | 🎯 Q:11/10
+[12:20:18] INFO: 📄 [53/98] [Global: 105/98] BODEREAU Alexandra
+[12:20:18] INFO: 🔍 [53] Extraction: BODEREAU Alexandra
+[12:20:18] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-alexandra/ (tentative 1)
+[12:20:18] INFO: ✅ OK (200, 113946 chars)
+[12:20:18] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 2011 | 🎯 Q:11/10
+[12:20:20] INFO: 📄 [54/98] [Global: 107/98] PRIZAC Hélène
+[12:20:20] INFO: 🔍 [54] Extraction: PRIZAC Hélène
+[12:20:20] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/prizac-helene/ (tentative 1)
+[12:20:20] INFO: ✅ OK (200, 113073 chars)
+[12:20:20] INFO: ✅ Données: 📧 helene@prizac-avocat.com | 📞 0630199053 | 📅 2012 | 🎯 Q:10/10
+[12:20:22] INFO: 📄 [55/98] [Global: 109/98] BARGIS Delphine
+[12:20:22] INFO: 🔍 [55] Extraction: BARGIS Delphine
+[12:20:22] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bargis-delphine/ (tentative 1)
+[12:20:22] INFO: ✅ OK (200, 114066 chars)
+[12:20:22] INFO: ✅ Données: 📧 maitre.bargis@gmail.com | 📞 0321713921 | 📅 2013 | 🎯 Q:10/10
+[12:20:24] INFO: 📄 [56/98] [Global: 111/98] ABDELKRIM Mohamed
+[12:20:24] INFO: 🔍 [56] Extraction: ABDELKRIM Mohamed
+[12:20:24] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/abdelkrim-mohamed/ (tentative 1)
+[12:20:25] INFO: ✅ OK (200, 113747 chars)
+[12:20:25] INFO: ✅ Données: 📧 mohamed.abdelkrim@yahoo.fr | 📞 0321213421 | 📅 2014 | 🎯 Q:10/10
+[12:20:27] INFO: 📄 [57/98] [Global: 113/98] WIBAULT François-Xavier
+[12:20:27] INFO: 🔍 [57] Extraction: WIBAULT François-Xavier
+[12:20:27] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/wibault-francois-xavier/ (tentative 1)
+[12:20:27] INFO: ✅ OK (200, 113413 chars)
+[12:20:27] INFO: ✅ Données: 📞 0320916579 | 📅 2014 | 🎯 Q:8/10
+[12:20:29] INFO: 📄 [58/98] [Global: 115/98] DECAT Pierre-Nicolas
+[12:20:29] INFO: 🔍 [58] Extraction: DECAT Pierre-Nicolas
+[12:20:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/decat-pierre-nicolas/ (tentative 1)
+[12:20:29] INFO: ✅ OK (200, 113936 chars)
+[12:20:29] INFO: ✅ Données: 📧 public@decat-avocat.fr | 📞 0362029918 | 📅 2014 | 🎯 Q:10/10
+[12:20:31] INFO: 📄 [59/98] [Global: 117/98] DUCQ Alexandre
+[12:20:31] INFO: 🔍 [59] Extraction: DUCQ Alexandre
+[12:20:31] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/ducq-alexandre/ (tentative 1)
+[12:20:31] INFO: ✅ OK (200, 113589 chars)
+[12:20:31] INFO: ✅ Données: 📧 contact@ducq-avocat.com | 📞 0650642145 | 📅 2015 | 🎯 Q:10/10
+[12:20:33] INFO: 📄 [60/98] [Global: 119/98] HOULMANN Océane
+[12:20:33] INFO: 🔍 [60] Extraction: HOULMANN Océane
+[12:20:33] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/houlmann-oceane/ (tentative 1)
+[12:20:33] INFO: ✅ OK (200, 113350 chars)
+[12:20:33] INFO: ✅ Données: 📧 cabinet@houlmann-avocat.fr | 📞 0681502649 | 📅 2015 | 🎯 Q:10/10
+[12:20:33] INFO: 💾 Sauvegarde: arras_enhanced_partial_60_20260227_122033.json, arras_enhanced_partial_60_20260227_122033.csv, arras_report_partial_60_20260227_122033.txt
+[12:20:33] INFO: 💾 Session sauvegardée: 60 avocats
+[12:20:33] INFO: 💾 Sauvegarde intermédiaire (60 traités)
+[12:20:35] INFO: 📄 [61/98] [Global: 121/98] DUPONT Bernard-Marie
+[12:20:35] INFO: 🔍 [61] Extraction: DUPONT Bernard-Marie
+[12:20:35] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dupont-bernard-marie/ (tentative 1)
+[12:20:35] INFO: ✅ OK (200, 111574 chars)
+[12:20:35] INFO: ✅ Données: 📧 dr.bmdupont@gmail.com | 📞 0351089004 | 📅 2016 | 🎯 Q:10/10
+[12:20:37] INFO: 📄 [62/98] [Global: 123/98] BOUDJEMAA Déborah
+[12:20:37] INFO: 🔍 [62] Extraction: BOUDJEMAA Déborah
+[12:20:37] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/boudjemaa-deborah/ (tentative 1)
+[12:20:37] INFO: ✅ OK (200, 114808 chars)
+[12:20:37] INFO: ✅ Données: 📧 contact@avocat-boudjemaa.com | 📞 0321235978 | 📅 2016 | 🎯 Q:10/10
+[12:20:39] INFO: 📄 [63/98] [Global: 125/98] ZAKENOUNE Mohamed-Akli
+[12:20:39] INFO: 🔍 [63] Extraction: ZAKENOUNE Mohamed-Akli
+[12:20:39] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/zakenoune-mohamed-akli/ (tentative 1)
+[12:20:39] INFO: ✅ OK (200, 113777 chars)
+[12:20:39] INFO: ✅ Données: 📧 contact@zakenoune-avocat.fr | 📞 0359250892 | 📅 2016 | 🎯 Q:10/10
+[12:20:41] INFO: 📄 [64/98] [Global: 127/98] LASRI Nadir
+[12:20:41] INFO: 🔍 [64] Extraction: LASRI Nadir
+[12:20:41] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lasri-nadir/ (tentative 1)
+[12:20:42] INFO: ✅ OK (200, 113838 chars)
+[12:20:42] INFO: ✅ Données: 📧 contact@avocat-lasri.com | 📞 0321160244 | 📅 2016 | 🎯 Q:10/10
+[12:20:44] INFO: 📄 [65/98] [Global: 129/98] FATOUX Alexis
+[12:20:44] INFO: 🔍 [65] Extraction: FATOUX Alexis
+[12:20:44] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fatoux-alexis/ (tentative 1)
+[12:20:44] INFO: ✅ OK (200, 113248 chars)
+[12:20:44] INFO: ✅ Données: 📞 0321605040 | 📅 2016 | 🎯 Q:7/10
+[12:20:46] INFO: 📄 [66/98] [Global: 131/98] MULLIEZ-BIGOTTE Charlotte
+[12:20:46] INFO: 🔍 [66] Extraction: MULLIEZ-BIGOTTE Charlotte
+[12:20:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/mulliez-bigotte-charlotte/ (tentative 1)
+[12:20:46] INFO: ✅ OK (200, 114171 chars)
+[12:20:46] INFO: ✅ Données: 📧 charlottemulliez@cabinetsipp.com | 📞 0321581155 | 📅 2017 | 🎯 Q:10/10
+[12:20:48] INFO: 📄 [67/98] [Global: 133/98] LACHEVRE Anaïs
+[12:20:48] INFO: 🔍 [67] Extraction: LACHEVRE Anaïs
+[12:20:48] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lachevre-anais/ (tentative 1)
+[12:20:48] INFO: ✅ OK (200, 113109 chars)
+[12:20:48] INFO: ✅ Données: 📧 anaislachevre.avocat@gmail.com | 📞 0621138853 | 📅 2017 | 🎯 Q:10/10
+[12:20:50] INFO: 📄 [68/98] [Global: 135/98] Tonkeva Nina
+[12:20:50] INFO: 🔍 [68] Extraction: Tonkeva Nina
+[12:20:50] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/tonkeva-nina/ (tentative 1)
+[12:20:50] INFO: ✅ OK (200, 114155 chars)
+[12:20:51] INFO: ✅ Données: 📧 ninatonkeva.avocat@gmail.com | 📞 0359250993 | 📅 2017 | 🎯 Q:11/10
+[12:20:53] INFO: 📄 [69/98] [Global: 137/98] MAMMONE François
+[12:20:53] INFO: 🔍 [69] Extraction: MAMMONE François
+[12:20:53] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/mammone-francois/ (tentative 1)
+[12:20:53] INFO: ✅ OK (200, 113866 chars)
+[12:20:53] INFO: ✅ Données: 📧 francois.mammone@gmail.com | 📞 0674384469 | 📅 2017 | 🎯 Q:10/10
+[12:20:55] INFO: 📄 [70/98] [Global: 139/98] RYCKEWAERT Arnaud
+[12:20:55] INFO: 🔍 [70] Extraction: RYCKEWAERT Arnaud
+[12:20:55] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/arnaud-ryckewaert/ (tentative 1)
+[12:20:55] INFO: ✅ OK (200, 113358 chars)
+[12:20:55] INFO: ✅ Données: 📧 arnaud.ryckewaert@fidal.com | 📞 0321241411 | 📅 2018 | 🎯 Q:11/10
+[12:20:55] INFO: 💾 Sauvegarde: arras_enhanced_partial_70_20260227_122055.json, arras_enhanced_partial_70_20260227_122055.csv, arras_report_partial_70_20260227_122055.txt
+[12:20:55] INFO: 💾 Session sauvegardée: 70 avocats
+[12:20:55] INFO: 💾 Sauvegarde intermédiaire (70 traités)
+[12:20:57] INFO: 📄 [71/98] [Global: 141/98] JAGODZINSKI-BAHEUX Sabine
+[12:20:57] INFO: 🔍 [71] Extraction: JAGODZINSKI-BAHEUX Sabine
+[12:20:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/jagodzinski-baheux-sabine/ (tentative 1)
+[12:20:57] INFO: ✅ OK (200, 114829 chars)
+[12:20:57] INFO: ✅ Données: 📧 sabine.jagodzinski@fidal.com | 📞 0321241411 | 📅 2018 | 🎯 Q:11/10
+[12:20:59] INFO: 📄 [72/98] [Global: 143/98] ACTHERGAL Ophélie
+[12:20:59] INFO: 🔍 [72] Extraction: ACTHERGAL Ophélie
+[12:20:59] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/acthergal-ophelie/ (tentative 1)
+[12:20:59] INFO: ✅ OK (200, 113198 chars)
+[12:20:59] INFO: ✅ Données: 📧 cabinet@acth-avocat.com | 📞 0767271520 | 🎯 Q:9/10
+[12:21:01] INFO: 📄 [73/98] [Global: 145/98] LEVESQUE Bertille
+[12:21:01] INFO: 🔍 [73] Extraction: LEVESQUE Bertille
+[12:21:01] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bertille-levesque/ (tentative 1)
+[12:21:01] INFO: ✅ OK (200, 113324 chars)
+[12:21:01] INFO: ✅ Données: 📧 bertille.levesque@fidal.com | 📞 0321243850 | 📅 2018 | 🎯 Q:10/10
+[12:21:03] INFO: 📄 [74/98] [Global: 147/98] STRUBBE Mathieu
+[12:21:03] INFO: 🔍 [74] Extraction: STRUBBE Mathieu
+[12:21:03] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/strubbe-mathieu/ (tentative 1)
+[12:21:03] INFO: ✅ OK (200, 113622 chars)
+[12:21:03] INFO: ✅ Données: 📧 arras@chanzyavocats.fr | 📞 0362810000 | 📅 2019 | 🎯 Q:11/10
+[12:21:05] INFO: 📄 [75/98] [Global: 149/98] HULEUX Cécile
+[12:21:05] INFO: 🔍 [75] Extraction: HULEUX Cécile
+[12:21:05] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/huleux-cecile/ (tentative 1)
+[12:21:05] INFO: ✅ OK (200, 113278 chars)
+[12:21:05] INFO: ✅ Données: 📧 avocat.cecilehuleux@yahoo.com | 📞 0321605040 | 📅 2019 | 🎯 Q:10/10
+[12:21:07] INFO: 📄 [76/98] [Global: 151/98] CAMPAGNE Thibault
+[12:21:07] INFO: 🔍 [76] Extraction: CAMPAGNE Thibault
+[12:21:07] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/campagne-thibault/ (tentative 1)
+[12:21:07] INFO: ✅ OK (200, 113694 chars)
+[12:21:07] INFO: ✅ Données: 📧 arras@chanzyavocats.fr | 📞 0362810000 | 📅 2019 | 🎯 Q:11/10
+[12:21:09] INFO: 📄 [77/98] [Global: 153/98] LECOCQ Ambroise
+[12:21:09] INFO: 🔍 [77] Extraction: LECOCQ Ambroise
+[12:21:09] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lecocq-ambroise/ (tentative 1)
+[12:21:09] INFO: ✅ OK (200, 114294 chars)
+[12:21:09] INFO: ✅ Données: 📧 contact@lecocq-avocat.com | 📞 0321213059 | 🎯 Q:11/10
+[12:21:11] INFO: 📄 [78/98] [Global: 155/98] LEFEBVRE CHAPON Mylène
+[12:21:11] INFO: 🔍 [78] Extraction: LEFEBVRE CHAPON Mylène
+[12:21:11] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefebvre-chapon-mylene/ (tentative 1)
+[12:21:11] INFO: ✅ OK (200, 113771 chars)
+[12:21:11] INFO: ✅ Données: 📧 mlc@rectiligne-avocats.fr | 📞 0321150255 | 📅 2020 | 🎯 Q:10/10
+[12:21:13] INFO: 📄 [79/98] [Global: 157/98] LEFEVRE Lucie
+[12:21:13] INFO: 🔍 [79] Extraction: LEFEVRE Lucie
+[12:21:13] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefevre-lucie/ (tentative 1)
+[12:21:13] INFO: ✅ OK (200, 113515 chars)
+[12:21:13] INFO: ✅ Données: 📧 llefevre@forsetiavocats.fr | 📞 0320313154 | 📅 2020 | 🎯 Q:10/10
+[12:21:15] INFO: 📄 [80/98] [Global: 159/98] BAKIR Maeva
+[12:21:15] INFO: 🔍 [80] Extraction: BAKIR Maeva
+[12:21:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/maeva-bakir/ (tentative 1)
+[12:21:16] INFO: ✅ OK (200, 113185 chars)
+[12:21:16] INFO: ✅ Données: 📧 contact@bakiravocat.com | 📅 2020 | 🎯 Q:8/10
+[12:21:16] INFO: 💾 Sauvegarde: arras_enhanced_partial_80_20260227_122116.json, arras_enhanced_partial_80_20260227_122116.csv, arras_report_partial_80_20260227_122116.txt
+[12:21:16] INFO: 💾 Session sauvegardée: 80 avocats
+[12:21:16] INFO: 💾 Sauvegarde intermédiaire (80 traités)
+[12:21:18] INFO: 📄 [81/98] [Global: 161/98] MULIER Stéphanie
+[12:21:18] INFO: 🔍 [81] Extraction: MULIER Stéphanie
+[12:21:18] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/stephanie-mulier/ (tentative 1)
+[12:21:18] INFO: ✅ OK (200, 113386 chars)
+[12:21:18] INFO: ✅ Données: 📧 s.mulier@m-avocat.fr | 📞 0668303158 | 📅 2020 | 🎯 Q:10/10
+[12:21:20] INFO: 📄 [82/98] [Global: 163/98] DE CLERCQ Léa
+[12:21:20] INFO: 🔍 [82] Extraction: DE CLERCQ Léa
+[12:21:20] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/de-clercq-lea/ (tentative 1)
+[12:21:20] INFO: ✅ OK (200, 113530 chars)
+[12:21:20] INFO: ✅ Données: 📧 lea.declercq-lefevre@avocat.fr | 📞 0321605040 | 📅 2021 | 🎯 Q:10/10
+[12:21:22] INFO: 📄 [83/98] [Global: 165/98] MIART Ancel
+[12:21:22] INFO: 🔍 [83] Extraction: MIART Ancel
+[12:21:22] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/ancel-miart/ (tentative 1)
+[12:21:22] INFO: ✅ OK (200, 113024 chars)
+[12:21:22] INFO: ✅ Données: 📧 amiart@holys.co | 📞 0321605040 | 📅 2022 | 🎯 Q:10/10
+[12:21:24] INFO: 📄 [84/98] [Global: 167/98] ROPPA Shéhérazade
+[12:21:24] INFO: 🔍 [84] Extraction: ROPPA Shéhérazade
+[12:21:24] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sheherazade-roppa/ (tentative 1)
+[12:21:24] INFO: ✅ OK (200, 113416 chars)
+[12:21:24] INFO: ✅ Données: 📧 avocat@roppa.fr | 📞 0647411546 | 📅 2022 | 🎯 Q:10/10
+[12:21:26] INFO: 📄 [85/98] [Global: 169/98] DEHAY Charlotte
+[12:21:26] INFO: 🔍 [85] Extraction: DEHAY Charlotte
+[12:21:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dehay-charlotte/ (tentative 1)
+[12:21:26] INFO: ✅ OK (200, 113306 chars)
+[12:21:26] INFO: ✅ Données: 📧 charlotte.dehay@avocat.fr | 📞 0321605040 | 📅 2022 | 🎯 Q:10/10
+[12:21:28] INFO: 📄 [86/98] [Global: 171/98] GABRY Marianne
+[12:21:28] INFO: 🔍 [86] Extraction: GABRY Marianne
+[12:21:28] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/marianne-gabry/ (tentative 1)
+[12:21:28] INFO: ✅ OK (200, 113436 chars)
+[12:21:28] INFO: ✅ Données: 📧 marianne.gabry@avocat.fr | 📞 0321213200 | 📅 2022 | 🎯 Q:10/10
+[12:21:30] INFO: 📄 [87/98] [Global: 173/98] QUENNEHEN Adeline
+[12:21:30] INFO: 🔍 [87] Extraction: QUENNEHEN Adeline
+[12:21:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/quennehen-adeline/ (tentative 1)
+[12:21:30] INFO: ✅ OK (200, 113345 chars)
+[12:21:30] INFO: ✅ Données: 📧 aquennehen-avocat@outlook.fr | 📞 0321213135 | 📅 2022 | 🎯 Q:10/10
+[12:21:32] INFO: 📄 [88/98] [Global: 175/98] PENNEL Cyrille
+[12:21:32] INFO: 🔍 [88] Extraction: PENNEL Cyrille
+[12:21:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pennel-cyrille/ (tentative 1)
+[12:21:32] INFO: ✅ OK (200, 113238 chars)
+[12:21:32] INFO: ✅ Données: 📧 cp@pennel-avocat.fr | 📞 0756812441 | 📅 2023 | 🎯 Q:10/10
+[12:21:34] INFO: 📄 [89/98] [Global: 177/98] BATHANI Inès
+[12:21:34] INFO: 🔍 [89] Extraction: BATHANI Inès
+[12:21:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bathani-ines/ (tentative 1)
+[12:21:34] INFO: ✅ OK (200, 113153 chars)
+[12:21:34] INFO: ✅ Données: 📧 contact@bathani-avocat.fr | 📞 0602567143 | 📅 2023 | 🎯 Q:10/10
+[12:21:36] INFO: 📄 [90/98] [Global: 179/98] DELCOURT Marion
+[12:21:36] INFO: 🔍 [90] Extraction: DELCOURT Marion
+[12:21:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delcourt-marion/ (tentative 1)
+[12:21:36] INFO: ✅ OK (200, 113334 chars)
+[12:21:37] INFO: ✅ Données: 📧 mariondelcourt.avocat@gmail.com | 📞 0766996657 | 📅 2024 | 🎯 Q:10/10
+[12:21:37] INFO: 💾 Sauvegarde: arras_enhanced_partial_90_20260227_122137.json, arras_enhanced_partial_90_20260227_122137.csv, arras_report_partial_90_20260227_122137.txt
+[12:21:37] INFO: 💾 Session sauvegardée: 90 avocats
+[12:21:37] INFO: 💾 Sauvegarde intermédiaire (90 traités)
+[12:21:39] INFO: 📄 [91/98] [Global: 181/98] GAUBE Julie
+[12:21:39] INFO: 🔍 [91] Extraction: GAUBE Julie
+[12:21:39] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gaube-julie/ (tentative 1)
+[12:21:39] INFO: ✅ OK (200, 113256 chars)
+[12:21:39] INFO: ✅ Données: 📧 juliegaube.avocat@protonmail.com | 📞 0646717405 | 📅 2024 | 🎯 Q:11/10
+[12:21:41] INFO: 📄 [92/98] [Global: 183/98] DOUAY François
+[12:21:41] INFO: 🔍 [92] Extraction: DOUAY François
+[12:21:41] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/douay-francois/ (tentative 1)
+[12:21:41] INFO: ✅ OK (200, 113603 chars)
+[12:21:41] INFO: ✅ Données: 📧 francois.douay@meillier-avocats.fr | 📞 0321213200 | 📅 2024 | 🎯 Q:10/10
+[12:21:43] INFO: 📄 [93/98] [Global: 185/98] SILLARD Alexandre
+[12:21:43] INFO: 🔍 [93] Extraction: SILLARD Alexandre
+[12:21:43] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sillard-alexandre/ (tentative 1)
+[12:21:43] INFO: ✅ OK (200, 113462 chars)
+[12:21:43] INFO: ✅ Données: 📧 contact@alexandre-sillard-avocat.fr | 📞 0374476080 | 📅 2024 | 🎯 Q:11/10
+[12:21:45] INFO: 📄 [94/98] [Global: 187/98] FONTAINE Clotilde
+[12:21:45] INFO: 🔍 [94] Extraction: FONTAINE Clotilde
+[12:21:45] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fontaine-clotilde/ (tentative 1)
+[12:21:45] INFO: ✅ OK (200, 113685 chars)
+[12:21:45] INFO: ✅ Données: 📧 contact@cfontaine-avocat.com | 📞 0665942630 | 📅 2024 | 🎯 Q:10/10
+[12:21:47] INFO: 📄 [95/98] [Global: 189/98] COLLET Stella
+[12:21:47] INFO: 🔍 [95] Extraction: COLLET Stella
+[12:21:47] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/collet-stella/ (tentative 1)
+[12:21:47] INFO: ✅ OK (200, 113580 chars)
+[12:21:47] INFO: ✅ Données: 📧 contact@stella-collet-avocat.fr | 📞 0777399013 | 📅 2025 | 🎯 Q:10/10
+[12:21:49] INFO: 📄 [96/98] [Global: 191/98] VERDAVAINE Pauline
+[12:21:49] INFO: 🔍 [96] Extraction: VERDAVAINE Pauline
+[12:21:49] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/verdavaine-pauline/ (tentative 1)
+[12:21:49] INFO: ✅ OK (200, 113764 chars)
+[12:21:49] INFO: ✅ Données: 📧 contact@verdavaineavocat.fr | 📞 0647441319 | 📅 2025 | 🎯 Q:10/10
+[12:21:51] INFO: 📄 [97/98] [Global: 193/98] LALOUX Mathilde
+[12:21:51] INFO: 🔍 [97] Extraction: LALOUX Mathilde
+[12:21:51] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/laloux-mathilde/ (tentative 1)
+[12:21:51] INFO: ✅ OK (200, 113675 chars)
+[12:21:51] INFO: ✅ Données: 📧 mathildelaloux.avocat@outlook.com | 📞 0749129241 | 📅 2025 | 🎯 Q:10/10
+[12:21:53] INFO: 📄 [98/98] [Global: 195/98] LENBA Inès
+[12:21:53] INFO: 🔍 [98] Extraction: LENBA Inès
+[12:21:53] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lenba-ines/ (tentative 1)
+[12:21:53] INFO: ✅ OK (200, 113422 chars)
+[12:21:53] INFO: ✅ Données: 📧 lenba.avocat@gmail.com | 📞 0775774183 | 📅 2025 | 🎯 Q:10/10
+[12:21:53] INFO: 💾 Sauvegarde finale...
+[12:21:53] INFO: 💾 Sauvegarde: arras_enhanced_FINAL_20260227_122153.json, arras_enhanced_FINAL_20260227_122153.csv, arras_report_FINAL_20260227_122153.txt
+[12:21:53] INFO: ============================================================
+[12:21:53] INFO: 📊 RAPPORT FINAL ENHANCED
+[12:21:53] INFO: ============================================================
+[12:21:53] INFO: ⏱️ Durée totale: 0:03:44.538507
+[12:21:53] INFO: 📄 Pages traitées: 9
+[12:21:53] INFO: 👥 Avocats découverts: 98
+[12:21:53] INFO: ✅ Extractions réussies: 98
+[12:21:53] INFO: ❌ Extractions échouées: 0
+[12:21:53] INFO: 📈 Taux de réussite: 100.0%
+[12:21:53] INFO: 💾 Fichiers finaux: arras_enhanced_FINAL_20260227_122153.json & arras_enhanced_FINAL_20260227_122153.csv
+[12:21:53] INFO: 🎯 Score qualité moyen: 9.8/10
+[12:21:53] INFO: ⭐ Avocats haute qualité: 98/98 (100.0%)
+[12:21:53] INFO: 📧 Emails: 81/98 (82.7%)
+[12:21:53] INFO: 📞 Téléphones: 97/98 (99.0%)
+[12:21:53] INFO: 🏠 Adresses: 98/98 (100.0%)
+[16:38:16] INFO: 🚀 DÉMARRAGE SCRAPER ARRAS ENHANCED
+[16:38:16] INFO: ============================================================
+[16:38:16] INFO: 🔍 Découverte du nombre de pages...
+[16:38:16] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[16:38:16] INFO: ✅ OK (200, 195175 chars)
+[16:38:16] INFO: 📊 Nombre de pages détecté: 9
+[16:38:16] INFO: 📋 Collecte des liens d'avocats...
+[16:38:16] INFO: 📄 Traitement page 1/9
+[16:38:16] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[16:38:17] INFO: ✅ OK (200, 195175 chars)
+[16:38:17] INFO: 👥 12 avocats uniques trouvés sur la page 1
+[16:38:19] INFO: 📄 Traitement page 2/9
+[16:38:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/2/ (tentative 1)
+[16:38:20] INFO: ✅ OK (200, 195552 chars)
+[16:38:20] INFO: 👥 11 avocats uniques trouvés sur la page 2
+[16:38:22] INFO: 📄 Traitement page 3/9
+[16:38:22] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/3/ (tentative 1)
+[16:38:23] INFO: ✅ OK (200, 195962 chars)
+[16:38:23] INFO: 👥 12 avocats uniques trouvés sur la page 3
+[16:38:25] INFO: 📄 Traitement page 4/9
+[16:38:25] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/4/ (tentative 1)
+[16:38:26] INFO: ✅ OK (200, 195543 chars)
+[16:38:26] INFO: 👥 12 avocats uniques trouvés sur la page 4
+[16:38:28] INFO: 📄 Traitement page 5/9
+[16:38:28] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/5/ (tentative 1)
+[16:38:29] INFO: ✅ OK (200, 195476 chars)
+[16:38:29] INFO: 👥 11 avocats uniques trouvés sur la page 5
+[16:38:31] INFO: 📄 Traitement page 6/9
+[16:38:31] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/6/ (tentative 1)
+[16:38:32] INFO: ✅ OK (200, 193948 chars)
+[16:38:32] INFO: 👥 12 avocats uniques trouvés sur la page 6
+[16:38:34] INFO: 📄 Traitement page 7/9
+[16:38:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/7/ (tentative 1)
+[16:38:35] INFO: ✅ OK (200, 192741 chars)
+[16:38:35] INFO: 👥 11 avocats uniques trouvés sur la page 7
+[16:38:37] INFO: 📄 Traitement page 8/9
+[16:38:37] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/8/ (tentative 1)
+[16:38:38] INFO: ✅ OK (200, 190860 chars)
+[16:38:38] INFO: 👥 12 avocats uniques trouvés sur la page 8
+[16:38:40] INFO: 📄 Traitement page 9/9
+[16:38:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/9/ (tentative 1)
+[16:38:41] INFO: ✅ OK (200, 185806 chars)
+[16:38:41] INFO: 👥 5 avocats uniques trouvés sur la page 9
+[16:38:41] INFO: 👥 TOTAL: 98 nouveaux avocats à traiter
+[16:38:41] INFO: 📊 Déjà traités: 0 avocats
+[16:38:41] INFO: 🔍 Démarrage extraction individuelle...
+[16:38:41] INFO: 📄 [1/98] [Global: 1/98] BODEREAU Philippe
+[16:38:41] INFO: 🔍 [1] Extraction: BODEREAU Philippe
+[16:38:41] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-philippe-2/ (tentative 1)
+[16:38:41] INFO: ✅ OK (200, 111594 chars)
+[16:38:41] ERROR: ❌ Erreur lors de l'extraction de BODEREAU Philippe: cannot access local variable 're' where it is not associated with a value
+[16:38:41] INFO: ✅ Données: 🎯 Q:0/10
+[16:38:43] INFO: 📄 [2/98] [Global: 3/98] VAAST Antoine
+[16:38:43] INFO: 🔍 [2] Extraction: VAAST Antoine
+[16:38:43] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vaast-antoine/ (tentative 1)
+[16:38:44] INFO: ✅ OK (200, 113702 chars)
+[16:38:44] ERROR: ❌ Erreur lors de l'extraction de VAAST Antoine: cannot access local variable 're' where it is not associated with a value
+[16:38:44] INFO: ✅ Données: 🎯 Q:0/10
+[16:38:46] INFO: 📄 [3/98] [Global: 5/98] SCAILLIEREZ Danièle
+[16:38:46] INFO: 🔍 [3] Extraction: SCAILLIEREZ Danièle
+[16:38:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/scaillierez-daniele/ (tentative 1)
+[16:38:46] INFO: ✅ OK (200, 114015 chars)
+[16:38:46] ERROR: ❌ Erreur lors de l'extraction de SCAILLIEREZ Danièle: cannot access local variable 're' where it is not associated with a value
+[16:38:46] INFO: ✅ Données: 🎯 Q:0/10
+[16:38:48] INFO: 📄 [4/98] [Global: 7/98] PINGUET Jérôme
+[16:38:48] INFO: 🔍 [4] Extraction: PINGUET Jérôme
+[16:38:48] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pinguet-jerome/ (tentative 1)
+[16:38:48] INFO: ✅ OK (200, 113677 chars)
+[16:38:48] ERROR: ❌ Erreur lors de l'extraction de PINGUET Jérôme: cannot access local variable 're' where it is not associated with a value
+[16:38:48] INFO: ✅ Données: 🎯 Q:0/10
+[16:38:50] INFO: 📄 [5/98] [Global: 9/98] MOULIN Bernard
+[16:38:50] INFO: 🔍 [5] Extraction: MOULIN Bernard
+[16:38:50] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/moulin-bernard/ (tentative 1)
+[16:38:51] INFO: ✅ OK (200, 111512 chars)
+[16:38:51] ERROR: ❌ Erreur lors de l'extraction de MOULIN Bernard: cannot access local variable 're' where it is not associated with a value
+[16:38:51] INFO: ✅ Données: 🎯 Q:0/10
+[16:38:53] INFO: 📄 [6/98] [Global: 11/98] DELEVACQUE Christian
+[16:38:53] INFO: 🔍 [6] Extraction: DELEVACQUE Christian
+[16:38:53] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delevacque-christian/ (tentative 1)
+[16:38:54] INFO: ✅ OK (200, 113854 chars)
+[16:38:54] ERROR: ❌ Erreur lors de l'extraction de DELEVACQUE Christian: cannot access local variable 're' where it is not associated with a value
+[16:38:54] INFO: ✅ Données: 🎯 Q:0/10
+[16:38:56] INFO: 📄 [7/98] [Global: 13/98] DEBLIQUIS Vincent
+[16:38:56] INFO: 🔍 [7] Extraction: DEBLIQUIS Vincent
+[16:38:56] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/debliquis-vincent/ (tentative 1)
+[16:38:57] INFO: ✅ OK (200, 113598 chars)
+[16:38:57] ERROR: ❌ Erreur lors de l'extraction de DEBLIQUIS Vincent: cannot access local variable 're' where it is not associated with a value
+[16:38:57] INFO: ✅ Données: 🎯 Q:0/10
+[16:38:59] INFO: 📄 [8/98] [Global: 15/98] HUMEZ Géry
+[16:38:59] INFO: 🔍 [8] Extraction: HUMEZ Géry
+[16:38:59] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/humez-gery/ (tentative 1)
+[16:38:59] INFO: ✅ OK (200, 113003 chars)
+[16:38:59] ERROR: ❌ Erreur lors de l'extraction de HUMEZ Géry: cannot access local variable 're' where it is not associated with a value
+[16:38:59] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:01] INFO: 📄 [9/98] [Global: 17/98] DELACOUR-PENAZZO Valérie
+[16:39:01] INFO: 🔍 [9] Extraction: DELACOUR-PENAZZO Valérie
+[16:39:01] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delacour-penazzo-valerie/ (tentative 1)
+[16:39:02] INFO: ✅ OK (200, 114855 chars)
+[16:39:02] ERROR: ❌ Erreur lors de l'extraction de DELACOUR-PENAZZO Valérie: cannot access local variable 're' where it is not associated with a value
+[16:39:02] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:04] INFO: 📄 [10/98] [Global: 19/98] LESTRELIN Céline
+[16:39:04] INFO: 🔍 [10] Extraction: LESTRELIN Céline
+[16:39:04] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lestrelin-celine/ (tentative 1)
+[16:39:06] INFO: ✅ OK (200, 114262 chars)
+[16:39:06] ERROR: ❌ Erreur lors de l'extraction de LESTRELIN Céline: cannot access local variable 're' where it is not associated with a value
+[16:39:06] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:06] INFO: 💾 Sauvegarde: arras_enhanced_partial_10_20260227_163906.json, arras_enhanced_partial_10_20260227_163906.csv, arras_report_partial_10_20260227_163906.txt
+[16:39:06] INFO: 💾 Session sauvegardée: 10 avocats
+[16:39:06] INFO: 💾 Sauvegarde intermédiaire (10 traités)
+[16:39:08] INFO: 📄 [11/98] [Global: 21/98] DUSSART Maxime
+[16:39:08] INFO: 🔍 [11] Extraction: DUSSART Maxime
+[16:39:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dussart-maxime/ (tentative 1)
+[16:39:09] INFO: ✅ OK (200, 113520 chars)
+[16:39:09] ERROR: ❌ Erreur lors de l'extraction de DUSSART Maxime: cannot access local variable 're' where it is not associated with a value
+[16:39:09] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:11] INFO: 📄 [12/98] [Global: 23/98] LELIGOIS-BIETTE Christine
+[16:39:11] INFO: 🔍 [12] Extraction: LELIGOIS-BIETTE Christine
+[16:39:11] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/leligois-biette-christine/ (tentative 1)
+[16:39:12] INFO: ✅ OK (200, 114212 chars)
+[16:39:12] ERROR: ❌ Erreur lors de l'extraction de LELIGOIS-BIETTE Christine: cannot access local variable 're' where it is not associated with a value
+[16:39:12] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:14] INFO: 📄 [13/98] [Global: 25/98] BIETTE Alexandre
+[16:39:14] INFO: 🔍 [13] Extraction: BIETTE Alexandre
+[16:39:14] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/biette-alexandre/ (tentative 1)
+[16:39:15] INFO: ✅ OK (200, 113885 chars)
+[16:39:15] ERROR: ❌ Erreur lors de l'extraction de BIETTE Alexandre: cannot access local variable 're' where it is not associated with a value
+[16:39:15] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:17] INFO: 📄 [14/98] [Global: 27/98] LEFRANC Jean-Louis
+[16:39:17] INFO: 🔍 [14] Extraction: LEFRANC Jean-Louis
+[16:39:17] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-jean-louis/ (tentative 1)
+[16:39:17] INFO: ✅ OK (200, 113821 chars)
+[16:39:17] ERROR: ❌ Erreur lors de l'extraction de LEFRANC Jean-Louis: cannot access local variable 're' where it is not associated with a value
+[16:39:17] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:19] INFO: 📄 [15/98] [Global: 29/98] MEILLIER  Philippe
+[16:39:19] INFO: 🔍 [15] Extraction: MEILLIER  Philippe
+[16:39:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/meillier-philippe/ (tentative 1)
+[16:39:21] INFO: ✅ OK (200, 114210 chars)
+[16:39:21] ERROR: ❌ Erreur lors de l'extraction de MEILLIER  Philippe: cannot access local variable 're' where it is not associated with a value
+[16:39:21] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:23] INFO: 📄 [16/98] [Global: 31/98] VINCHANT Fabrice
+[16:39:23] INFO: 🔍 [16] Extraction: VINCHANT Fabrice
+[16:39:23] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vinchant-fabrice/ (tentative 1)
+[16:39:24] INFO: ✅ OK (200, 113965 chars)
+[16:39:24] ERROR: ❌ Erreur lors de l'extraction de VINCHANT Fabrice: cannot access local variable 're' where it is not associated with a value
+[16:39:24] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:26] INFO: 📄 [17/98] [Global: 33/98] FICHELLE Marie
+[16:39:26] INFO: 🔍 [17] Extraction: FICHELLE Marie
+[16:39:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fichelle-marie/ (tentative 1)
+[16:39:27] INFO: ✅ OK (200, 113538 chars)
+[16:39:27] ERROR: ❌ Erreur lors de l'extraction de FICHELLE Marie: cannot access local variable 're' where it is not associated with a value
+[16:39:27] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:29] INFO: 📄 [18/98] [Global: 35/98] OSSEYRAN Yann
+[16:39:29] INFO: 🔍 [18] Extraction: OSSEYRAN Yann
+[16:39:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/osseyran-yann/ (tentative 1)
+[16:39:30] INFO: ✅ OK (200, 113830 chars)
+[16:39:30] ERROR: ❌ Erreur lors de l'extraction de OSSEYRAN Yann: cannot access local variable 're' where it is not associated with a value
+[16:39:30] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:32] INFO: 📄 [19/98] [Global: 37/98] KOFFI Kouamé
+[16:39:32] INFO: 🔍 [19] Extraction: KOFFI Kouamé
+[16:39:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/koffi-kouame/ (tentative 1)
+[16:39:33] INFO: ✅ OK (200, 113753 chars)
+[16:39:33] ERROR: ❌ Erreur lors de l'extraction de KOFFI Kouamé: cannot access local variable 're' where it is not associated with a value
+[16:39:33] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:35] INFO: 📄 [20/98] [Global: 39/98] VANDERMERSCH-MUSSAULT Laurence
+[16:39:35] INFO: 🔍 [20] Extraction: VANDERMERSCH-MUSSAULT Laurence
+[16:39:35] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vandermersch-mussault-laurence/ (tentative 1)
+[16:39:36] INFO: ✅ OK (200, 113734 chars)
+[16:39:36] ERROR: ❌ Erreur lors de l'extraction de VANDERMERSCH-MUSSAULT Laurence: cannot access local variable 're' where it is not associated with a value
+[16:39:36] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:36] INFO: 💾 Sauvegarde: arras_enhanced_partial_20_20260227_163936.json, arras_enhanced_partial_20_20260227_163936.csv, arras_report_partial_20_20260227_163936.txt
+[16:39:36] INFO: 💾 Session sauvegardée: 20 avocats
+[16:39:36] INFO: 💾 Sauvegarde intermédiaire (20 traités)
+[16:39:38] INFO: 📄 [21/98] [Global: 41/98] MARTINUZZO Raphaële
+[16:39:38] INFO: 🔍 [21] Extraction: MARTINUZZO Raphaële
+[16:39:38] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/martinuzzo-raphaele/ (tentative 1)
+[16:39:39] INFO: ✅ OK (200, 111674 chars)
+[16:39:39] ERROR: ❌ Erreur lors de l'extraction de MARTINUZZO Raphaële: cannot access local variable 're' where it is not associated with a value
+[16:39:39] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:41] INFO: 📄 [22/98] [Global: 43/98] GABRIEL Anne-Sophie
+[16:39:41] INFO: 🔍 [22] Extraction: GABRIEL Anne-Sophie
+[16:39:41] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gabriel-anne-sophie/ (tentative 1)
+[16:39:42] INFO: ✅ OK (200, 111557 chars)
+[16:39:42] ERROR: ❌ Erreur lors de l'extraction de GABRIEL Anne-Sophie: cannot access local variable 're' where it is not associated with a value
+[16:39:42] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:44] INFO: 📄 [23/98] [Global: 45/98] PAGIN Ginette
+[16:39:44] INFO: 🔍 [23] Extraction: PAGIN Ginette
+[16:39:44] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pagin-ginette/ (tentative 1)
+[16:39:44] INFO: ✅ OK (200, 113743 chars)
+[16:39:44] ERROR: ❌ Erreur lors de l'extraction de PAGIN Ginette: cannot access local variable 're' where it is not associated with a value
+[16:39:44] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:46] INFO: 📄 [24/98] [Global: 47/98] CHOPIN Agathe
+[16:39:46] INFO: 🔍 [24] Extraction: CHOPIN Agathe
+[16:39:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/agathe-chopin/ (tentative 1)
+[16:39:47] INFO: ✅ OK (200, 113399 chars)
+[16:39:47] ERROR: ❌ Erreur lors de l'extraction de CHOPIN Agathe: cannot access local variable 're' where it is not associated with a value
+[16:39:47] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:49] INFO: 📄 [25/98] [Global: 49/98] LAMORIL-HOUTART Claire
+[16:39:49] INFO: 🔍 [25] Extraction: LAMORIL-HOUTART Claire
+[16:39:49] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lamoril-houtart-claire/ (tentative 1)
+[16:39:50] INFO: ✅ OK (200, 113898 chars)
+[16:39:50] ERROR: ❌ Erreur lors de l'extraction de LAMORIL-HOUTART Claire: cannot access local variable 're' where it is not associated with a value
+[16:39:50] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:52] INFO: 📄 [26/98] [Global: 51/98] LAMORIL Matthieu
+[16:39:52] INFO: 🔍 [26] Extraction: LAMORIL Matthieu
+[16:39:52] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lamoril-matthieu/ (tentative 1)
+[16:39:52] INFO: ✅ OK (200, 114010 chars)
+[16:39:52] ERROR: ❌ Erreur lors de l'extraction de LAMORIL Matthieu: cannot access local variable 're' where it is not associated with a value
+[16:39:52] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:54] INFO: 📄 [27/98] [Global: 53/98] ROTELLINI Pierre
+[16:39:54] INFO: 🔍 [27] Extraction: ROTELLINI Pierre
+[16:39:54] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/rotellini-pierre/ (tentative 1)
+[16:39:55] INFO: ✅ OK (200, 113808 chars)
+[16:39:55] ERROR: ❌ Erreur lors de l'extraction de ROTELLINI Pierre: cannot access local variable 're' where it is not associated with a value
+[16:39:55] INFO: ✅ Données: 🎯 Q:0/10
+[16:39:57] INFO: 📄 [28/98] [Global: 55/98] DELAHOUSSE Christophe
+[16:39:57] INFO: 🔍 [28] Extraction: DELAHOUSSE Christophe
+[16:39:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delahousse-christophe/ (tentative 1)
+[16:39:58] INFO: ✅ OK (200, 114464 chars)
+[16:39:58] ERROR: ❌ Erreur lors de l'extraction de DELAHOUSSE Christophe: cannot access local variable 're' where it is not associated with a value
+[16:39:58] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:00] INFO: 📄 [29/98] [Global: 57/98] DAVID Sophie
+[16:40:00] INFO: 🔍 [29] Extraction: DAVID Sophie
+[16:40:00] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/david-sophie/ (tentative 1)
+[16:40:06] INFO: ✅ OK (200, 113540 chars)
+[16:40:06] ERROR: ❌ Erreur lors de l'extraction de DAVID Sophie: cannot access local variable 're' where it is not associated with a value
+[16:40:06] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:08] INFO: 📄 [30/98] [Global: 59/98] BION Isabelle
+[16:40:08] INFO: 🔍 [30] Extraction: BION Isabelle
+[16:40:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bion-isabelle/ (tentative 1)
+[16:40:09] INFO: ✅ OK (200, 113647 chars)
+[16:40:09] ERROR: ❌ Erreur lors de l'extraction de BION Isabelle: cannot access local variable 're' where it is not associated with a value
+[16:40:09] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:09] INFO: 💾 Sauvegarde: arras_enhanced_partial_30_20260227_164009.json, arras_enhanced_partial_30_20260227_164009.csv, arras_report_partial_30_20260227_164009.txt
+[16:40:09] INFO: 💾 Session sauvegardée: 30 avocats
+[16:40:09] INFO: 💾 Sauvegarde intermédiaire (30 traités)
+[16:40:11] INFO: 📄 [31/98] [Global: 61/98] WILLEMETZ Samuel
+[16:40:11] INFO: 🔍 [31] Extraction: WILLEMETZ Samuel
+[16:40:11] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/willemetz-samuel/ (tentative 1)
+[16:40:12] INFO: ✅ OK (200, 114150 chars)
+[16:40:12] ERROR: ❌ Erreur lors de l'extraction de WILLEMETZ Samuel: cannot access local variable 're' where it is not associated with a value
+[16:40:12] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:14] INFO: 📄 [32/98] [Global: 63/98] LAMBERT Anny
+[16:40:14] INFO: 🔍 [32] Extraction: LAMBERT Anny
+[16:40:14] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lambert-anny/ (tentative 1)
+[16:40:14] INFO: ✅ OK (200, 111310 chars)
+[16:40:15] ERROR: ❌ Erreur lors de l'extraction de LAMBERT Anny: cannot access local variable 're' where it is not associated with a value
+[16:40:15] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:17] INFO: 📄 [33/98] [Global: 65/98] PIRON Marie-Charlotte
+[16:40:17] INFO: 🔍 [33] Extraction: PIRON Marie-Charlotte
+[16:40:17] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/piron-marie-charlotte/ (tentative 1)
+[16:40:17] INFO: ✅ OK (200, 114258 chars)
+[16:40:17] ERROR: ❌ Erreur lors de l'extraction de PIRON Marie-Charlotte: cannot access local variable 're' where it is not associated with a value
+[16:40:17] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:19] INFO: 📄 [34/98] [Global: 67/98] GARNIER Anne
+[16:40:19] INFO: 🔍 [34] Extraction: GARNIER Anne
+[16:40:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/garnier-anne/ (tentative 1)
+[16:40:20] INFO: ✅ OK (200, 113780 chars)
+[16:40:20] ERROR: ❌ Erreur lors de l'extraction de GARNIER Anne: cannot access local variable 're' where it is not associated with a value
+[16:40:20] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:22] INFO: 📄 [35/98] [Global: 69/98] GORNY Julie
+[16:40:22] INFO: 🔍 [35] Extraction: GORNY Julie
+[16:40:22] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gorny-julie/ (tentative 1)
+[16:40:24] INFO: ✅ OK (200, 111462 chars)
+[16:40:24] ERROR: ❌ Erreur lors de l'extraction de GORNY Julie: cannot access local variable 're' where it is not associated with a value
+[16:40:24] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:26] INFO: 📄 [36/98] [Global: 71/98] DUPRIEZ Angélique
+[16:40:26] INFO: 🔍 [36] Extraction: DUPRIEZ Angélique
+[16:40:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dupriez-angelique/ (tentative 1)
+[16:40:27] INFO: ✅ OK (200, 113656 chars)
+[16:40:27] ERROR: ❌ Erreur lors de l'extraction de DUPRIEZ Angélique: cannot access local variable 're' where it is not associated with a value
+[16:40:27] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:29] INFO: 📄 [37/98] [Global: 73/98] POULAIN Nathalie
+[16:40:29] INFO: 🔍 [37] Extraction: POULAIN Nathalie
+[16:40:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/poulain-nathalie/ (tentative 1)
+[16:40:30] INFO: ✅ OK (200, 113749 chars)
+[16:40:30] ERROR: ❌ Erreur lors de l'extraction de POULAIN Nathalie: cannot access local variable 're' where it is not associated with a value
+[16:40:30] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:32] INFO: 📄 [38/98] [Global: 75/98] LETKO-BURIAN Tal
+[16:40:32] INFO: 🔍 [38] Extraction: LETKO-BURIAN Tal
+[16:40:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/letko-burian-tal/ (tentative 1)
+[16:40:33] INFO: ✅ OK (200, 113805 chars)
+[16:40:33] ERROR: ❌ Erreur lors de l'extraction de LETKO-BURIAN Tal: cannot access local variable 're' where it is not associated with a value
+[16:40:33] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:35] INFO: 📄 [39/98] [Global: 77/98] PRUD’HOMME Etienne
+[16:40:35] INFO: 🔍 [39] Extraction: PRUD’HOMME Etienne
+[16:40:35] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/prudhomme-etienne/ (tentative 1)
+[16:40:35] INFO: ✅ OK (200, 113864 chars)
+[16:40:35] ERROR: ❌ Erreur lors de l'extraction de PRUD’HOMME Etienne: cannot access local variable 're' where it is not associated with a value
+[16:40:35] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:37] INFO: 📄 [40/98] [Global: 79/98] KOSKAS Yaël
+[16:40:37] INFO: 🔍 [40] Extraction: KOSKAS Yaël
+[16:40:37] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/koskas-yael/ (tentative 1)
+[16:40:38] INFO: ✅ OK (200, 113486 chars)
+[16:40:38] ERROR: ❌ Erreur lors de l'extraction de KOSKAS Yaël: cannot access local variable 're' where it is not associated with a value
+[16:40:38] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:38] INFO: 💾 Sauvegarde: arras_enhanced_partial_40_20260227_164038.json, arras_enhanced_partial_40_20260227_164038.csv, arras_report_partial_40_20260227_164038.txt
+[16:40:38] INFO: 💾 Session sauvegardée: 40 avocats
+[16:40:38] INFO: 💾 Sauvegarde intermédiaire (40 traités)
+[16:40:40] INFO: 📄 [41/98] [Global: 81/98] BERNARD Laurette
+[16:40:40] INFO: 🔍 [41] Extraction: BERNARD Laurette
+[16:40:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bernard-laurette/ (tentative 1)
+[16:40:41] INFO: ✅ OK (200, 114016 chars)
+[16:40:41] ERROR: ❌ Erreur lors de l'extraction de BERNARD Laurette: cannot access local variable 're' where it is not associated with a value
+[16:40:41] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:43] INFO: 📄 [42/98] [Global: 83/98] DELCOURT Anne-Sophie
+[16:40:43] INFO: 🔍 [42] Extraction: DELCOURT Anne-Sophie
+[16:40:43] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delcourt-anne-sophie/ (tentative 1)
+[16:40:44] INFO: ✅ OK (200, 114078 chars)
+[16:40:44] ERROR: ❌ Erreur lors de l'extraction de DELCOURT Anne-Sophie: cannot access local variable 're' where it is not associated with a value
+[16:40:44] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:46] INFO: 📄 [43/98] [Global: 85/98] SESBOÜÉ Sophie
+[16:40:46] INFO: 🔍 [43] Extraction: SESBOÜÉ Sophie
+[16:40:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sesboue-sophie/ (tentative 1)
+[16:40:47] INFO: ✅ OK (200, 113944 chars)
+[16:40:47] ERROR: ❌ Erreur lors de l'extraction de SESBOÜÉ Sophie: cannot access local variable 're' where it is not associated with a value
+[16:40:47] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:49] INFO: 📄 [44/98] [Global: 87/98] VASSEUR Cécile
+[16:40:49] INFO: 🔍 [44] Extraction: VASSEUR Cécile
+[16:40:49] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vasseur-cecile/ (tentative 1)
+[16:40:50] INFO: ✅ OK (200, 113646 chars)
+[16:40:50] ERROR: ❌ Erreur lors de l'extraction de VASSEUR Cécile: cannot access local variable 're' where it is not associated with a value
+[16:40:50] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:52] INFO: 📄 [45/98] [Global: 89/98] LEFRANC David
+[16:40:52] INFO: 🔍 [45] Extraction: LEFRANC David
+[16:40:52] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-david/ (tentative 1)
+[16:40:53] INFO: ✅ OK (200, 113743 chars)
+[16:40:53] ERROR: ❌ Erreur lors de l'extraction de LEFRANC David: cannot access local variable 're' where it is not associated with a value
+[16:40:53] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:55] INFO: 📄 [46/98] [Global: 91/98] WEPPE Daphné
+[16:40:55] INFO: 🔍 [46] Extraction: WEPPE Daphné
+[16:40:55] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/weppe-daphne/ (tentative 1)
+[16:40:56] INFO: ✅ OK (200, 113894 chars)
+[16:40:56] ERROR: ❌ Erreur lors de l'extraction de WEPPE Daphné: cannot access local variable 're' where it is not associated with a value
+[16:40:56] INFO: ✅ Données: 🎯 Q:0/10
+[16:40:58] INFO: 📄 [47/98] [Global: 93/98] VERAGUE Jean-Philippe
+[16:40:58] INFO: 🔍 [47] Extraction: VERAGUE Jean-Philippe
+[16:40:58] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/verague-jean-philippe/ (tentative 1)
+[16:40:59] INFO: ✅ OK (200, 113973 chars)
+[16:40:59] ERROR: ❌ Erreur lors de l'extraction de VERAGUE Jean-Philippe: cannot access local variable 're' where it is not associated with a value
+[16:40:59] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:01] INFO: 📄 [48/98] [Global: 95/98] JACOBUS Antoine
+[16:41:01] INFO: 🔍 [48] Extraction: JACOBUS Antoine
+[16:41:01] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/jacobus-antoine/ (tentative 1)
+[16:41:02] INFO: ✅ OK (200, 114052 chars)
+[16:41:02] ERROR: ❌ Erreur lors de l'extraction de JACOBUS Antoine: cannot access local variable 're' where it is not associated with a value
+[16:41:02] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:04] INFO: 📄 [49/98] [Global: 97/98] LEGROS Dorothée
+[16:41:04] INFO: 🔍 [49] Extraction: LEGROS Dorothée
+[16:41:04] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/legros-dorothee/ (tentative 1)
+[16:41:05] INFO: ✅ OK (200, 114046 chars)
+[16:41:05] ERROR: ❌ Erreur lors de l'extraction de LEGROS Dorothée: cannot access local variable 're' where it is not associated with a value
+[16:41:05] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:07] INFO: 📄 [50/98] [Global: 99/98] POLLARD Céline
+[16:41:07] INFO: 🔍 [50] Extraction: POLLARD Céline
+[16:41:07] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pollard-celine/ (tentative 1)
+[16:41:08] INFO: ✅ OK (200, 111543 chars)
+[16:41:08] ERROR: ❌ Erreur lors de l'extraction de POLLARD Céline: cannot access local variable 're' where it is not associated with a value
+[16:41:08] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:08] INFO: 💾 Sauvegarde: arras_enhanced_partial_50_20260227_164108.json, arras_enhanced_partial_50_20260227_164108.csv, arras_report_partial_50_20260227_164108.txt
+[16:41:08] INFO: 💾 Session sauvegardée: 50 avocats
+[16:41:08] INFO: 💾 Sauvegarde intermédiaire (50 traités)
+[16:41:10] INFO: 📄 [51/98] [Global: 101/98] BEBEN Alexandre
+[16:41:10] INFO: 🔍 [51] Extraction: BEBEN Alexandre
+[16:41:10] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/beben-alexandre/ (tentative 1)
+[16:41:11] INFO: ✅ OK (200, 111589 chars)
+[16:41:11] ERROR: ❌ Erreur lors de l'extraction de BEBEN Alexandre: cannot access local variable 're' where it is not associated with a value
+[16:41:11] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:13] INFO: 📄 [52/98] [Global: 103/98] PASSE Ludiwine
+[16:41:13] INFO: 🔍 [52] Extraction: PASSE Ludiwine
+[16:41:13] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/passe-ludiwine/ (tentative 1)
+[16:41:14] INFO: ✅ OK (200, 113829 chars)
+[16:41:14] ERROR: ❌ Erreur lors de l'extraction de PASSE Ludiwine: cannot access local variable 're' where it is not associated with a value
+[16:41:14] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:16] INFO: 📄 [53/98] [Global: 105/98] BODEREAU Alexandra
+[16:41:16] INFO: 🔍 [53] Extraction: BODEREAU Alexandra
+[16:41:16] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-alexandra/ (tentative 1)
+[16:41:17] INFO: ✅ OK (200, 113935 chars)
+[16:41:17] ERROR: ❌ Erreur lors de l'extraction de BODEREAU Alexandra: cannot access local variable 're' where it is not associated with a value
+[16:41:17] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:19] INFO: 📄 [54/98] [Global: 107/98] PRIZAC Hélène
+[16:41:19] INFO: 🔍 [54] Extraction: PRIZAC Hélène
+[16:41:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/prizac-helene/ (tentative 1)
+[16:41:20] INFO: ✅ OK (200, 113062 chars)
+[16:41:20] ERROR: ❌ Erreur lors de l'extraction de PRIZAC Hélène: cannot access local variable 're' where it is not associated with a value
+[16:41:20] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:22] INFO: 📄 [55/98] [Global: 109/98] BARGIS Delphine
+[16:41:22] INFO: 🔍 [55] Extraction: BARGIS Delphine
+[16:41:22] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bargis-delphine/ (tentative 1)
+[16:41:23] INFO: ✅ OK (200, 114055 chars)
+[16:41:23] ERROR: ❌ Erreur lors de l'extraction de BARGIS Delphine: cannot access local variable 're' where it is not associated with a value
+[16:41:23] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:25] INFO: 📄 [56/98] [Global: 111/98] ABDELKRIM Mohamed
+[16:41:25] INFO: 🔍 [56] Extraction: ABDELKRIM Mohamed
+[16:41:25] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/abdelkrim-mohamed/ (tentative 1)
+[16:41:26] INFO: ✅ OK (200, 113736 chars)
+[16:41:26] ERROR: ❌ Erreur lors de l'extraction de ABDELKRIM Mohamed: cannot access local variable 're' where it is not associated with a value
+[16:41:26] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:28] INFO: 📄 [57/98] [Global: 113/98] WIBAULT François-Xavier
+[16:41:28] INFO: 🔍 [57] Extraction: WIBAULT François-Xavier
+[16:41:28] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/wibault-francois-xavier/ (tentative 1)
+[16:41:29] INFO: ✅ OK (200, 113402 chars)
+[16:41:29] ERROR: ❌ Erreur lors de l'extraction de WIBAULT François-Xavier: cannot access local variable 're' where it is not associated with a value
+[16:41:29] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:31] INFO: 📄 [58/98] [Global: 115/98] DECAT Pierre-Nicolas
+[16:41:31] INFO: 🔍 [58] Extraction: DECAT Pierre-Nicolas
+[16:41:31] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/decat-pierre-nicolas/ (tentative 1)
+[16:41:31] INFO: ✅ OK (200, 113935 chars)
+[16:41:31] ERROR: ❌ Erreur lors de l'extraction de DECAT Pierre-Nicolas: cannot access local variable 're' where it is not associated with a value
+[16:41:31] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:33] INFO: 📄 [59/98] [Global: 117/98] DUCQ Alexandre
+[16:41:33] INFO: 🔍 [59] Extraction: DUCQ Alexandre
+[16:41:33] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/ducq-alexandre/ (tentative 1)
+[16:41:34] INFO: ✅ OK (200, 113578 chars)
+[16:41:34] ERROR: ❌ Erreur lors de l'extraction de DUCQ Alexandre: cannot access local variable 're' where it is not associated with a value
+[16:41:34] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:36] INFO: 📄 [60/98] [Global: 119/98] HOULMANN Océane
+[16:41:36] INFO: 🔍 [60] Extraction: HOULMANN Océane
+[16:41:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/houlmann-oceane/ (tentative 1)
+[16:41:37] INFO: ✅ OK (200, 113340 chars)
+[16:41:37] ERROR: ❌ Erreur lors de l'extraction de HOULMANN Océane: cannot access local variable 're' where it is not associated with a value
+[16:41:37] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:37] INFO: 💾 Sauvegarde: arras_enhanced_partial_60_20260227_164137.json, arras_enhanced_partial_60_20260227_164137.csv, arras_report_partial_60_20260227_164137.txt
+[16:41:37] INFO: 💾 Session sauvegardée: 60 avocats
+[16:41:37] INFO: 💾 Sauvegarde intermédiaire (60 traités)
+[16:41:39] INFO: 📄 [61/98] [Global: 121/98] DUPONT Bernard-Marie
+[16:41:39] INFO: 🔍 [61] Extraction: DUPONT Bernard-Marie
+[16:41:39] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dupont-bernard-marie/ (tentative 1)
+[16:41:40] INFO: ✅ OK (200, 111563 chars)
+[16:41:40] ERROR: ❌ Erreur lors de l'extraction de DUPONT Bernard-Marie: cannot access local variable 're' where it is not associated with a value
+[16:41:40] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:42] INFO: 📄 [62/98] [Global: 123/98] BOUDJEMAA Déborah
+[16:41:42] INFO: 🔍 [62] Extraction: BOUDJEMAA Déborah
+[16:41:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/boudjemaa-deborah/ (tentative 1)
+[16:41:43] INFO: ✅ OK (200, 114797 chars)
+[16:41:43] ERROR: ❌ Erreur lors de l'extraction de BOUDJEMAA Déborah: cannot access local variable 're' where it is not associated with a value
+[16:41:43] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:45] INFO: 📄 [63/98] [Global: 125/98] ZAKENOUNE Mohamed-Akli
+[16:41:45] INFO: 🔍 [63] Extraction: ZAKENOUNE Mohamed-Akli
+[16:41:45] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/zakenoune-mohamed-akli/ (tentative 1)
+[16:41:46] INFO: ✅ OK (200, 113766 chars)
+[16:41:46] ERROR: ❌ Erreur lors de l'extraction de ZAKENOUNE Mohamed-Akli: cannot access local variable 're' where it is not associated with a value
+[16:41:46] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:48] INFO: 📄 [64/98] [Global: 127/98] LASRI Nadir
+[16:41:48] INFO: 🔍 [64] Extraction: LASRI Nadir
+[16:41:48] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lasri-nadir/ (tentative 1)
+[16:41:49] INFO: ✅ OK (200, 113877 chars)
+[16:41:49] ERROR: ❌ Erreur lors de l'extraction de LASRI Nadir: cannot access local variable 're' where it is not associated with a value
+[16:41:49] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:51] INFO: 📄 [65/98] [Global: 129/98] FATOUX Alexis
+[16:41:51] INFO: 🔍 [65] Extraction: FATOUX Alexis
+[16:41:51] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fatoux-alexis/ (tentative 1)
+[16:41:52] INFO: ✅ OK (200, 113238 chars)
+[16:41:52] ERROR: ❌ Erreur lors de l'extraction de FATOUX Alexis: cannot access local variable 're' where it is not associated with a value
+[16:41:52] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:54] INFO: 📄 [66/98] [Global: 131/98] MULLIEZ-BIGOTTE Charlotte
+[16:41:54] INFO: 🔍 [66] Extraction: MULLIEZ-BIGOTTE Charlotte
+[16:41:54] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/mulliez-bigotte-charlotte/ (tentative 1)
+[16:41:55] INFO: ✅ OK (200, 114159 chars)
+[16:41:55] ERROR: ❌ Erreur lors de l'extraction de MULLIEZ-BIGOTTE Charlotte: cannot access local variable 're' where it is not associated with a value
+[16:41:55] INFO: ✅ Données: 🎯 Q:0/10
+[16:41:57] INFO: 📄 [67/98] [Global: 133/98] LACHEVRE Anaïs
+[16:41:57] INFO: 🔍 [67] Extraction: LACHEVRE Anaïs
+[16:41:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lachevre-anais/ (tentative 1)
+[16:41:58] INFO: ✅ OK (200, 113098 chars)
+[16:41:58] ERROR: ❌ Erreur lors de l'extraction de LACHEVRE Anaïs: cannot access local variable 're' where it is not associated with a value
+[16:41:58] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:00] INFO: 📄 [68/98] [Global: 135/98] Tonkeva Nina
+[16:42:00] INFO: 🔍 [68] Extraction: Tonkeva Nina
+[16:42:00] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/tonkeva-nina/ (tentative 1)
+[16:42:01] INFO: ✅ OK (200, 114152 chars)
+[16:42:01] ERROR: ❌ Erreur lors de l'extraction de Tonkeva Nina: cannot access local variable 're' where it is not associated with a value
+[16:42:01] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:03] INFO: 📄 [69/98] [Global: 137/98] MAMMONE François
+[16:42:03] INFO: 🔍 [69] Extraction: MAMMONE François
+[16:42:03] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/mammone-francois/ (tentative 1)
+[16:42:04] INFO: ✅ OK (200, 113856 chars)
+[16:42:04] ERROR: ❌ Erreur lors de l'extraction de MAMMONE François: cannot access local variable 're' where it is not associated with a value
+[16:42:04] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:06] INFO: 📄 [70/98] [Global: 139/98] RYCKEWAERT Arnaud
+[16:42:06] INFO: 🔍 [70] Extraction: RYCKEWAERT Arnaud
+[16:42:06] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/arnaud-ryckewaert/ (tentative 1)
+[16:42:07] INFO: ✅ OK (200, 113347 chars)
+[16:42:07] ERROR: ❌ Erreur lors de l'extraction de RYCKEWAERT Arnaud: cannot access local variable 're' where it is not associated with a value
+[16:42:07] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:07] INFO: 💾 Sauvegarde: arras_enhanced_partial_70_20260227_164207.json, arras_enhanced_partial_70_20260227_164207.csv, arras_report_partial_70_20260227_164207.txt
+[16:42:07] INFO: 💾 Session sauvegardée: 70 avocats
+[16:42:07] INFO: 💾 Sauvegarde intermédiaire (70 traités)
+[16:42:09] INFO: 📄 [71/98] [Global: 141/98] JAGODZINSKI-BAHEUX Sabine
+[16:42:09] INFO: 🔍 [71] Extraction: JAGODZINSKI-BAHEUX Sabine
+[16:42:09] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/jagodzinski-baheux-sabine/ (tentative 1)
+[16:42:10] INFO: ✅ OK (200, 114818 chars)
+[16:42:10] ERROR: ❌ Erreur lors de l'extraction de JAGODZINSKI-BAHEUX Sabine: cannot access local variable 're' where it is not associated with a value
+[16:42:10] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:12] INFO: 📄 [72/98] [Global: 143/98] ACTHERGAL Ophélie
+[16:42:12] INFO: 🔍 [72] Extraction: ACTHERGAL Ophélie
+[16:42:12] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/acthergal-ophelie/ (tentative 1)
+[16:42:13] INFO: ✅ OK (200, 113187 chars)
+[16:42:13] ERROR: ❌ Erreur lors de l'extraction de ACTHERGAL Ophélie: cannot access local variable 're' where it is not associated with a value
+[16:42:13] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:15] INFO: 📄 [73/98] [Global: 145/98] LEVESQUE Bertille
+[16:42:15] INFO: 🔍 [73] Extraction: LEVESQUE Bertille
+[16:42:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bertille-levesque/ (tentative 1)
+[16:42:16] INFO: ✅ OK (200, 113313 chars)
+[16:42:16] ERROR: ❌ Erreur lors de l'extraction de LEVESQUE Bertille: cannot access local variable 're' where it is not associated with a value
+[16:42:16] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:18] INFO: 📄 [74/98] [Global: 147/98] STRUBBE Mathieu
+[16:42:18] INFO: 🔍 [74] Extraction: STRUBBE Mathieu
+[16:42:18] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/strubbe-mathieu/ (tentative 1)
+[16:42:18] INFO: ✅ OK (200, 113656 chars)
+[16:42:18] ERROR: ❌ Erreur lors de l'extraction de STRUBBE Mathieu: cannot access local variable 're' where it is not associated with a value
+[16:42:18] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:20] INFO: 📄 [75/98] [Global: 149/98] HULEUX Cécile
+[16:42:20] INFO: 🔍 [75] Extraction: HULEUX Cécile
+[16:42:20] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/huleux-cecile/ (tentative 1)
+[16:42:21] INFO: ✅ OK (200, 113267 chars)
+[16:42:21] ERROR: ❌ Erreur lors de l'extraction de HULEUX Cécile: cannot access local variable 're' where it is not associated with a value
+[16:42:21] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:23] INFO: 📄 [76/98] [Global: 151/98] CAMPAGNE Thibault
+[16:42:23] INFO: 🔍 [76] Extraction: CAMPAGNE Thibault
+[16:42:23] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/campagne-thibault/ (tentative 1)
+[16:42:24] INFO: ✅ OK (200, 113683 chars)
+[16:42:24] ERROR: ❌ Erreur lors de l'extraction de CAMPAGNE Thibault: cannot access local variable 're' where it is not associated with a value
+[16:42:24] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:26] INFO: 📄 [77/98] [Global: 153/98] LECOCQ Ambroise
+[16:42:26] INFO: 🔍 [77] Extraction: LECOCQ Ambroise
+[16:42:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lecocq-ambroise/ (tentative 1)
+[16:42:27] INFO: ✅ OK (200, 114283 chars)
+[16:42:27] ERROR: ❌ Erreur lors de l'extraction de LECOCQ Ambroise: cannot access local variable 're' where it is not associated with a value
+[16:42:27] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:29] INFO: 📄 [78/98] [Global: 155/98] LEFEBVRE CHAPON Mylène
+[16:42:29] INFO: 🔍 [78] Extraction: LEFEBVRE CHAPON Mylène
+[16:42:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefebvre-chapon-mylene/ (tentative 1)
+[16:42:30] INFO: ✅ OK (200, 113760 chars)
+[16:42:30] ERROR: ❌ Erreur lors de l'extraction de LEFEBVRE CHAPON Mylène: cannot access local variable 're' where it is not associated with a value
+[16:42:30] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:32] INFO: 📄 [79/98] [Global: 157/98] LEFEVRE Lucie
+[16:42:32] INFO: 🔍 [79] Extraction: LEFEVRE Lucie
+[16:42:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefevre-lucie/ (tentative 1)
+[16:42:32] INFO: ✅ OK (200, 113500 chars)
+[16:42:32] ERROR: ❌ Erreur lors de l'extraction de LEFEVRE Lucie: cannot access local variable 're' where it is not associated with a value
+[16:42:32] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:34] INFO: 📄 [80/98] [Global: 159/98] BAKIR Maeva
+[16:42:34] INFO: 🔍 [80] Extraction: BAKIR Maeva
+[16:42:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/maeva-bakir/ (tentative 1)
+[16:42:35] INFO: ✅ OK (200, 113174 chars)
+[16:42:35] ERROR: ❌ Erreur lors de l'extraction de BAKIR Maeva: cannot access local variable 're' where it is not associated with a value
+[16:42:35] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:35] INFO: 💾 Sauvegarde: arras_enhanced_partial_80_20260227_164235.json, arras_enhanced_partial_80_20260227_164235.csv, arras_report_partial_80_20260227_164235.txt
+[16:42:35] INFO: 💾 Session sauvegardée: 80 avocats
+[16:42:35] INFO: 💾 Sauvegarde intermédiaire (80 traités)
+[16:42:37] INFO: 📄 [81/98] [Global: 161/98] MULIER Stéphanie
+[16:42:37] INFO: 🔍 [81] Extraction: MULIER Stéphanie
+[16:42:37] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/stephanie-mulier/ (tentative 1)
+[16:42:38] INFO: ✅ OK (200, 113375 chars)
+[16:42:38] ERROR: ❌ Erreur lors de l'extraction de MULIER Stéphanie: cannot access local variable 're' where it is not associated with a value
+[16:42:38] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:40] INFO: 📄 [82/98] [Global: 163/98] DE CLERCQ Léa
+[16:42:40] INFO: 🔍 [82] Extraction: DE CLERCQ Léa
+[16:42:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/de-clercq-lea/ (tentative 1)
+[16:42:41] INFO: ✅ OK (200, 113519 chars)
+[16:42:41] ERROR: ❌ Erreur lors de l'extraction de DE CLERCQ Léa: cannot access local variable 're' where it is not associated with a value
+[16:42:41] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:43] INFO: 📄 [83/98] [Global: 165/98] MIART Ancel
+[16:42:43] INFO: 🔍 [83] Extraction: MIART Ancel
+[16:42:43] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/ancel-miart/ (tentative 1)
+[16:42:44] INFO: ✅ OK (200, 113014 chars)
+[16:42:44] ERROR: ❌ Erreur lors de l'extraction de MIART Ancel: cannot access local variable 're' where it is not associated with a value
+[16:42:44] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:46] INFO: 📄 [84/98] [Global: 167/98] ROPPA Shéhérazade
+[16:42:46] INFO: 🔍 [84] Extraction: ROPPA Shéhérazade
+[16:42:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sheherazade-roppa/ (tentative 1)
+[16:42:47] INFO: ✅ OK (200, 113405 chars)
+[16:42:47] ERROR: ❌ Erreur lors de l'extraction de ROPPA Shéhérazade: cannot access local variable 're' where it is not associated with a value
+[16:42:47] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:49] INFO: 📄 [85/98] [Global: 169/98] DEHAY Charlotte
+[16:42:49] INFO: 🔍 [85] Extraction: DEHAY Charlotte
+[16:42:49] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dehay-charlotte/ (tentative 1)
+[16:42:50] INFO: ✅ OK (200, 113295 chars)
+[16:42:50] ERROR: ❌ Erreur lors de l'extraction de DEHAY Charlotte: cannot access local variable 're' where it is not associated with a value
+[16:42:50] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:52] INFO: 📄 [86/98] [Global: 171/98] GABRY Marianne
+[16:42:52] INFO: 🔍 [86] Extraction: GABRY Marianne
+[16:42:52] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/marianne-gabry/ (tentative 1)
+[16:42:53] INFO: ✅ OK (200, 113425 chars)
+[16:42:53] ERROR: ❌ Erreur lors de l'extraction de GABRY Marianne: cannot access local variable 're' where it is not associated with a value
+[16:42:53] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:55] INFO: 📄 [87/98] [Global: 173/98] QUENNEHEN Adeline
+[16:42:55] INFO: 🔍 [87] Extraction: QUENNEHEN Adeline
+[16:42:55] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/quennehen-adeline/ (tentative 1)
+[16:42:56] INFO: ✅ OK (200, 113334 chars)
+[16:42:56] ERROR: ❌ Erreur lors de l'extraction de QUENNEHEN Adeline: cannot access local variable 're' where it is not associated with a value
+[16:42:56] INFO: ✅ Données: 🎯 Q:0/10
+[16:42:58] INFO: 📄 [88/98] [Global: 175/98] PENNEL Cyrille
+[16:42:58] INFO: 🔍 [88] Extraction: PENNEL Cyrille
+[16:42:58] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pennel-cyrille/ (tentative 1)
+[16:42:59] INFO: ✅ OK (200, 113226 chars)
+[16:42:59] ERROR: ❌ Erreur lors de l'extraction de PENNEL Cyrille: cannot access local variable 're' where it is not associated with a value
+[16:42:59] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:01] INFO: 📄 [89/98] [Global: 177/98] BATHANI Inès
+[16:43:01] INFO: 🔍 [89] Extraction: BATHANI Inès
+[16:43:01] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bathani-ines/ (tentative 1)
+[16:43:02] INFO: ✅ OK (200, 113142 chars)
+[16:43:02] ERROR: ❌ Erreur lors de l'extraction de BATHANI Inès: cannot access local variable 're' where it is not associated with a value
+[16:43:02] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:04] INFO: 📄 [90/98] [Global: 179/98] DELCOURT Marion
+[16:43:04] INFO: 🔍 [90] Extraction: DELCOURT Marion
+[16:43:04] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delcourt-marion/ (tentative 1)
+[16:43:05] INFO: ✅ OK (200, 113323 chars)
+[16:43:05] ERROR: ❌ Erreur lors de l'extraction de DELCOURT Marion: cannot access local variable 're' where it is not associated with a value
+[16:43:05] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:05] INFO: 💾 Sauvegarde: arras_enhanced_partial_90_20260227_164305.json, arras_enhanced_partial_90_20260227_164305.csv, arras_report_partial_90_20260227_164305.txt
+[16:43:05] INFO: 💾 Session sauvegardée: 90 avocats
+[16:43:05] INFO: 💾 Sauvegarde intermédiaire (90 traités)
+[16:43:07] INFO: 📄 [91/98] [Global: 181/98] GAUBE Julie
+[16:43:07] INFO: 🔍 [91] Extraction: GAUBE Julie
+[16:43:07] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gaube-julie/ (tentative 1)
+[16:43:08] INFO: ✅ OK (200, 113245 chars)
+[16:43:08] ERROR: ❌ Erreur lors de l'extraction de GAUBE Julie: cannot access local variable 're' where it is not associated with a value
+[16:43:08] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:10] INFO: 📄 [92/98] [Global: 183/98] DOUAY François
+[16:43:10] INFO: 🔍 [92] Extraction: DOUAY François
+[16:43:10] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/douay-francois/ (tentative 1)
+[16:43:11] INFO: ✅ OK (200, 113593 chars)
+[16:43:11] ERROR: ❌ Erreur lors de l'extraction de DOUAY François: cannot access local variable 're' where it is not associated with a value
+[16:43:11] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:13] INFO: 📄 [93/98] [Global: 185/98] SILLARD Alexandre
+[16:43:13] INFO: 🔍 [93] Extraction: SILLARD Alexandre
+[16:43:13] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sillard-alexandre/ (tentative 1)
+[16:43:14] INFO: ✅ OK (200, 113451 chars)
+[16:43:14] ERROR: ❌ Erreur lors de l'extraction de SILLARD Alexandre: cannot access local variable 're' where it is not associated with a value
+[16:43:14] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:16] INFO: 📄 [94/98] [Global: 187/98] FONTAINE Clotilde
+[16:43:16] INFO: 🔍 [94] Extraction: FONTAINE Clotilde
+[16:43:16] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fontaine-clotilde/ (tentative 1)
+[16:43:17] INFO: ✅ OK (200, 113675 chars)
+[16:43:17] ERROR: ❌ Erreur lors de l'extraction de FONTAINE Clotilde: cannot access local variable 're' where it is not associated with a value
+[16:43:17] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:19] INFO: 📄 [95/98] [Global: 189/98] COLLET Stella
+[16:43:19] INFO: 🔍 [95] Extraction: COLLET Stella
+[16:43:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/collet-stella/ (tentative 1)
+[16:43:21] INFO: ✅ OK (200, 113569 chars)
+[16:43:21] ERROR: ❌ Erreur lors de l'extraction de COLLET Stella: cannot access local variable 're' where it is not associated with a value
+[16:43:21] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:23] INFO: 📄 [96/98] [Global: 191/98] VERDAVAINE Pauline
+[16:43:23] INFO: 🔍 [96] Extraction: VERDAVAINE Pauline
+[16:43:23] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/verdavaine-pauline/ (tentative 1)
+[16:43:24] INFO: ✅ OK (200, 113754 chars)
+[16:43:24] ERROR: ❌ Erreur lors de l'extraction de VERDAVAINE Pauline: cannot access local variable 're' where it is not associated with a value
+[16:43:24] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:26] INFO: 📄 [97/98] [Global: 193/98] LALOUX Mathilde
+[16:43:26] INFO: 🔍 [97] Extraction: LALOUX Mathilde
+[16:43:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/laloux-mathilde/ (tentative 1)
+[16:43:27] INFO: ✅ OK (200, 113664 chars)
+[16:43:27] ERROR: ❌ Erreur lors de l'extraction de LALOUX Mathilde: cannot access local variable 're' where it is not associated with a value
+[16:43:27] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:29] INFO: 📄 [98/98] [Global: 195/98] LENBA Inès
+[16:43:29] INFO: 🔍 [98] Extraction: LENBA Inès
+[16:43:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lenba-ines/ (tentative 1)
+[16:43:30] INFO: ✅ OK (200, 113411 chars)
+[16:43:30] ERROR: ❌ Erreur lors de l'extraction de LENBA Inès: cannot access local variable 're' where it is not associated with a value
+[16:43:30] INFO: ✅ Données: 🎯 Q:0/10
+[16:43:30] INFO: 💾 Sauvegarde finale...
+[16:43:30] INFO: 💾 Sauvegarde: arras_enhanced_FINAL_20260227_164330.json, arras_enhanced_FINAL_20260227_164330.csv, arras_report_FINAL_20260227_164330.txt
+[16:43:30] INFO: ============================================================
+[16:43:30] INFO: 📊 RAPPORT FINAL ENHANCED
+[16:43:30] INFO: ============================================================
+[16:43:30] INFO: ⏱️ Durée totale: 0:05:13.349242
+[16:43:30] INFO: 📄 Pages traitées: 9
+[16:43:30] INFO: 👥 Avocats découverts: 98
+[16:43:30] INFO: ✅ Extractions réussies: 0
+[16:43:30] INFO: ❌ Extractions échouées: 98
+[16:43:30] INFO: 📈 Taux de réussite: 0.0%
+[16:43:30] INFO: 💾 Fichiers finaux: arras_enhanced_FINAL_20260227_164330.json & arras_enhanced_FINAL_20260227_164330.csv
+[16:43:30] INFO: 🎯 Score qualité moyen: 0.0/10
+[16:43:30] INFO: ⭐ Avocats haute qualité: 0/98 (0.0%)
+[16:43:30] INFO: 📧 Emails: 0/98 (0.0%)
+[16:43:30] INFO: 📞 Téléphones: 0/98 (0.0%)
+[16:43:30] INFO: 🏠 Adresses: 0/98 (0.0%)
+[16:44:29] INFO: 🚀 DÉMARRAGE SCRAPER ARRAS ENHANCED
+[16:44:29] INFO: ============================================================
+[16:44:29] INFO: 🔍 Découverte du nombre de pages...
+[16:44:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[16:44:30] INFO: ✅ OK (200, 195175 chars)
+[16:44:30] INFO: 📊 Nombre de pages détecté: 9
+[16:44:30] INFO: 📋 Collecte des liens d'avocats...
+[16:44:30] INFO: 📄 Traitement page 1/9
+[16:44:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/ (tentative 1)
+[16:44:30] INFO: ✅ OK (200, 195175 chars)
+[16:44:30] INFO: 👥 12 avocats uniques trouvés sur la page 1
+[16:44:32] INFO: 📄 Traitement page 2/9
+[16:44:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/2/ (tentative 1)
+[16:44:32] INFO: ✅ OK (200, 195552 chars)
+[16:44:32] INFO: 👥 11 avocats uniques trouvés sur la page 2
+[16:44:34] INFO: 📄 Traitement page 3/9
+[16:44:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/3/ (tentative 1)
+[16:44:34] INFO: ✅ OK (200, 195962 chars)
+[16:44:34] INFO: 👥 12 avocats uniques trouvés sur la page 3
+[16:44:36] INFO: 📄 Traitement page 4/9
+[16:44:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/4/ (tentative 1)
+[16:44:36] INFO: ✅ OK (200, 195543 chars)
+[16:44:36] INFO: 👥 12 avocats uniques trouvés sur la page 4
+[16:44:38] INFO: 📄 Traitement page 5/9
+[16:44:38] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/5/ (tentative 1)
+[16:44:38] INFO: ✅ OK (200, 195476 chars)
+[16:44:38] INFO: 👥 11 avocats uniques trouvés sur la page 5
+[16:44:40] INFO: 📄 Traitement page 6/9
+[16:44:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/6/ (tentative 1)
+[16:44:40] INFO: ✅ OK (200, 193948 chars)
+[16:44:40] INFO: 👥 12 avocats uniques trouvés sur la page 6
+[16:44:42] INFO: 📄 Traitement page 7/9
+[16:44:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/7/ (tentative 1)
+[16:44:43] INFO: ✅ OK (200, 192741 chars)
+[16:44:43] INFO: 👥 11 avocats uniques trouvés sur la page 7
+[16:44:45] INFO: 📄 Traitement page 8/9
+[16:44:45] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/8/ (tentative 1)
+[16:44:45] INFO: ✅ OK (200, 190860 chars)
+[16:44:45] INFO: 👥 12 avocats uniques trouvés sur la page 8
+[16:44:47] INFO: 📄 Traitement page 9/9
+[16:44:47] INFO: 🌐 GET https://avocatsarras.com/annuaire/page/9/ (tentative 1)
+[16:44:47] INFO: ✅ OK (200, 185806 chars)
+[16:44:47] INFO: 👥 5 avocats uniques trouvés sur la page 9
+[16:44:47] INFO: 👥 TOTAL: 98 nouveaux avocats à traiter
+[16:44:47] INFO: 📊 Déjà traités: 0 avocats
+[16:44:47] INFO: 🔍 Démarrage extraction individuelle...
+[16:44:47] INFO: 📄 [1/98] [Global: 1/98] BODEREAU Philippe
+[16:44:47] INFO: 🔍 [1] Extraction: BODEREAU Philippe
+[16:44:47] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-philippe-2/ (tentative 1)
+[16:44:47] INFO: ✅ OK (200, 111594 chars)
+[16:44:47] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 1978 | 🎯 Q:10/10
+[16:44:49] INFO: 📄 [2/98] [Global: 3/98] VAAST Antoine
+[16:44:49] INFO: 🔍 [2] Extraction: VAAST Antoine
+[16:44:49] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vaast-antoine/ (tentative 1)
+[16:44:49] INFO: ✅ OK (200, 113702 chars)
+[16:44:49] INFO: ✅ Données: 📞 0321040455 | 📅 1986 | 🎯 Q:8/10
+[16:44:51] INFO: 📄 [3/98] [Global: 5/98] SCAILLIEREZ Danièle
+[16:44:51] INFO: 🔍 [3] Extraction: SCAILLIEREZ Danièle
+[16:44:51] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/scaillierez-daniele/ (tentative 1)
+[16:44:51] INFO: ✅ OK (200, 114015 chars)
+[16:44:51] INFO: ✅ Données: 📧 secretariat.dscail@outlook.fr | 📞 0321032595 | 📅 1988 | 🎯 Q:11/10
+[16:44:53] INFO: 📄 [4/98] [Global: 7/98] PINGUET Jérôme
+[16:44:53] INFO: 🔍 [4] Extraction: PINGUET Jérôme
+[16:44:53] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pinguet-jerome/ (tentative 1)
+[16:44:53] INFO: ✅ OK (200, 113677 chars)
+[16:44:53] INFO: ✅ Données: 📧 jepinguet@nordnet.fr | 📞 0320658512 | 📅 1989 | 🎯 Q:10/10
+[16:44:55] INFO: 📄 [5/98] [Global: 9/98] MOULIN Bernard
+[16:44:55] INFO: 🔍 [5] Extraction: MOULIN Bernard
+[16:44:55] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/moulin-bernard/ (tentative 1)
+[16:44:55] INFO: ✅ OK (200, 111512 chars)
+[16:44:55] INFO: ✅ Données: 📞 0321236073 | 📅 1989 | 🎯 Q:8/10
+[16:44:57] INFO: 📄 [6/98] [Global: 11/98] DELEVACQUE Christian
+[16:44:57] INFO: 🔍 [6] Extraction: DELEVACQUE Christian
+[16:44:57] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delevacque-christian/ (tentative 1)
+[16:44:58] INFO: ✅ OK (200, 113854 chars)
+[16:44:58] INFO: ✅ Données: 📞 0321213059 | 📅 1989 | 🎯 Q:8/10
+[16:45:00] INFO: 📄 [7/98] [Global: 13/98] DEBLIQUIS Vincent
+[16:45:00] INFO: 🔍 [7] Extraction: DEBLIQUIS Vincent
+[16:45:00] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/debliquis-vincent/ (tentative 1)
+[16:45:00] INFO: ✅ OK (200, 113598 chars)
+[16:45:00] INFO: ✅ Données: 📞 0321161528 | 📅 1989 | 🎯 Q:7/10
+[16:45:02] INFO: 📄 [8/98] [Global: 15/98] HUMEZ Géry
+[16:45:02] INFO: 🔍 [8] Extraction: HUMEZ Géry
+[16:45:02] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/humez-gery/ (tentative 1)
+[16:45:02] INFO: ✅ OK (200, 113003 chars)
+[16:45:02] INFO: ✅ Données: 📞 0321213421 | 📅 1990 | 🎯 Q:8/10
+[16:45:04] INFO: 📄 [9/98] [Global: 17/98] DELACOUR-PENAZZO Valérie
+[16:45:04] INFO: 🔍 [9] Extraction: DELACOUR-PENAZZO Valérie
+[16:45:04] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delacour-penazzo-valerie/ (tentative 1)
+[16:45:04] INFO: ✅ OK (200, 114855 chars)
+[16:45:04] INFO: ✅ Données: 📧 valerie.delacour-penazzo@fidal.com | 📞 0321241411 | 📅 1991 | 🎯 Q:11/10
+[16:45:06] INFO: 📄 [10/98] [Global: 19/98] LESTRELIN Céline
+[16:45:06] INFO: 🔍 [10] Extraction: LESTRELIN Céline
+[16:45:06] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lestrelin-celine/ (tentative 1)
+[16:45:06] INFO: ✅ OK (200, 114262 chars)
+[16:45:06] INFO: ✅ Données: 📧 celine.lestrelin@fidal.com | 📞 0321241411 | 📅 1992 | 🎯 Q:11/10
+[16:45:06] INFO: 💾 Sauvegarde: arras_enhanced_partial_10_20260227_164506.json, arras_enhanced_partial_10_20260227_164506.csv, arras_report_partial_10_20260227_164506.txt
+[16:45:06] INFO: 💾 Session sauvegardée: 10 avocats
+[16:45:06] INFO: 💾 Sauvegarde intermédiaire (10 traités)
+[16:45:08] INFO: 📄 [11/98] [Global: 21/98] DUSSART Maxime
+[16:45:08] INFO: 🔍 [11] Extraction: DUSSART Maxime
+[16:45:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dussart-maxime/ (tentative 1)
+[16:45:08] INFO: ✅ OK (200, 113520 chars)
+[16:45:08] INFO: ✅ Données: 📞 0321155582 | 📅 1992 | 🎯 Q:8/10
+[16:45:10] INFO: 📄 [12/98] [Global: 23/98] LELIGOIS-BIETTE Christine
+[16:45:10] INFO: 🔍 [12] Extraction: LELIGOIS-BIETTE Christine
+[16:45:10] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/leligois-biette-christine/ (tentative 1)
+[16:45:11] INFO: ✅ OK (200, 114212 chars)
+[16:45:11] INFO: ✅ Données: 📧 actisconseils@orange.fr | 📞 0321071727 | 📅 1994 | 🎯 Q:11/10
+[16:45:13] INFO: 📄 [13/98] [Global: 25/98] BIETTE Alexandre
+[16:45:13] INFO: 🔍 [13] Extraction: BIETTE Alexandre
+[16:45:13] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/biette-alexandre/ (tentative 1)
+[16:45:13] INFO: ✅ OK (200, 113885 chars)
+[16:45:13] INFO: ✅ Données: 📧 actisconseils@orange.fr | 📞 0321071727 | 📅 1994 | 🎯 Q:11/10
+[16:45:15] INFO: 📄 [14/98] [Global: 27/98] LEFRANC Jean-Louis
+[16:45:15] INFO: 🔍 [14] Extraction: LEFRANC Jean-Louis
+[16:45:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-jean-louis/ (tentative 1)
+[16:45:15] INFO: ✅ OK (200, 113821 chars)
+[16:45:15] INFO: ✅ Données: 📧 jeanlouis.lefranc02@gmail.com | 📞 0321232920 | 📅 1994 | 🎯 Q:10/10
+[16:45:17] INFO: 📄 [15/98] [Global: 29/98] MEILLIER  Philippe
+[16:45:17] INFO: 🔍 [15] Extraction: MEILLIER  Philippe
+[16:45:17] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/meillier-philippe/ (tentative 1)
+[16:45:17] INFO: ✅ OK (200, 114210 chars)
+[16:45:17] INFO: ✅ Données: 📧 contact@meillier-avocats.fr | 📞 0321213200 | 📅 1993 | 🎯 Q:11/10
+[16:45:19] INFO: 📄 [16/98] [Global: 31/98] VINCHANT Fabrice
+[16:45:19] INFO: 🔍 [16] Extraction: VINCHANT Fabrice
+[16:45:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vinchant-fabrice/ (tentative 1)
+[16:45:19] INFO: ✅ OK (200, 113965 chars)
+[16:45:19] INFO: ✅ Données: 📧 acvl@avocatsvl.fr | 📞 0321519070 | 📅 1993 | 🎯 Q:11/10
+[16:45:21] INFO: 📄 [17/98] [Global: 33/98] FICHELLE Marie
+[16:45:21] INFO: 🔍 [17] Extraction: FICHELLE Marie
+[16:45:21] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fichelle-marie/ (tentative 1)
+[16:45:22] INFO: ✅ OK (200, 113538 chars)
+[16:45:22] INFO: ✅ Données: 📞 0321232963 | 📅 1993 | 🎯 Q:7/10
+[16:45:24] INFO: 📄 [18/98] [Global: 35/98] OSSEYRAN Yann
+[16:45:24] INFO: 🔍 [18] Extraction: OSSEYRAN Yann
+[16:45:24] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/osseyran-yann/ (tentative 1)
+[16:45:24] INFO: ✅ OK (200, 113830 chars)
+[16:45:24] INFO: ✅ Données: 📞 0321230460 | 📅 1994 | 🎯 Q:7/10
+[16:45:26] INFO: 📄 [19/98] [Global: 37/98] KOFFI Kouamé
+[16:45:26] INFO: 🔍 [19] Extraction: KOFFI Kouamé
+[16:45:26] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/koffi-kouame/ (tentative 1)
+[16:45:26] INFO: ✅ OK (200, 113753 chars)
+[16:45:26] INFO: ✅ Données: 📧 secretariat.semkoffimbarga@orange.fr | 📞 0607191694 | 📅 1994 | 🎯 Q:10/10
+[16:45:28] INFO: 📄 [20/98] [Global: 39/98] VANDERMERSCH-MUSSAULT Laurence
+[16:45:28] INFO: 🔍 [20] Extraction: VANDERMERSCH-MUSSAULT Laurence
+[16:45:28] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vandermersch-mussault-laurence/ (tentative 1)
+[16:45:28] INFO: ✅ OK (200, 113734 chars)
+[16:45:28] INFO: ✅ Données: 📧 lv.avocat@orange.fr | 📞 0321594616 | 📅 1994 | 🎯 Q:11/10
+[16:45:28] INFO: 💾 Sauvegarde: arras_enhanced_partial_20_20260227_164528.json, arras_enhanced_partial_20_20260227_164528.csv, arras_report_partial_20_20260227_164528.txt
+[16:45:28] INFO: 💾 Session sauvegardée: 20 avocats
+[16:45:28] INFO: 💾 Sauvegarde intermédiaire (20 traités)
+[16:45:30] INFO: 📄 [21/98] [Global: 41/98] MARTINUZZO Raphaële
+[16:45:30] INFO: 🔍 [21] Extraction: MARTINUZZO Raphaële
+[16:45:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/martinuzzo-raphaele/ (tentative 1)
+[16:45:30] INFO: ✅ OK (200, 111674 chars)
+[16:45:30] INFO: ✅ Données: 📞 0321040455 | 📅 1995 | 🎯 Q:7/10
+[16:45:32] INFO: 📄 [22/98] [Global: 43/98] GABRIEL Anne-Sophie
+[16:45:32] INFO: 🔍 [22] Extraction: GABRIEL Anne-Sophie
+[16:45:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gabriel-anne-sophie/ (tentative 1)
+[16:45:32] INFO: ✅ OK (200, 111557 chars)
+[16:45:32] INFO: ✅ Données: 📧 arras@themes.fr | 📞 0321232920 | 📅 1996 | 🎯 Q:11/10
+[16:45:34] INFO: 📄 [23/98] [Global: 45/98] PAGIN Ginette
+[16:45:34] INFO: 🔍 [23] Extraction: PAGIN Ginette
+[16:45:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pagin-ginette/ (tentative 1)
+[16:45:34] INFO: ✅ OK (200, 113743 chars)
+[16:45:34] INFO: ✅ Données: 📧 gp@pagin-avocat.fr | 📞 0321598589 | 📅 1995 | 🎯 Q:10/10
+[16:45:36] INFO: 📄 [24/98] [Global: 47/98] CHOPIN Agathe
+[16:45:36] INFO: 🔍 [24] Extraction: CHOPIN Agathe
+[16:45:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/agathe-chopin/ (tentative 1)
+[16:45:37] INFO: ✅ OK (200, 113399 chars)
+[16:45:37] INFO: ✅ Données: 📧 agathechopin@cabinetsipp.com | 📞 0321719000 | 📅 1996 | 🎯 Q:11/10
+[16:45:39] INFO: 📄 [25/98] [Global: 49/98] LAMORIL-HOUTART Claire
+[16:45:39] INFO: 🔍 [25] Extraction: LAMORIL-HOUTART Claire
+[16:45:39] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lamoril-houtart-claire/ (tentative 1)
+[16:45:40] INFO: ✅ OK (200, 113898 chars)
+[16:45:40] INFO: ✅ Données: 📞 0321169290 | 📅 1996 | 🎯 Q:7/10
+[16:45:42] INFO: 📄 [26/98] [Global: 51/98] LAMORIL Matthieu
+[16:45:42] INFO: 🔍 [26] Extraction: LAMORIL Matthieu
+[16:45:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lamoril-matthieu/ (tentative 1)
+[16:45:45] INFO: ✅ OK (200, 114010 chars)
+[16:45:45] INFO: ✅ Données: 📧 acvl@avocatsvl.fr | 📞 0321519070 | 📅 1997 | 🎯 Q:11/10
+[16:45:47] INFO: 📄 [27/98] [Global: 53/98] ROTELLINI Pierre
+[16:45:47] INFO: 🔍 [27] Extraction: ROTELLINI Pierre
+[16:45:47] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/rotellini-pierre/ (tentative 1)
+[16:45:52] INFO: ✅ OK (200, 113808 chars)
+[16:45:52] INFO: ✅ Données: 📧 pierre.rotellini@gmail.com | 📞 0321718495 | 📅 1997 | 🎯 Q:10/10
+[16:45:54] INFO: 📄 [28/98] [Global: 55/98] DELAHOUSSE Christophe
+[16:45:54] INFO: 🔍 [28] Extraction: DELAHOUSSE Christophe
+[16:45:54] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delahousse-christophe/ (tentative 1)
+[16:46:00] INFO: ✅ OK (200, 114464 chars)
+[16:46:00] INFO: ✅ Données: 📧 c.delahousse@orange.fr | 📞 0321710462 | 📅 2000 | 🎯 Q:11/10
+[16:46:02] INFO: 📄 [29/98] [Global: 57/98] DAVID Sophie
+[16:46:02] INFO: 🔍 [29] Extraction: DAVID Sophie
+[16:46:02] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/david-sophie/ (tentative 1)
+[16:46:05] INFO: ✅ OK (200, 113540 chars)
+[16:46:05] INFO: ✅ Données: 📧 sdavid.avocat@orange.fr | 📞 0321519403 | 📅 1999 | 🎯 Q:10/10
+[16:46:07] INFO: 📄 [30/98] [Global: 59/98] BION Isabelle
+[16:46:07] INFO: 🔍 [30] Extraction: BION Isabelle
+[16:46:07] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bion-isabelle/ (tentative 1)
+[16:46:09] INFO: ✅ OK (200, 113647 chars)
+[16:46:09] INFO: ✅ Données: 📧 ibion.avocat.fr@orange.fr | 📞 0321718357 | 📅 1999 | 🎯 Q:10/10
+[16:46:09] INFO: 💾 Sauvegarde: arras_enhanced_partial_30_20260227_164609.json, arras_enhanced_partial_30_20260227_164609.csv, arras_report_partial_30_20260227_164609.txt
+[16:46:09] INFO: 💾 Session sauvegardée: 30 avocats
+[16:46:09] INFO: 💾 Sauvegarde intermédiaire (30 traités)
+[16:46:11] INFO: 📄 [31/98] [Global: 61/98] WILLEMETZ Samuel
+[16:46:11] INFO: 🔍 [31] Extraction: WILLEMETZ Samuel
+[16:46:11] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/willemetz-samuel/ (tentative 1)
+[16:46:13] INFO: ✅ OK (200, 114150 chars)
+[16:46:13] INFO: ✅ Données: 📧 swillemetz@holys.co | 📞 0321605040 | 📅 2001 | 🎯 Q:10/10
+[16:46:15] INFO: 📄 [32/98] [Global: 63/98] LAMBERT Anny
+[16:46:15] INFO: 🔍 [32] Extraction: LAMBERT Anny
+[16:46:15] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lambert-anny/ (tentative 1)
+[16:46:15] INFO: ✅ OK (200, 111310 chars)
+[16:46:15] INFO: ✅ Données: 📞 0321503772 | 📅 2004 | 🎯 Q:7/10
+[16:46:17] INFO: 📄 [33/98] [Global: 65/98] PIRON Marie-Charlotte
+[16:46:17] INFO: 🔍 [33] Extraction: PIRON Marie-Charlotte
+[16:46:17] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/piron-marie-charlotte/ (tentative 1)
+[16:46:17] INFO: ✅ OK (200, 114258 chars)
+[16:46:17] INFO: ✅ Données: 📧 avocat@mcpiron.com | 📞 0321215030 | 📅 2003 | 🎯 Q:10/10
+[16:46:19] INFO: 📄 [34/98] [Global: 67/98] GARNIER Anne
+[16:46:19] INFO: 🔍 [34] Extraction: GARNIER Anne
+[16:46:19] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/garnier-anne/ (tentative 1)
+[16:46:19] INFO: ✅ OK (200, 113780 chars)
+[16:46:19] INFO: ✅ Données: 📞 0321717777 | 📅 2013 | 🎯 Q:7/10
+[16:46:21] INFO: 📄 [35/98] [Global: 69/98] GORNY Julie
+[16:46:21] INFO: 🔍 [35] Extraction: GORNY Julie
+[16:46:21] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gorny-julie/ (tentative 1)
+[16:46:21] INFO: ✅ OK (200, 111462 chars)
+[16:46:21] INFO: ✅ Données: 📧 julie.gorny@gmail.com | 📞 0321227456 | 📅 2003 | 🎯 Q:10/10
+[16:46:23] INFO: 📄 [36/98] [Global: 71/98] DUPRIEZ Angélique
+[16:46:23] INFO: 🔍 [36] Extraction: DUPRIEZ Angélique
+[16:46:23] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dupriez-angelique/ (tentative 1)
+[16:46:23] INFO: ✅ OK (200, 113656 chars)
+[16:46:23] INFO: ✅ Données: 📧 adupriezavocat@orange.fr | 📞 0321233653 | 📅 2003 | 🎯 Q:10/10
+[16:46:25] INFO: 📄 [37/98] [Global: 73/98] POULAIN Nathalie
+[16:46:25] INFO: 🔍 [37] Extraction: POULAIN Nathalie
+[16:46:25] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/poulain-nathalie/ (tentative 1)
+[16:46:26] INFO: ✅ OK (200, 113749 chars)
+[16:46:26] INFO: ✅ Données: 📧 arras@themes.fr | 📞 0321232920 | 📅 2004 | 🎯 Q:11/10
+[16:46:28] INFO: 📄 [38/98] [Global: 75/98] LETKO-BURIAN Tal
+[16:46:28] INFO: 🔍 [38] Extraction: LETKO-BURIAN Tal
+[16:46:28] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/letko-burian-tal/ (tentative 1)
+[16:46:28] INFO: ✅ OK (200, 113805 chars)
+[16:46:28] INFO: ✅ Données: 📞 0321605040 | 📅 2004 | 🎯 Q:7/10
+[16:46:30] INFO: 📄 [39/98] [Global: 77/98] PRUD’HOMME Etienne
+[16:46:30] INFO: 🔍 [39] Extraction: PRUD’HOMME Etienne
+[16:46:30] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/prudhomme-etienne/ (tentative 1)
+[16:46:30] INFO: ✅ OK (200, 113864 chars)
+[16:46:30] INFO: ✅ Données: 📞 0321211221 | 📅 2005 | 🎯 Q:8/10
+[16:46:32] INFO: 📄 [40/98] [Global: 79/98] KOSKAS Yaël
+[16:46:32] INFO: 🔍 [40] Extraction: KOSKAS Yaël
+[16:46:32] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/koskas-yael/ (tentative 1)
+[16:46:32] INFO: ✅ OK (200, 113486 chars)
+[16:46:32] INFO: ✅ Données: 📧 yaelkoskas2@icloud.com | 📞 0321219479 | 📅 2002 | 🎯 Q:10/10
+[16:46:32] INFO: 💾 Sauvegarde: arras_enhanced_partial_40_20260227_164632.json, arras_enhanced_partial_40_20260227_164632.csv, arras_report_partial_40_20260227_164632.txt
+[16:46:32] INFO: 💾 Session sauvegardée: 40 avocats
+[16:46:32] INFO: 💾 Sauvegarde intermédiaire (40 traités)
+[16:46:34] INFO: 📄 [41/98] [Global: 81/98] BERNARD Laurette
+[16:46:34] INFO: 🔍 [41] Extraction: BERNARD Laurette
+[16:46:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bernard-laurette/ (tentative 1)
+[16:46:34] INFO: ✅ OK (200, 114016 chars)
+[16:46:34] INFO: ✅ Données: 📧 laurette.bernard@avocat.fr | 📞 0321228155 | 📅 2006 | 🎯 Q:10/10
+[16:46:36] INFO: 📄 [42/98] [Global: 83/98] DELCOURT Anne-Sophie
+[16:46:36] INFO: 🔍 [42] Extraction: DELCOURT Anne-Sophie
+[16:46:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delcourt-anne-sophie/ (tentative 1)
+[16:46:37] INFO: ✅ OK (200, 114078 chars)
+[16:46:37] INFO: ✅ Données: 📧 annesophie.delcourt@avocat.fr | 📞 0321215030 | 📅 2005 | 🎯 Q:10/10
+[16:46:39] INFO: 📄 [43/98] [Global: 85/98] SESBOÜÉ Sophie
+[16:46:39] INFO: 🔍 [43] Extraction: SESBOÜÉ Sophie
+[16:46:39] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sesboue-sophie/ (tentative 1)
+[16:46:39] INFO: ✅ OK (200, 113944 chars)
+[16:46:39] INFO: ✅ Données: 📧 jeanchroscik@accedit.fr | 📞 0321514980 | 📅 2005 | 🎯 Q:11/10
+[16:46:41] INFO: 📄 [44/98] [Global: 87/98] VASSEUR Cécile
+[16:46:41] INFO: 🔍 [44] Extraction: VASSEUR Cécile
+[16:46:41] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/vasseur-cecile/ (tentative 1)
+[16:46:41] INFO: ✅ OK (200, 113646 chars)
+[16:46:41] INFO: ✅ Données: 📧 cvasseur@synergis-avocats.fr | 📞 0321737374 | 📅 2005 | 🎯 Q:11/10
+[16:46:43] INFO: 📄 [45/98] [Global: 89/98] LEFRANC David
+[16:46:43] INFO: 🔍 [45] Extraction: LEFRANC David
+[16:46:43] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-david/ (tentative 1)
+[16:46:43] INFO: ✅ OK (200, 113743 chars)
+[16:46:44] INFO: ✅ Données: 📧 david-lefranc@laropoin.com | 📞 0321484099 | 📅 2006 | 🎯 Q:11/10
+[16:46:46] INFO: 📄 [46/98] [Global: 91/98] WEPPE Daphné
+[16:46:46] INFO: 🔍 [46] Extraction: WEPPE Daphné
+[16:46:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/weppe-daphne/ (tentative 1)
+[16:46:46] INFO: ✅ OK (200, 113894 chars)
+[16:46:46] INFO: ✅ Données: 📧 daphne.weppe@avocat-conseil.fr | 📞 0321583553 | 📅 2007 | 🎯 Q:10/10
+[16:46:48] INFO: 📄 [47/98] [Global: 93/98] VERAGUE Jean-Philippe
+[16:46:48] INFO: 🔍 [47] Extraction: VERAGUE Jean-Philippe
+[16:46:48] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/verague-jean-philippe/ (tentative 1)
+[16:46:48] INFO: ✅ OK (200, 113973 chars)
+[16:46:48] INFO: ✅ Données: 📞 0321213132 | 📅 2007 | 🎯 Q:8/10
+[16:46:50] INFO: 📄 [48/98] [Global: 95/98] JACOBUS Antoine
+[16:46:50] INFO: 🔍 [48] Extraction: JACOBUS Antoine
+[16:46:50] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/jacobus-antoine/ (tentative 1)
+[16:46:50] INFO: ✅ OK (200, 114052 chars)
+[16:46:50] INFO: ✅ Données: 📧 ajacobus@synergis-avocats.fr | 📞 0321737374 | 📅 2010 | 🎯 Q:11/10
+[16:46:52] INFO: 📄 [49/98] [Global: 97/98] LEGROS Dorothée
+[16:46:52] INFO: 🔍 [49] Extraction: LEGROS Dorothée
+[16:46:52] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/legros-dorothee/ (tentative 1)
+[16:46:52] INFO: ✅ OK (200, 114046 chars)
+[16:46:52] INFO: ✅ Données: 📧 jeanchroscik@accedit.fr | 📞 0321514980 | 📅 2010 | 🎯 Q:11/10
+[16:46:54] INFO: 📄 [50/98] [Global: 99/98] POLLARD Céline
+[16:46:54] INFO: 🔍 [50] Extraction: POLLARD Céline
+[16:46:54] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pollard-celine/ (tentative 1)
+[16:46:54] INFO: ✅ OK (200, 111543 chars)
+[16:46:54] INFO: ✅ Données: 📧 celine.pollard@avocat.fr | 📞 0321233603 | 📅 2010 | 🎯 Q:11/10
+[16:46:54] INFO: 💾 Sauvegarde: arras_enhanced_partial_50_20260227_164654.json, arras_enhanced_partial_50_20260227_164654.csv, arras_report_partial_50_20260227_164654.txt
+[16:46:54] INFO: 💾 Session sauvegardée: 50 avocats
+[16:46:54] INFO: 💾 Sauvegarde intermédiaire (50 traités)
+[16:46:56] INFO: 📄 [51/98] [Global: 101/98] BEBEN Alexandre
+[16:46:56] INFO: 🔍 [51] Extraction: BEBEN Alexandre
+[16:46:56] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/beben-alexandre/ (tentative 1)
+[16:46:56] INFO: ✅ OK (200, 111589 chars)
+[16:46:56] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 2011 | 🎯 Q:11/10
+[16:46:58] INFO: 📄 [52/98] [Global: 103/98] PASSE Ludiwine
+[16:46:58] INFO: 🔍 [52] Extraction: PASSE Ludiwine
+[16:46:58] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/passe-ludiwine/ (tentative 1)
+[16:46:58] INFO: ✅ OK (200, 113829 chars)
+[16:46:58] INFO: ✅ Données: 📧 l.passe@lrdp-avocats.com | 📞 0321213135 | 📅 2011 | 🎯 Q:11/10
+[16:47:00] INFO: 📄 [53/98] [Global: 105/98] BODEREAU Alexandra
+[16:47:00] INFO: 🔍 [53] Extraction: BODEREAU Alexandra
+[16:47:00] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-alexandra/ (tentative 1)
+[16:47:01] INFO: ✅ OK (200, 113935 chars)
+[16:47:01] INFO: ✅ Données: 📧 contact@bodereauavocats.com | 📞 0321249491 | 📅 2011 | 🎯 Q:11/10
+[16:47:03] INFO: 📄 [54/98] [Global: 107/98] PRIZAC Hélène
+[16:47:03] INFO: 🔍 [54] Extraction: PRIZAC Hélène
+[16:47:03] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/prizac-helene/ (tentative 1)
+[16:47:05] INFO: ✅ OK (200, 113062 chars)
+[16:47:05] INFO: ✅ Données: 📧 helene@prizac-avocat.com | 📞 0630199053 | 📅 2012 | 🎯 Q:10/10
+[16:47:07] INFO: 📄 [55/98] [Global: 109/98] BARGIS Delphine
+[16:47:07] INFO: 🔍 [55] Extraction: BARGIS Delphine
+[16:47:07] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bargis-delphine/ (tentative 1)
+[16:47:07] INFO: ✅ OK (200, 114055 chars)
+[16:47:07] INFO: ✅ Données: 📧 maitre.bargis@gmail.com | 📞 0321713921 | 📅 2013 | 🎯 Q:10/10
+[16:47:09] INFO: 📄 [56/98] [Global: 111/98] ABDELKRIM Mohamed
+[16:47:09] INFO: 🔍 [56] Extraction: ABDELKRIM Mohamed
+[16:47:09] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/abdelkrim-mohamed/ (tentative 1)
+[16:47:10] INFO: ✅ OK (200, 113736 chars)
+[16:47:10] INFO: ✅ Données: 📧 mohamed.abdelkrim@yahoo.fr | 📞 0321213421 | 📅 2014 | 🎯 Q:10/10
+[16:47:12] INFO: 📄 [57/98] [Global: 113/98] WIBAULT François-Xavier
+[16:47:12] INFO: 🔍 [57] Extraction: WIBAULT François-Xavier
+[16:47:12] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/wibault-francois-xavier/ (tentative 1)
+[16:47:12] INFO: ✅ OK (200, 113402 chars)
+[16:47:12] INFO: ✅ Données: 📞 0320916579 | 📅 2014 | 🎯 Q:8/10
+[16:47:14] INFO: 📄 [58/98] [Global: 115/98] DECAT Pierre-Nicolas
+[16:47:14] INFO: 🔍 [58] Extraction: DECAT Pierre-Nicolas
+[16:47:14] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/decat-pierre-nicolas/ (tentative 1)
+[16:47:14] INFO: ✅ OK (200, 113935 chars)
+[16:47:14] INFO: ✅ Données: 📧 public@decat-avocat.fr | 📞 0362029918 | 📅 2014 | 🎯 Q:10/10
+[16:47:16] INFO: 📄 [59/98] [Global: 117/98] DUCQ Alexandre
+[16:47:16] INFO: 🔍 [59] Extraction: DUCQ Alexandre
+[16:47:16] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/ducq-alexandre/ (tentative 1)
+[16:47:16] INFO: ✅ OK (200, 113578 chars)
+[16:47:16] INFO: ✅ Données: 📧 contact@ducq-avocat.com | 📞 0650642145 | 📅 2015 | 🎯 Q:10/10
+[16:47:18] INFO: 📄 [60/98] [Global: 119/98] HOULMANN Océane
+[16:47:18] INFO: 🔍 [60] Extraction: HOULMANN Océane
+[16:47:18] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/houlmann-oceane/ (tentative 1)
+[16:47:18] INFO: ✅ OK (200, 113340 chars)
+[16:47:18] INFO: ✅ Données: 📧 cabinet@houlmann-avocat.fr | 📞 0681502649 | 📅 2015 | 🎯 Q:10/10
+[16:47:18] INFO: 💾 Sauvegarde: arras_enhanced_partial_60_20260227_164718.json, arras_enhanced_partial_60_20260227_164718.csv, arras_report_partial_60_20260227_164718.txt
+[16:47:18] INFO: 💾 Session sauvegardée: 60 avocats
+[16:47:18] INFO: 💾 Sauvegarde intermédiaire (60 traités)
+[16:47:20] INFO: 📄 [61/98] [Global: 121/98] DUPONT Bernard-Marie
+[16:47:20] INFO: 🔍 [61] Extraction: DUPONT Bernard-Marie
+[16:47:20] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dupont-bernard-marie/ (tentative 1)
+[16:47:21] INFO: ✅ OK (200, 111563 chars)
+[16:47:21] INFO: ✅ Données: 📧 dr.bmdupont@gmail.com | 📞 0351089004 | 📅 2016 | 🎯 Q:10/10
+[16:47:23] INFO: 📄 [62/98] [Global: 123/98] BOUDJEMAA Déborah
+[16:47:23] INFO: 🔍 [62] Extraction: BOUDJEMAA Déborah
+[16:47:23] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/boudjemaa-deborah/ (tentative 1)
+[16:47:23] INFO: ✅ OK (200, 114797 chars)
+[16:47:23] INFO: ✅ Données: 📧 contact@avocat-boudjemaa.com | 📞 0321235978 | 📅 2016 | 🎯 Q:10/10
+[16:47:25] INFO: 📄 [63/98] [Global: 125/98] ZAKENOUNE Mohamed-Akli
+[16:47:25] INFO: 🔍 [63] Extraction: ZAKENOUNE Mohamed-Akli
+[16:47:25] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/zakenoune-mohamed-akli/ (tentative 1)
+[16:47:25] INFO: ✅ OK (200, 113766 chars)
+[16:47:25] INFO: ✅ Données: 📧 contact@zakenoune-avocat.fr | 📞 0359250892 | 📅 2016 | 🎯 Q:10/10
+[16:47:27] INFO: 📄 [64/98] [Global: 127/98] LASRI Nadir
+[16:47:27] INFO: 🔍 [64] Extraction: LASRI Nadir
+[16:47:27] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lasri-nadir/ (tentative 1)
+[16:47:27] INFO: ✅ OK (200, 113877 chars)
+[16:47:27] INFO: ✅ Données: 📧 contact@avocat-lasri.com | 📞 0321160244 | 📅 2016 | 🎯 Q:10/10
+[16:47:29] INFO: 📄 [65/98] [Global: 129/98] FATOUX Alexis
+[16:47:29] INFO: 🔍 [65] Extraction: FATOUX Alexis
+[16:47:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fatoux-alexis/ (tentative 1)
+[16:47:29] INFO: ✅ OK (200, 113238 chars)
+[16:47:29] INFO: ✅ Données: 📞 0321605040 | 📅 2016 | 🎯 Q:7/10
+[16:47:31] INFO: 📄 [66/98] [Global: 131/98] MULLIEZ-BIGOTTE Charlotte
+[16:47:31] INFO: 🔍 [66] Extraction: MULLIEZ-BIGOTTE Charlotte
+[16:47:31] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/mulliez-bigotte-charlotte/ (tentative 1)
+[16:47:31] INFO: ✅ OK (200, 114159 chars)
+[16:47:32] INFO: ✅ Données: 📧 charlottemulliez@cabinetsipp.com | 📞 0321581155 | 📅 2017 | 🎯 Q:10/10
+[16:47:34] INFO: 📄 [67/98] [Global: 133/98] LACHEVRE Anaïs
+[16:47:34] INFO: 🔍 [67] Extraction: LACHEVRE Anaïs
+[16:47:34] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lachevre-anais/ (tentative 1)
+[16:47:34] INFO: ✅ OK (200, 113098 chars)
+[16:47:34] INFO: ✅ Données: 📧 anaislachevre.avocat@gmail.com | 📞 0621138853 | 📅 2017 | 🎯 Q:10/10
+[16:47:36] INFO: 📄 [68/98] [Global: 135/98] Tonkeva Nina
+[16:47:36] INFO: 🔍 [68] Extraction: Tonkeva Nina
+[16:47:36] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/tonkeva-nina/ (tentative 1)
+[16:47:36] INFO: ✅ OK (200, 114152 chars)
+[16:47:36] INFO: ✅ Données: 📧 ninatonkeva.avocat@gmail.com | 📞 0359250993 | 📅 2017 | 🎯 Q:11/10
+[16:47:38] INFO: 📄 [69/98] [Global: 137/98] MAMMONE François
+[16:47:38] INFO: 🔍 [69] Extraction: MAMMONE François
+[16:47:38] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/mammone-francois/ (tentative 1)
+[16:47:38] INFO: ✅ OK (200, 113856 chars)
+[16:47:38] INFO: ✅ Données: 📧 francois.mammone@gmail.com | 📞 0674384469 | 📅 2017 | 🎯 Q:10/10
+[16:47:40] INFO: 📄 [70/98] [Global: 139/98] RYCKEWAERT Arnaud
+[16:47:40] INFO: 🔍 [70] Extraction: RYCKEWAERT Arnaud
+[16:47:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/arnaud-ryckewaert/ (tentative 1)
+[16:47:40] INFO: ✅ OK (200, 113347 chars)
+[16:47:40] INFO: ✅ Données: 📧 arnaud.ryckewaert@fidal.com | 📞 0321241411 | 📅 2018 | 🎯 Q:11/10
+[16:47:40] INFO: 💾 Sauvegarde: arras_enhanced_partial_70_20260227_164740.json, arras_enhanced_partial_70_20260227_164740.csv, arras_report_partial_70_20260227_164740.txt
+[16:47:40] INFO: 💾 Session sauvegardée: 70 avocats
+[16:47:40] INFO: 💾 Sauvegarde intermédiaire (70 traités)
+[16:47:42] INFO: 📄 [71/98] [Global: 141/98] JAGODZINSKI-BAHEUX Sabine
+[16:47:42] INFO: 🔍 [71] Extraction: JAGODZINSKI-BAHEUX Sabine
+[16:47:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/jagodzinski-baheux-sabine/ (tentative 1)
+[16:47:42] INFO: ✅ OK (200, 114818 chars)
+[16:47:42] INFO: ✅ Données: 📧 sabine.jagodzinski@fidal.com | 📞 0321241411 | 📅 2018 | 🎯 Q:11/10
+[16:47:44] INFO: 📄 [72/98] [Global: 143/98] ACTHERGAL Ophélie
+[16:47:44] INFO: 🔍 [72] Extraction: ACTHERGAL Ophélie
+[16:47:44] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/acthergal-ophelie/ (tentative 1)
+[16:47:44] INFO: ✅ OK (200, 113187 chars)
+[16:47:44] INFO: ✅ Données: 📧 cabinet@acth-avocat.com | 📞 0767271520 | 🎯 Q:9/10
+[16:47:46] INFO: 📄 [73/98] [Global: 145/98] LEVESQUE Bertille
+[16:47:46] INFO: 🔍 [73] Extraction: LEVESQUE Bertille
+[16:47:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bertille-levesque/ (tentative 1)
+[16:47:47] INFO: ✅ OK (200, 113313 chars)
+[16:47:47] INFO: ✅ Données: 📧 bertille.levesque@fidal.com | 📞 0321243850 | 📅 2018 | 🎯 Q:10/10
+[16:47:49] INFO: 📄 [74/98] [Global: 147/98] STRUBBE Mathieu
+[16:47:49] INFO: 🔍 [74] Extraction: STRUBBE Mathieu
+[16:47:49] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/strubbe-mathieu/ (tentative 1)
+[16:47:50] INFO: ✅ OK (200, 113656 chars)
+[16:47:50] INFO: ✅ Données: 📧 arras@chanzyavocats.fr | 📞 0362810000 | 📅 2019 | 🎯 Q:11/10
+[16:47:52] INFO: 📄 [75/98] [Global: 149/98] HULEUX Cécile
+[16:47:52] INFO: 🔍 [75] Extraction: HULEUX Cécile
+[16:47:52] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/huleux-cecile/ (tentative 1)
+[16:47:54] INFO: ✅ OK (200, 113267 chars)
+[16:47:54] INFO: ✅ Données: 📧 avocat.cecilehuleux@yahoo.com | 📞 0321605040 | 📅 2019 | 🎯 Q:10/10
+[16:47:56] INFO: 📄 [76/98] [Global: 151/98] CAMPAGNE Thibault
+[16:47:56] INFO: 🔍 [76] Extraction: CAMPAGNE Thibault
+[16:47:56] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/campagne-thibault/ (tentative 1)
+[16:47:57] INFO: ✅ OK (200, 113683 chars)
+[16:47:57] INFO: ✅ Données: 📧 arras@chanzyavocats.fr | 📞 0362810000 | 📅 2019 | 🎯 Q:11/10
+[16:47:59] INFO: 📄 [77/98] [Global: 153/98] LECOCQ Ambroise
+[16:47:59] INFO: 🔍 [77] Extraction: LECOCQ Ambroise
+[16:47:59] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lecocq-ambroise/ (tentative 1)
+[16:47:59] INFO: ✅ OK (200, 114283 chars)
+[16:47:59] INFO: ✅ Données: 📧 contact@lecocq-avocat.com | 📞 0321213059 | 🎯 Q:11/10
+[16:48:01] INFO: 📄 [78/98] [Global: 155/98] LEFEBVRE CHAPON Mylène
+[16:48:01] INFO: 🔍 [78] Extraction: LEFEBVRE CHAPON Mylène
+[16:48:01] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefebvre-chapon-mylene/ (tentative 1)
+[16:48:01] INFO: ✅ OK (200, 113760 chars)
+[16:48:02] INFO: ✅ Données: 📧 mlc@rectiligne-avocats.fr | 📞 0321150255 | 📅 2020 | 🎯 Q:10/10
+[16:48:04] INFO: 📄 [79/98] [Global: 157/98] LEFEVRE Lucie
+[16:48:04] INFO: 🔍 [79] Extraction: LEFEVRE Lucie
+[16:48:04] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefevre-lucie/ (tentative 1)
+[16:48:06] INFO: ✅ OK (200, 113500 chars)
+[16:48:06] INFO: ✅ Données: 📧 llefevre@forsetiavocats.fr | 📞 0320313154 | 📅 2020 | 🎯 Q:10/10
+[16:48:08] INFO: 📄 [80/98] [Global: 159/98] BAKIR Maeva
+[16:48:08] INFO: 🔍 [80] Extraction: BAKIR Maeva
+[16:48:08] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/maeva-bakir/ (tentative 1)
+[16:48:09] INFO: ✅ OK (200, 113174 chars)
+[16:48:09] INFO: ✅ Données: 📧 contact@bakiravocat.com | 📅 2020 | 🎯 Q:8/10
+[16:48:09] INFO: 💾 Sauvegarde: arras_enhanced_partial_80_20260227_164809.json, arras_enhanced_partial_80_20260227_164809.csv, arras_report_partial_80_20260227_164809.txt
+[16:48:09] INFO: 💾 Session sauvegardée: 80 avocats
+[16:48:09] INFO: 💾 Sauvegarde intermédiaire (80 traités)
+[16:48:11] INFO: 📄 [81/98] [Global: 161/98] MULIER Stéphanie
+[16:48:11] INFO: 🔍 [81] Extraction: MULIER Stéphanie
+[16:48:11] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/stephanie-mulier/ (tentative 1)
+[16:48:12] INFO: ✅ OK (200, 113375 chars)
+[16:48:12] INFO: ✅ Données: 📧 s.mulier@m-avocat.fr | 📞 0668303158 | 📅 2020 | 🎯 Q:10/10
+[16:48:14] INFO: 📄 [82/98] [Global: 163/98] DE CLERCQ Léa
+[16:48:14] INFO: 🔍 [82] Extraction: DE CLERCQ Léa
+[16:48:14] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/de-clercq-lea/ (tentative 1)
+[16:48:15] INFO: ✅ OK (200, 113519 chars)
+[16:48:15] INFO: ✅ Données: 📧 lea.declercq-lefevre@avocat.fr | 📞 0321605040 | 📅 2021 | 🎯 Q:10/10
+[16:48:17] INFO: 📄 [83/98] [Global: 165/98] MIART Ancel
+[16:48:17] INFO: 🔍 [83] Extraction: MIART Ancel
+[16:48:17] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/ancel-miart/ (tentative 1)
+[16:48:18] INFO: ✅ OK (200, 113014 chars)
+[16:48:18] INFO: ✅ Données: 📧 amiart@holys.co | 📞 0321605040 | 📅 2022 | 🎯 Q:10/10
+[16:48:20] INFO: 📄 [84/98] [Global: 167/98] ROPPA Shéhérazade
+[16:48:20] INFO: 🔍 [84] Extraction: ROPPA Shéhérazade
+[16:48:20] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sheherazade-roppa/ (tentative 1)
+[16:48:20] INFO: ✅ OK (200, 113405 chars)
+[16:48:20] INFO: ✅ Données: 📧 avocat@roppa.fr | 📞 0647411546 | 📅 2022 | 🎯 Q:10/10
+[16:48:22] INFO: 📄 [85/98] [Global: 169/98] DEHAY Charlotte
+[16:48:22] INFO: 🔍 [85] Extraction: DEHAY Charlotte
+[16:48:22] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/dehay-charlotte/ (tentative 1)
+[16:48:23] INFO: ✅ OK (200, 113295 chars)
+[16:48:23] INFO: ✅ Données: 📧 charlotte.dehay@avocat.fr | 📞 0321605040 | 📅 2022 | 🎯 Q:10/10
+[16:48:25] INFO: 📄 [86/98] [Global: 171/98] GABRY Marianne
+[16:48:25] INFO: 🔍 [86] Extraction: GABRY Marianne
+[16:48:25] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/marianne-gabry/ (tentative 1)
+[16:48:25] INFO: ✅ OK (200, 113425 chars)
+[16:48:25] INFO: ✅ Données: 📧 marianne.gabry@avocat.fr | 📞 0321213200 | 📅 2022 | 🎯 Q:10/10
+[16:48:27] INFO: 📄 [87/98] [Global: 173/98] QUENNEHEN Adeline
+[16:48:27] INFO: 🔍 [87] Extraction: QUENNEHEN Adeline
+[16:48:27] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/quennehen-adeline/ (tentative 1)
+[16:48:27] INFO: ✅ OK (200, 113334 chars)
+[16:48:27] INFO: ✅ Données: 📧 aquennehen-avocat@outlook.fr | 📞 0321213135 | 📅 2022 | 🎯 Q:10/10
+[16:48:29] INFO: 📄 [88/98] [Global: 175/98] PENNEL Cyrille
+[16:48:29] INFO: 🔍 [88] Extraction: PENNEL Cyrille
+[16:48:29] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/pennel-cyrille/ (tentative 1)
+[16:48:29] INFO: ✅ OK (200, 113226 chars)
+[16:48:29] INFO: ✅ Données: 📧 cp@pennel-avocat.fr | 📞 0756812441 | 📅 2023 | 🎯 Q:10/10
+[16:48:31] INFO: 📄 [89/98] [Global: 177/98] BATHANI Inès
+[16:48:31] INFO: 🔍 [89] Extraction: BATHANI Inès
+[16:48:31] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/bathani-ines/ (tentative 1)
+[16:48:31] INFO: ✅ OK (200, 113142 chars)
+[16:48:31] INFO: ✅ Données: 📧 contact@bathani-avocat.fr | 📞 0602567143 | 📅 2023 | 🎯 Q:10/10
+[16:48:33] INFO: 📄 [90/98] [Global: 179/98] DELCOURT Marion
+[16:48:33] INFO: 🔍 [90] Extraction: DELCOURT Marion
+[16:48:33] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/delcourt-marion/ (tentative 1)
+[16:48:33] INFO: ✅ OK (200, 113323 chars)
+[16:48:33] INFO: ✅ Données: 📧 mariondelcourt.avocat@gmail.com | 📞 0766996657 | 📅 2024 | 🎯 Q:10/10
+[16:48:33] INFO: 💾 Sauvegarde: arras_enhanced_partial_90_20260227_164833.json, arras_enhanced_partial_90_20260227_164833.csv, arras_report_partial_90_20260227_164833.txt
+[16:48:33] INFO: 💾 Session sauvegardée: 90 avocats
+[16:48:33] INFO: 💾 Sauvegarde intermédiaire (90 traités)
+[16:48:35] INFO: 📄 [91/98] [Global: 181/98] GAUBE Julie
+[16:48:35] INFO: 🔍 [91] Extraction: GAUBE Julie
+[16:48:35] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/gaube-julie/ (tentative 1)
+[16:48:35] INFO: ✅ OK (200, 113245 chars)
+[16:48:36] INFO: ✅ Données: 📧 juliegaube.avocat@protonmail.com | 📞 0646717405 | 📅 2024 | 🎯 Q:11/10
+[16:48:38] INFO: 📄 [92/98] [Global: 183/98] DOUAY François
+[16:48:38] INFO: 🔍 [92] Extraction: DOUAY François
+[16:48:38] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/douay-francois/ (tentative 1)
+[16:48:38] INFO: ✅ OK (200, 113593 chars)
+[16:48:38] INFO: ✅ Données: 📧 francois.douay@meillier-avocats.fr | 📞 0321213200 | 📅 2024 | 🎯 Q:10/10
+[16:48:40] INFO: 📄 [93/98] [Global: 185/98] SILLARD Alexandre
+[16:48:40] INFO: 🔍 [93] Extraction: SILLARD Alexandre
+[16:48:40] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/sillard-alexandre/ (tentative 1)
+[16:48:40] INFO: ✅ OK (200, 113451 chars)
+[16:48:40] INFO: ✅ Données: 📧 contact@alexandre-sillard-avocat.fr | 📞 0374476080 | 📅 2024 | 🎯 Q:11/10
+[16:48:42] INFO: 📄 [94/98] [Global: 187/98] FONTAINE Clotilde
+[16:48:42] INFO: 🔍 [94] Extraction: FONTAINE Clotilde
+[16:48:42] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/fontaine-clotilde/ (tentative 1)
+[16:48:42] INFO: ✅ OK (200, 113675 chars)
+[16:48:42] INFO: ✅ Données: 📧 contact@cfontaine-avocat.com | 📞 0665942630 | 📅 2024 | 🎯 Q:10/10
+[16:48:44] INFO: 📄 [95/98] [Global: 189/98] COLLET Stella
+[16:48:44] INFO: 🔍 [95] Extraction: COLLET Stella
+[16:48:44] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/collet-stella/ (tentative 1)
+[16:48:44] INFO: ✅ OK (200, 113569 chars)
+[16:48:44] INFO: ✅ Données: 📧 contact@stella-collet-avocat.fr | 📞 0777399013 | 📅 2025 | 🎯 Q:10/10
+[16:48:46] INFO: 📄 [96/98] [Global: 191/98] VERDAVAINE Pauline
+[16:48:46] INFO: 🔍 [96] Extraction: VERDAVAINE Pauline
+[16:48:46] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/verdavaine-pauline/ (tentative 1)
+[16:48:46] INFO: ✅ OK (200, 113754 chars)
+[16:48:46] INFO: ✅ Données: 📧 contact@verdavaineavocat.fr | 📞 0647441319 | 📅 2025 | 🎯 Q:10/10
+[16:48:48] INFO: 📄 [97/98] [Global: 193/98] LALOUX Mathilde
+[16:48:48] INFO: 🔍 [97] Extraction: LALOUX Mathilde
+[16:48:48] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/laloux-mathilde/ (tentative 1)
+[16:48:48] INFO: ✅ OK (200, 113664 chars)
+[16:48:48] INFO: ✅ Données: 📧 mathildelaloux.avocat@outlook.com | 📞 0749129241 | 📅 2025 | 🎯 Q:10/10
+[16:48:50] INFO: 📄 [98/98] [Global: 195/98] LENBA Inès
+[16:48:50] INFO: 🔍 [98] Extraction: LENBA Inès
+[16:48:50] INFO: 🌐 GET https://avocatsarras.com/annuaire/avocats/specialite-avocat/lenba-ines/ (tentative 1)
+[16:48:51] INFO: ✅ OK (200, 113411 chars)
+[16:48:51] INFO: ✅ Données: 📧 lenba.avocat@gmail.com | 📞 0775774183 | 📅 2025 | 🎯 Q:10/10
+[16:48:51] INFO: 💾 Sauvegarde finale...
+[16:48:51] INFO: 💾 Sauvegarde: arras_enhanced_FINAL_20260227_164851.json, arras_enhanced_FINAL_20260227_164851.csv, arras_report_FINAL_20260227_164851.txt
+[16:48:51] INFO: ============================================================
+[16:48:51] INFO: 📊 RAPPORT FINAL ENHANCED
+[16:48:51] INFO: ============================================================
+[16:48:51] INFO: ⏱️ Durée totale: 0:04:21.201069
+[16:48:51] INFO: 📄 Pages traitées: 9
+[16:48:51] INFO: 👥 Avocats découverts: 98
+[16:48:51] INFO: ✅ Extractions réussies: 98
+[16:48:51] INFO: ❌ Extractions échouées: 0
+[16:48:51] INFO: 📈 Taux de réussite: 100.0%
+[16:48:51] INFO: 💾 Fichiers finaux: arras_enhanced_FINAL_20260227_164851.json & arras_enhanced_FINAL_20260227_164851.csv
+[16:48:51] INFO: 🎯 Score qualité moyen: 9.8/10
+[16:48:51] INFO: ⭐ Avocats haute qualité: 98/98 (100.0%)
+[16:48:51] INFO: 📧 Emails: 81/98 (82.7%)
+[16:48:51] INFO: 📞 Téléphones: 97/98 (99.0%)
+[16:48:51] INFO: 🏠 Adresses: 98/98 (100.0%)

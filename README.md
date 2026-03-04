@@ -2,7 +2,24 @@
 
 Collection de scrapers pour extraire les données des barreaux français.
 
-## 🆕 NOUVEAU : Compiègne avec parsing parfait
+## 🆕 NOUVEAU : Saumur - Extraction PDF exhaustive
+
+**Scraper Saumur** avec extraction PDF directe :
+- ✅ **28 avocats** extraits (100% du barreau)
+- ✅ **21 emails uniques** (75% de taux global, 100% tableau principal)  
+- ✅ **Mode headless** - aucune interface graphique
+- ✅ **Extraction PDF** : Plus fiable que le web scraping
+- ✅ **Gestion parfaite** des prénoms composés
+- 📁 **Dossier**: [`saumur/`](./saumur/)
+
+### Utilisation Saumur
+```bash
+cd saumur/
+pip install -r requirements.txt
+python3 run_saumur_scraper.py
+```
+
+## 🔥 RÉCENT : Compiègne avec parsing parfait
 
 **Scraper Compiègne** avec parsing de noms de classe professionnelle :
 - ✅ **75 avocats** récupérés (100% de l'annuaire)
@@ -20,7 +37,31 @@ python3 run_compiegne_scraper.py
 
 ## Scripts Disponibles
 
-### 1. Barreau d'Alès
+### 1. Barreau de Saumur 🆕
+**Dossier:** `saumur/`
+**Source:** PDF officiel (https://www.barreau-saumur.fr/wp-content/uploads/2025/02/avocats-saumur-2025.pdf)
+
+#### Utilisation
+```bash
+cd saumur/
+pip install -r requirements.txt
+
+# Lancement simplifié
+python3 run_saumur_scraper.py
+
+# Ou directement
+python3 SAUMUR_SCRAPER_COMPLET_FINAL.py
+```
+
+#### Résultats
+- **28 avocats** extraits (100% exhaustif)
+  - 26 avocats au tableau principal (1992-2022)
+  - 2 avocats en cabinets secondaires
+- **21 emails uniques** (75% global, 100% tableau)
+- **Mode headless** - aucune fenêtre
+- **Extraction PDF directe** (plus fiable)
+
+### 2. Barreau d'Alès
 **Fichier:** `ales_scraper_final.py`
 **Site cible:** https://www.barreau-ales.fr/fr/annuaire/avocats-barreau-ales/
 
@@ -126,6 +167,10 @@ pip install selenium beautifulsoup4 requests lxml pandas
 Pour mettre à jour vos données, il suffit de relancer le script correspondant :
 
 ```bash
+# Pour Saumur 🆕
+cd saumur/
+python3 run_saumur_scraper.py
+
 # Pour Alès
 python3 ales_scraper_final.py production
 

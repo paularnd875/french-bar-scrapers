@@ -1,0 +1,49 @@
+{
+  "barreau": "Castres",
+  "region": "Occitanie",
+  "departement": "Tarn (81)",
+  "site_url": "https://avocats-castres.fr/annuaire-avocats/",
+  "status": "Production Ready",
+  "last_tested": "2026-02-10",
+  "extraction_stats": {
+    "total_lawyers": 50,
+    "success_rates": {
+      "emails": "100%",
+      "phones": "100%", 
+      "specializations": "100%",
+      "oath_dates": "100%",
+      "structures": "36%"
+    },
+    "execution_time": "4-5 minutes",
+    "headless_compatible": true
+  },
+  "technical_details": {
+    "framework": "Selenium WebDriver",
+    "complexity": "Medium",
+    "pagination": false,
+    "javascript_required": false,
+    "anti_bot": "None",
+    "cookies": "Tarteaucitron (auto-handled)",
+    "data_sources": [
+      "Meta descriptions",
+      "Structured content blocks",
+      "Page titles",
+      "HTML parsing"
+    ]
+  },
+  "data_quality": {
+    "name_extraction": "Automated from URL + meta",
+    "email_reliability": "Very High",
+    "phone_reliability": "Very High", 
+    "address_completeness": "High",
+    "specialization_detail": "High"
+  },
+  "files_generated": [
+    "JSON (complete data)",
+    "CSV (Excel compatible)",
+    "TXT (emails only)", 
+    "TXT (detailed report)"
+  ],
+  "maintainer": "French Bar Scrapers Project",
+  "version": "1.0.0"
+}

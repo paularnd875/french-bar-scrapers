@@ -1,0 +1,21 @@
+ordre_extraction,nom_complet,prenom,nom,email,telephone,fax,adresse_complete,ville,code_postal,specialisations,annee_inscription,structure_cabinet,site_web,description,data_quality_score,page_source,url,status_extraction,extraction_timestamp
+1,BODEREAU Philippe,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/bodereau-philippe-2/,partial_error,2026-02-27T16:38:41.504690
+2,VAAST Antoine,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/vaast-antoine/,partial_error,2026-02-27T16:38:44.602094
+3,SCAILLIEREZ Danièle,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/scaillierez-daniele/,partial_error,2026-02-27T16:38:46.703032
+4,PINGUET Jérôme,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/pinguet-jerome/,partial_error,2026-02-27T16:38:48.792632
+5,MOULIN Bernard,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/moulin-bernard/,partial_error,2026-02-27T16:38:51.815828
+6,DELEVACQUE Christian,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/delevacque-christian/,partial_error,2026-02-27T16:38:54.789773
+7,DEBLIQUIS Vincent,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/debliquis-vincent/,partial_error,2026-02-27T16:38:57.751134
+8,HUMEZ Géry,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/humez-gery/,partial_error,2026-02-27T16:38:59.862984
+9,DELACOUR-PENAZZO Valérie,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/delacour-penazzo-valerie/,partial_error,2026-02-27T16:39:02.989497
+10,LESTRELIN Céline,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/lestrelin-celine/,partial_error,2026-02-27T16:39:06.046033
+11,DUSSART Maxime,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/dussart-maxime/,partial_error,2026-02-27T16:39:09.021672
+12,LELIGOIS-BIETTE Christine,,,,,,,,,,,,,,0,1,https://avocatsarras.com/annuaire/avocats/specialite-avocat/leligois-biette-christine/,partial_error,2026-02-27T16:39:12.037491
+13,BIETTE Alexandre,,,,,,,,,,,,,,0,2,https://avocatsarras.com/annuaire/avocats/specialite-avocat/biette-alexandre/,partial_error,2026-02-27T16:39:15.033992
+14,LEFRANC Jean-Louis,,,,,,,,,,,,,,0,2,https://avocatsarras.com/annuaire/avocats/specialite-avocat/lefranc-jean-louis/,partial_error,2026-02-27T16:39:17.987778
+15,MEILLIER  Philippe,,,,,,,,,,,,,,0,2,https://avocatsarras.com/annuaire/avocats/specialite-avocat/meillier-philippe/,partial_error,2026-02-27T16:39:21.647949
+16,VINCHANT Fabrice,,,,,,,,,,,,,,0,2,https://avocatsarras.com/annuaire/avocats/specialite-avocat/vinchant-fabrice/,partial_error,2026-02-27T16:39:24.620645
+17,FICHELLE Marie,,,,,,,,,,,,,,0,2,https://avocatsarras.com/annuaire/avocats/specialite-avocat/fichelle-marie/,partial_error,2026-02-27T16:39:27.542731
+18,OSSEYRAN Yann,,,,,,,,,,,,,,0,2,https://avocatsarras.com/annuaire/avocats/specialite-avocat/osseyran-yann/,partial_error,2026-02-27T16:39:30.465273
+19,KOFFI Kouamé,,,,,,,,,,,,,,0,2,https://avocatsarras.com/annuaire/avocats/specialite-avocat/koffi-kouame/,partial_error,2026-02-27T16:39:33.431078
+20,VANDERMERSCH-MUSSAULT Laurence,,,,,,,,,,,,,,0,2,https://avocatsarras.com/annuaire/avocats/specialite-avocat/vandermersch-mussault-laurence/,partial_error,2026-02-27T16:39:36.356024

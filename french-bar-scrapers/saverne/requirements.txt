@@ -1,0 +1,7 @@
+# Dépendances pour le scraper Barreau de Saverne
+# Installation: pip install -r requirements.txt
+
+selenium>=4.0.0
+beautifulsoup4>=4.11.0
+pandas>=1.5.0
+requests>=2.28.0
