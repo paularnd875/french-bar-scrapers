@@ -2,6 +2,16 @@
 
 Collection de scrapers pour extraire les données des barreaux français.
 
+## 🔥 NOUVEAU : Lyon - Scraper API Complet (96.3% emails)
+
+**Scraper Lyon** avec API WordPress native :
+- ✅ **4141 avocats** extraits (100% du barreau)
+- ✅ **3987 emails uniques** (96.3% de couverture - RECORD)
+- ✅ **4141 dates de serment** (100% de couverture)
+- ✅ **API WordPress** : Plus fiable et plus rapide
+- ✅ **Architecture modulaire** prête pour plateforme
+- 📁 **Dossier**: [`lyon/`](./lyon/)
+
 ## 🆕 NOUVEAU : Saumur - Extraction PDF exhaustive
 
 **Scraper Saumur** avec extraction PDF directe :
@@ -11,6 +21,13 @@ Collection de scrapers pour extraire les données des barreaux français.
 - ✅ **Extraction PDF** : Plus fiable que le web scraping
 - ✅ **Gestion parfaite** des prénoms composés
 - 📁 **Dossier**: [`saumur/`](./saumur/)
+
+### Utilisation Lyon 🔥
+```bash
+cd lyon/
+pip install -r requirements.txt
+python3 scripts/scraper_barreau_lyon_complet_final.py
+```
 
 ### Utilisation Saumur
 ```bash
