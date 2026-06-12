@@ -2,15 +2,35 @@
 
 Collection de scrapers pour extraire les données des barreaux français.
 
-## 🔥 NOUVEAU : Lyon - Scraper API Complet (96.3% emails)
+## État d'avancement
 
-**Scraper Lyon** avec API WordPress native :
-- ✅ **4141 avocats** extraits (100% du barreau)
-- ✅ **3987 emails uniques** (96.3% de couverture - RECORD)
-- ✅ **4141 dates de serment** (100% de couverture)
-- ✅ **API WordPress** : Plus fiable et plus rapide
-- ✅ **Architecture modulaire** prête pour plateforme
-- 📁 **Dossier**: [`lyon/`](./lyon/)
+| Barreau | Statut | Avocats | Méthode | Dossier |
+|---------|--------|---------|---------|---------|
+| Lyon    | ✅ OK  | 3989    | sitemap | [scrapers/lyon/](./scrapers/lyon/) |
+| Saumur  | ✅ OK  | 28      | PDF     | [saumur/](./saumur/) |
+| Compiègne | ✅ OK | 75     | web     | [compiegne/](./compiegne/) |
+| Alès    | ✅ OK  | 50      | web     | - |
+| Villefranche | ✅ OK | 60   | web     | [villefranche-sur-saone/](./villefranche-sur-saone/) |
+| Nevers  | ✅ OK  | 49      | web     | - |
+| À venir | 📋 TODO | -      | -       | - |
+
+## 🔥 NOUVEAU : Lyon - Scraper sitemap exhaustif (99.7% emails)
+
+**Scraper Lyon** avec énumération par sitemap WordPress :
+- ✅ **3989 avocats** extraits (100% exhaustif via sitemap)
+- ✅ **3977 emails uniques** (99.7% de couverture - RECORD)
+- ✅ **3989 dates de serment** (100% de couverture)
+- ✅ **Sitemap WordPress** : Méthode la plus fiable (pagination = 60-65% seulement)
+- ✅ **18 champs extraits** : structure complète
+- 📁 **Dossier**: [`scrapers/lyon/`](./scrapers/lyon/)
+
+### Utilisation Lyon 🔥
+```bash
+cd scrapers/lyon/
+pip install -r ../../requirements.txt
+python scrape_barreau_lyon.py          # run complet (~40 min)
+python scrape_barreau_lyon.py 1000     # mode test (1000 fiches)
+```
 
 ## 🆕 NOUVEAU : Saumur - Extraction PDF exhaustive
 
